@@ -3,13 +3,19 @@
 
 <h1><i>Developers</i></h1>
 *martijn van de Meer
+
 *Leon Boussen
+
 *Mikey Clarke
-*William Soijer*
+
+*William Soijer
+
 
 <h1><i>Artists</i></h1>
 *Max Le Febre
+
 *Suzan Maas
+
 *Nils van 't Schip
 
 
