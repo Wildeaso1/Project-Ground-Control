@@ -3,7 +3,7 @@
 
 <h1><i>Developers</i></h1>
 
-*martijn van de Meer*
+*Martijn van de Meer*
 
 *Leon Boussen*
 
