@@ -2,21 +2,23 @@
 
 
 <h1><i>Developers</i></h1>
-*martijn van de Meer
 
-*Leon Boussen
+*martijn van de Meer*
 
-*Mikey Clarke
+*Leon Boussen*
 
-*William Soijer
+*Mikey Clarke*
+
+*William Soijer*
 
 
 <h1><i>Artists</i></h1>
-*Max Le Febre
 
-*Suzan Maas
+*Max Le Febre*
 
-*Nils van 't Schip
+*Suzan Maas*
+
+*Nils van 't Schip*
 
 
 # project ......
