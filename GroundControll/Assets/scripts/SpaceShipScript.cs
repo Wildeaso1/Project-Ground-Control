@@ -22,18 +22,17 @@ public class SpaceShipScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        _thrusting = Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.UpArrow);
-
-        _thrustingBack = Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.DownArrow);
 
         if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow))
         {
             _turnDirection = 1.0f;
         }
+
         else if (Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.RightArrow))
         {
             _turnDirection = -1.0f;
         }
+
         else
         {
             _turnDirection = 0.0f;
@@ -42,19 +41,20 @@ public class SpaceShipScript : MonoBehaviour
 
     private void FixedUpdate()
     {
-        if (_thrusting)
+        // Movement Up, Down and Rotation
+        if (Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.UpArrow))
         {
-            _rigidbody.AddForce(this.transform.up * this.thrustSpeed);
+            _rigidbody.AddForce(transform.up * thrustSpeed);
         }
 
-        if (_thrustingBack)
+        if (Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.DownArrow))
         {
-          //_rigidbody.AddForce(this.transform.up /this.thrustSpeedBackwards); dit werkt nog niet
+          _rigidbody.AddForce(transform.up /thrustSpeedBackwards);
         }
 
         if (_turnDirection != 0.0f)
         {
-            _rigidbody.AddTorque(this.rotationSpeed * _turnDirection);
+            _rigidbody.AddTorque(rotationSpeed * _turnDirection);
         }
     }
 }
