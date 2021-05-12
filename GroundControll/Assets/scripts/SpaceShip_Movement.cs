@@ -6,7 +6,7 @@ public class SpaceShip_Movement : MonoBehaviour
 {
 
     float maxSpeed = 5f;
-    float rotSpeed = 180f;
+    float rotSpeed = -180f;
 
     void Start()
     {
@@ -17,19 +17,33 @@ public class SpaceShip_Movement : MonoBehaviour
     {
 
         // spaceship rotation
-        Quaternion rot = transform.rotation;
+        /* Quaternion rot = transform.rotation;
         float z = rot.eulerAngles.z;
         z += Input.GetAxis("Horizontal") * rotSpeed * Time.deltaTime;
-        rot = Quaternion.Euler( 0, 0, z );
-        transform.rotation = rot;
+        rot = Quaternion.Euler( 0, 0, z ); */
+        if (Input.GetKey(KeyCode.D))
+        {
+            transform.Rotate(0, 0, rotSpeed * Time.deltaTime);
+        }
 
+
+        if (Input.GetKey(KeyCode.A))
+        {
+            transform.Rotate(0, 0, -rotSpeed * Time.deltaTime);
+        }
+
+        if (Input.GetKey(KeyCode.W))
+        {
+            transform.position += transform.right * Time.deltaTime * maxSpeed;
+        }
 
         //Move Spaceship
-        Vector3 pos = transform.position;
+
+        /*Vector3 pos = transform.position;
 
         pos.y += Input.GetAxis("Vertical") * maxSpeed * Time.deltaTime;
 
-        transform.position = pos;
+        transform.position = pos;*/
 
 
     }
