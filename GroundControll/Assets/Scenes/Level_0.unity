@@ -266,7 +266,7 @@ GameObject:
   - component: {fileID: 250734855}
   - component: {fileID: 250734854}
   - component: {fileID: 250734853}
-  - component: {fileID: 250734857}
+  - component: {fileID: 250734858}
   m_Layer: 0
   m_Name: Quad
   m_TagString: Untagged
@@ -285,8 +285,8 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
+  m_Convex: 1
+  m_CookingOptions: -1
   m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!23 &250734854
 MeshRenderer:
@@ -345,13 +345,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 250734852}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 59.1}
-  m_LocalScale: {x: 323.37347, y: 79.5227, z: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 21.3}
+  m_LocalScale: {x: 200, y: 50, z: 1}
   m_Children: []
   m_Father: {fileID: 475738197}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &250734857
+--- !u!114 &250734858
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -363,8 +363,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8029d93b30adee340832cb1541f2e732, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  xVelocity: 0
-  yVelocity: 0
 --- !u!1 &475738196
 GameObject:
   m_ObjectHideFlags: 0
@@ -885,7 +883,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   thrustSpeed: 15
-  thrustSpeedBackwards: 0.5
   rotationSpeed: 3
 --- !u!1 &1714883272
 GameObject:

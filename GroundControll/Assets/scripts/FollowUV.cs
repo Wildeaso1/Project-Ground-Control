@@ -4,23 +4,22 @@ using UnityEngine;
 
 public class FollowUV : MonoBehaviour
 {
-    Material material;
-    Vector2 offset;
 
-    public int xVelocity, yVelocity;
+    float parralex = 2f;
 
-    private void Awake()
-    {
-        material = GetComponent<Renderer>().material;
-    }
-
-    void Start()
-    {
-        offset = new Vector2(xVelocity, yVelocity);
-    }
     void Update()
     {
 
-        material.mainTextureOffset += offset * Time.deltaTime;
+        MeshRenderer mr = GetComponent<MeshRenderer>();
+
+        Material mat = mr.material;
+
+        Vector2 offset = mat.mainTextureOffset;
+
+        offset.x = transform.position.x / transform.localScale.x;
+        offset.y = transform.position.y / transform.localScale.y;
+
+        mat.mainTextureOffset = offset;
+
     }
 }
