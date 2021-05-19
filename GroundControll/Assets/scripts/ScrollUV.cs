@@ -19,7 +19,7 @@ public class ScrollUV : MonoBehaviour
 
         Vector2 offset = mat.mainTextureOffset;
 
-        offset.x += Time.deltaTime;
+        offset.x += Time.deltaTime / 10f;
 
         mat.mainTextureOffset = offset;
     }
