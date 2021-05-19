@@ -5,7 +5,6 @@ using UnityEngine;
 public class SpaceShipScript : MonoBehaviour
 {
     public float thrustSpeed = 15.0f;
-    public float thrustSpeedBackwards = -0.5f;
     public float rotationSpeed = 3.0f;
 
     private Rigidbody2D _rigidbody;
@@ -49,7 +48,7 @@ public class SpaceShipScript : MonoBehaviour
 
         if (Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.DownArrow))
         {
-          _rigidbody.AddForce(transform.up /thrustSpeedBackwards);
+            _rigidbody.AddForce(-transform.up * (thrustSpeed / 3));
         }
 
         if (_turnDirection != 0.0f)
