@@ -593,10 +593,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: -4002260492453897324, guid: d9051da5caa39324eb503b94602fb483, type: 3}
-      propertyPath: Counter
-      value: 
-      objectReference: {fileID: 1886736160}
     - target: {fileID: 1613781040965390825, guid: d9051da5caa39324eb503b94602fb483, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -650,7 +646,7 @@ PrefabInstance:
       value: Debris
       objectReference: {fileID: 0}
     m_RemovedComponents:
-    - {fileID: -4002260492453897324, guid: d9051da5caa39324eb503b94602fb483, type: 3}
+    - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: d9051da5caa39324eb503b94602fb483, type: 3}
 --- !u!1 &1204542550
 GameObject:
