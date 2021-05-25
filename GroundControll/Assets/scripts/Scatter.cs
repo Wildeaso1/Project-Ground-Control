@@ -10,7 +10,6 @@ public class Scatter : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -21,6 +20,7 @@ public class Scatter : MonoBehaviour
             GameObject pieces = Instantiate(Debris, SpawnPoint.position, Quaternion.Euler(0, 0, Random.Range(0,360)));
             Destroy(this.gameObject);
             pieces.GetComponent<ScatterMovement>().speed = Random.Range(10.0f, 20.0f);
+            GetComponent<Sound>().Playsound.Play();
         }
     }
 
