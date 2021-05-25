@@ -10,13 +10,13 @@ GameObject:
   m_Component:
   - component: {fileID: 1613781040965390825}
   - component: {fileID: 1613781040965390826}
-  - component: {fileID: 1613781040965390827}
   - component: {fileID: -3249766966546778640}
   - component: {fileID: 1613781040965390828}
   - component: {fileID: 1613781040965390829}
+  - component: {fileID: -4002260492453897324}
   m_Layer: 0
   m_Name: Debris
-  m_TagString: Untagged
+  m_TagString: Debris
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -86,20 +86,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &1613781040965390827
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1613781040965390830}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0110d0ac01cb9b44ba865b167a00e598, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Debris: {fileID: 0}
-  SpawnPoint: {fileID: 0}
 --- !u!114 &-3249766966546778640
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -160,3 +146,16 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &-4002260492453897324
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1613781040965390830}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 79b8832b372c48541a04fef807146ce1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Counter: {fileID: 0}
