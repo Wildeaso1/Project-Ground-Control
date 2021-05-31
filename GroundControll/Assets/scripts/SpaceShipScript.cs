@@ -57,4 +57,21 @@ public class SpaceShipScript : MonoBehaviour
             _rigidbody.AddTorque(rotationSpeed * _turnDirection);
         }
     }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        switch (collision.gameObject.tag)
+        {
+            case "De":
+                CountUp.ScoreCobalt += 1;
+                Destroy(collision.gameObject);
+                break;
+            case "Debris":
+                CountUp.ScoreIron += 1;
+                Destroy(collision.gameObject);
+                break;
+            default:
+                break;
+        }
+    }
 }

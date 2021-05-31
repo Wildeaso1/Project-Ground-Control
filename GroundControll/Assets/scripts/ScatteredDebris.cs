@@ -10,12 +10,6 @@ public class ScatteredDebris : MonoBehaviour
 
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        CountUp.ScoreValue += 1;
-        Destroy(this.gameObject);
-    }
-
     // Update is called once per frame
     void Update()
     {

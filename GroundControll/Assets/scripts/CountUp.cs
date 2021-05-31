@@ -4,18 +4,26 @@ using UnityEngine;
 using UnityEngine.UI;
 public class CountUp : MonoBehaviour
 {
-    public static int ScoreValue;
-    public Text ScoreText;
+    public static int ScoreIron;
+    public static int ScoreCobalt;
+    public static int ScoreGold;
+    public Text TextIron;
+    public Text TextGold;
+    public Text TextCobalt;
     // Start is called before the first frame update
     void Start()
     {
-        ScoreText = GetComponent<Text>();
-        ScoreValue = 0;
+        TextIron = GetComponent<Text>();
+        ScoreIron = 0;
+        ScoreCobalt = 0;
+        ScoreGold = 0;
     }
 
     // Update is called once per frame
     void Update()
     {
-        ScoreText.text = "" + ScoreValue;
+        TextIron.text = "" + ScoreIron;
+        TextGold.text = "" + ScoreGold;
+        TextCobalt.text = "" + ScoreCobalt;
     }
 }
