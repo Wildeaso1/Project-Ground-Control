@@ -1365,7 +1365,7 @@ MonoBehaviour:
   spawnPool:
   - {fileID: 4640456503911232075, guid: c0e67b9c24c2d8e458d65863196bcf1a, type: 3}
   quad: {fileID: 336310546}
-  Amount: 10
+  Amount: 49
 --- !u!4 &2067115272
 Transform:
   m_ObjectHideFlags: 0

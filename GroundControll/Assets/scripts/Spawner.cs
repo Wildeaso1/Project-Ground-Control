@@ -15,7 +15,7 @@ public class Spawner : MonoBehaviour
 
     private void Update()
     {
-        GameObject[] asteroids = GameObject.FindGameObjectsWithTag("Asteroids");
+        GameObject[] asteroids = GameObject.FindGameObjectsWithTag("Asteroid");
         if (asteroids.Length < Amount)
         {
             spawnObjects();
