@@ -62,12 +62,16 @@ public class SpaceShipScript : MonoBehaviour
     {
         switch (collision.gameObject.tag)
         {
-            case "De":
+            case "Cobalt":
                 CountUp.ScoreCobalt += 1;
                 Destroy(collision.gameObject);
                 break;
-            case "Debris":
+            case "Iron":
                 CountUp.ScoreIron += 1;
+                Destroy(collision.gameObject);
+                break;
+            case "Gold":
+                CountUp.ScoreGold += 1;
                 Destroy(collision.gameObject);
                 break;
             default:
