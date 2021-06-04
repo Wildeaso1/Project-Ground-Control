@@ -8,6 +8,7 @@ TagManager:
   - Cobalt
   - Iron
   - Gold
+  - Asteroid
   layers:
   - Default
   - TransparentFX
