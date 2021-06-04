@@ -8,6 +8,7 @@ public class Spawner : MonoBehaviour
     public List<GameObject> spawnPool;
     public GameObject quad;
     public int Amount;
+
     void Start()
     {
         spawnObjects();
@@ -21,6 +22,8 @@ public class Spawner : MonoBehaviour
             spawnObjects();
         }
     }
+
+
     public void spawnObjects()
     {
         int randomItem = 0;
