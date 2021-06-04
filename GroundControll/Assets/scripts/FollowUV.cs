@@ -5,7 +5,7 @@ using UnityEngine;
 public class FollowUV : MonoBehaviour
 {
 
-    float parallex = 2f;
+    float parallex = 3f;
 
     void Update()
     {

@@ -1,0 +1,181 @@
+Using pre-set license
+Built from '2020.3/release' branch; Version is '2020.3.7f1 (dd97f2c94397) revision 14522354'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19043.985; Version 2009; 64bit' Language: 'nl' Physical Memory: 16330 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.7f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/School/BO/Project-Ground-Control/GroundControll
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+53643
+Successfully changed project path to: D:/School/BO/Project-Ground-Control/GroundControll
+D:/School/BO/Project-Ground-Control/GroundControll
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 59.25 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.7f1 (dd97f2c94397)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/School/BO/Project-Ground-Control/GroundControll/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1070 (ID=0x1b81)
+    Vendor:   
+    VRAM:     8088 MB
+    Driver:   27.21.14.6647
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56116
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001941 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 53.97 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.468 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001470 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 37.20 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.072 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.34 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2019 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 93.9 MB.
+System memory in use after: 93.8 MB.
+
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 2467.
+Total: 1.801900 ms (FindLiveObjects: 0.175600 ms CreateObjectMapping: 0.076300 ms MarkObjects: 1.433300 ms  DeleteObjects: 0.116000 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/scripts/ScrollUV.cs
+  artifactKey: Guid(9390260de36a0fb4b80250e2b2ccf0f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/ScrollUV.cs using Guid(9390260de36a0fb4b80250e2b2ccf0f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2856e43fab463b0b2e2dccd6b7079204') in 0.038158 seconds
+  Import took 0.041749 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001893 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.32 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.901 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.53 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1999 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 92.4 MB.
+System memory in use after: 92.4 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2471.
+Total: 1.968300 ms (FindLiveObjects: 0.160400 ms CreateObjectMapping: 0.067100 ms MarkObjects: 1.654700 ms  DeleteObjects: 0.085400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 55.821530 seconds.
+  path: Assets/scripts/FollowUV.cs
+  artifactKey: Guid(8029d93b30adee340832cb1541f2e732) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/FollowUV.cs using Guid(8029d93b30adee340832cb1541f2e732) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8449221fae614d8e1957d0dcd1d4c06a') in 0.007507 seconds
+  Import took 0.010747 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007407 seconds.
+  path: Assets/scripts/FollowUV.cs
+  artifactKey: Guid(8029d93b30adee340832cb1541f2e732) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/FollowUV.cs using Guid(8029d93b30adee340832cb1541f2e732) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8449221fae614d8e1957d0dcd1d4c06a') in 0.002727 seconds
+  Import took 0.005776 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001572 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.32 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.831 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.31 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1999 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 92.5 MB.
+System memory in use after: 92.5 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2475.
+Total: 2.099800 ms (FindLiveObjects: 0.180600 ms CreateObjectMapping: 0.071300 ms MarkObjects: 1.740800 ms  DeleteObjects: 0.106000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004182 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.39 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.884 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.34 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1999 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 92.5 MB.
+System memory in use after: 92.5 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2479.
+Total: 2.180000 ms (FindLiveObjects: 0.272500 ms CreateObjectMapping: 0.092600 ms MarkObjects: 1.723600 ms  DeleteObjects: 0.089900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001477 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.32 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.899 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.32 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1999 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 92.5 MB.
+System memory in use after: 92.5 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2483.
+Total: 1.960600 ms (FindLiveObjects: 0.154600 ms CreateObjectMapping: 0.060500 ms MarkObjects: 1.657100 ms  DeleteObjects: 0.087600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 86.184789 seconds.
+  path: Assets/scripts/FollowUV.cs
+  artifactKey: Guid(8029d93b30adee340832cb1541f2e732) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/FollowUV.cs using Guid(8029d93b30adee340832cb1541f2e732) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc433475fb4beaf3cc1de355b586bb8b') in 0.004193 seconds
+  Import took 0.007013 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
