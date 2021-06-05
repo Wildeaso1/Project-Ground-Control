@@ -13,7 +13,7 @@ public class Selling : MonoBehaviour
     public void Start()
     {
         IronSell = 50;
-        GoldSell = 400;
+        GoldSell = 300;
         CobaltSell = 150;
     }
 

@@ -27,8 +27,8 @@ public class Scatter : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
     {
         var IronN = Random.Range(1, 4);
-        var GoldN = Random.Range(-1, 1);
-        var CobaltN = Random.Range(-1, 3);
+        var GoldN = Random.Range(0, 1);
+        var CobaltN = Random.Range(0, 2);
 
         if (collision.gameObject.tag == "Bullet")
         {
