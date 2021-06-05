@@ -9,5 +9,6 @@ public class Sound : MonoBehaviour
     // Start is called before the first frame update
     void OnTriggerEnter2D(Collider2D collision)
     {
+        Playsound.Play();
     }
 }

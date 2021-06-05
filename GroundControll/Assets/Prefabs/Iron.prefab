@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 1613781040965390828}
   - component: {fileID: 1613781040965390829}
   - component: {fileID: -7906686514070967150}
+  - component: {fileID: -4243675757084167978}
   m_Layer: 0
   m_Name: Iron
   m_TagString: Iron
@@ -30,7 +31,7 @@ Transform:
   m_GameObject: {fileID: 1613781040965390830}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 9.71, y: 6.12, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.700025, y: 1.700025, z: 1.700025}
   m_Children:
   - {fileID: 6906240676610915534}
   m_Father: {fileID: 0}
@@ -76,8 +77,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: 48e93eef0688c4a259cb0eddcd8661f7, type: 3}
-  m_Color: {r: 0.64562124, g: 0.7830189, b: 0.7437624, a: 1}
+  m_Sprite: {fileID: 21300000, guid: c1da624d49c14c44eac56b453742f26d, type: 3}
+  m_Color: {r: 0.60854393, g: 0.7924528, b: 0.7399074, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -113,18 +114,18 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.0037317723, y: -0.00000017881393}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    pivot: {x: 0.52485377, y: 0.5292397}
+    oldSize: {x: 2, y: 2}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.4402354, y: 0.5148703}
   m_EdgeRadius: 0
 --- !u!50 &1613781040965390829
 Rigidbody2D:
@@ -159,6 +160,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b89dda9414472464fbf6dafb815b503a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &-4243675757084167978
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1613781040965390830}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c19d4d0101b0704b9ff6b0d650f42bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Playsound: {fileID: 0}
 --- !u!1 &4691912170570149094
 GameObject:
   m_ObjectHideFlags: 0

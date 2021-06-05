@@ -8,10 +8,19 @@ public class Scatter : MonoBehaviour
     public  GameObject GoldObject;
     public  GameObject CobaltObject;
     public Transform SpawnPoint;
+    private Rigidbody2D _rigidbody;
+    private float speed = 3.0f;
+
+    private void Awake()
+    {
+        _rigidbody = GetComponent<Rigidbody2D>();
+    }
 
     // Start is called before the first frame update
     void Start()
     {
+        _rigidbody.AddForce(transform.up * speed);
+        transform.rotation = (Quaternion.Euler(0, 0, Random.Range(0, 360)));
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -24,7 +33,6 @@ public class Scatter : MonoBehaviour
             GameObject Iron = Instantiate(IronObject, SpawnPoint.position, Quaternion.Euler(0, 0, Random.Range(0,360)));
             Destroy(this.gameObject);
             Iron.GetComponent<ScatterMovement>().speed = Random.Range(10.0f, 20.0f);
-            GetComponent<Sound>().Playsound.Play();
         }
         for (int i = 0; i < GoldN; i++)
         {
