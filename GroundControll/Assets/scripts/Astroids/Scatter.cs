@@ -9,19 +9,20 @@ public class Scatter : MonoBehaviour
     public  GameObject CobaltObject;
     public Transform SpawnPoint;
     private Rigidbody2D _rigidbody;
-    private float speed = 3.0f;
+    //private float speed = 10.0f;
 
     private void Awake()
     {
         _rigidbody = GetComponent<Rigidbody2D>();
     }
 
-    // Start is called before the first frame update
+    // Random Rotation en Speed voor astroids
     void Start()
     {
-        _rigidbody.AddForce(transform.up * speed);
         transform.rotation = (Quaternion.Euler(0, 0, Random.Range(0, 360)));
+        _rigidbody.AddForce(transform.up * Random.Range(10.0f, 20.0f));
     }
+    // Scattering van de iron gold en Cobalt
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -50,7 +51,7 @@ public class Scatter : MonoBehaviour
 
 
 
-    // Update is called once per frame
+    // Zorgt ervoor dat elke astroid scatter een andere rotation heeft
     void Update()
     {
         int rotation = Random.Range(0, 360);

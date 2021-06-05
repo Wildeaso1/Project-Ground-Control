@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 public class Inventory : MonoBehaviour
 {
+    // alle variable voor de inventory
     public static int ScoreIron;
     public static int ScoreCobalt;
     public static int ScoreGold;
@@ -12,7 +13,7 @@ public class Inventory : MonoBehaviour
     public Text TextGold;
     public Text TextCobalt;
     public Text TextCredits;
-    // Start is called before the first frame update
+    // Start score values
     void Start()
     {
         ScoreIron = 0;
@@ -21,7 +22,7 @@ public class Inventory : MonoBehaviour
         ScoreCredits = 0;
     }
 
-    // Update is called once per frame
+    // Updates the scores and text every frame
     void Update()
     {
         TextIron.text = "" + ScoreIron;

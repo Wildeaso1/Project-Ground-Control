@@ -5,10 +5,12 @@ using UnityEngine.UI;
 
 public class ShopScript : MonoBehaviour
 {
+    // Shop Variables
     public Text ShopIron;
     public Text ShopGold;
     public Text ShopCobalt;
-    // Start is called before the first frame update
+
+    // Sell functions
     public static int IronAmount ()
     {
         return Selling.IronSell * Inventory.ScoreIron;
@@ -22,7 +24,7 @@ public class ShopScript : MonoBehaviour
         return Selling.CobaltSell * Inventory.ScoreCobalt;
     }
 
-    // Update is called once per frame
+    // Update de shop met de juiste variables
     void Update()
     {
         ShopIron.text = "" + Inventory.ScoreIron;
@@ -30,11 +32,13 @@ public class ShopScript : MonoBehaviour
         ShopCobalt.text = "" + Inventory.ScoreCobalt;
     }
 
+    // Pauses game
     public void PauseGame()
     {
         Time.timeScale = 0;
     }
 
+    // Unpauses game
     public void ResumeGame()
     {
         Time.timeScale = 1;

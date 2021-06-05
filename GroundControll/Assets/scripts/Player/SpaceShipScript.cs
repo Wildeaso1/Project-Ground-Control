@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class SpaceShipScript : MonoBehaviour
 {
+    // Variablen voor het ship
     public float thrustSpeed = 15.0f;
     public float thrustSpeedBackwards = -0.5f;
     public float rotationSpeed = 3.0f;
@@ -14,20 +15,20 @@ public class SpaceShipScript : MonoBehaviour
     private float _turnDirection;
     public AudioSource Shooting;
 
-
+    // Shooting sound effect
     public void ShootingEffect()
     {
         Shooting.Play();
     }
 
 
-    // Start is called before the first frame update
+    // Rigidbody
     private void Awake()
     {
         _rigidbody = GetComponent<Rigidbody2D>();
     }
 
-    // Update is called once per frame
+    // Sideways Movement
     void Update()
     {
 
@@ -66,6 +67,7 @@ public class SpaceShipScript : MonoBehaviour
         }
     }
 
+    // Score updaten met de juiste ores die je oppakt
     private void OnCollisionEnter2D(Collision2D collision)
     {
         switch (collision.gameObject.tag)
