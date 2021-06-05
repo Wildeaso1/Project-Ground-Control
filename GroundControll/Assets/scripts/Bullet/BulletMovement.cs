@@ -16,7 +16,7 @@ public class BulletMovement : MonoBehaviour
 
     void OnTriggerEnter2D (Collider2D col)
     {
-        if (col.gameObject.tag == "Debris")
+        if (col.gameObject.tag == "Asteroid")
         {
             Destroy(this.gameObject);
         }

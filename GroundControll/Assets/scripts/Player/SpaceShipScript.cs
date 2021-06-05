@@ -12,6 +12,14 @@ public class SpaceShipScript : MonoBehaviour
     private bool _thrusting;
     private bool _thrustingBack;
     private float _turnDirection;
+    public AudioSource Shooting;
+
+
+    public void ShootingEffect()
+    {
+        Shooting.Play();
+    }
+
 
     // Start is called before the first frame update
     private void Awake()

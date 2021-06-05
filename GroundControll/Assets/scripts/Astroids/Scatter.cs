@@ -31,6 +31,7 @@ public class Scatter : MonoBehaviour
         for (int i = 0; i < IronN; i++) 
         {
             GameObject Iron = Instantiate(IronObject, SpawnPoint.position, Quaternion.Euler(0, 0, Random.Range(0,360)));
+            GetComponent<Sound>().PlayEffect();
             Destroy(this.gameObject);
             Iron.GetComponent<ScatterMovement>().speed = Random.Range(10.0f, 20.0f);
         }

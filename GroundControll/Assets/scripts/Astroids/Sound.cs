@@ -5,10 +5,12 @@ using UnityEngine;
 public class Sound : MonoBehaviour
 {
 
-    public AudioSource Playsound;
+    public AudioClip Playsound;
     // Start is called before the first frame update
-    void OnTriggerEnter2D(Collider2D collision)
+    
+
+    public void PlayEffect()
     {
-        Playsound.Play();
+        AudioSource.PlayClipAtPoint(Playsound, transform.position);
     }
 }

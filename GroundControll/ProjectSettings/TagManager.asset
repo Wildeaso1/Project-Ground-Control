@@ -9,6 +9,7 @@ TagManager:
   - Iron
   - Gold
   - Asteroid
+  - Spacship
   layers:
   - Default
   - TransparentFX
@@ -20,8 +21,6 @@ TagManager:
   - 
   - Background
   - Ship
-  - 
-  - 
   - 
   - 
   - 
