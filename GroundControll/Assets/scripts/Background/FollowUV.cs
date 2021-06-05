@@ -6,6 +6,7 @@ public class FollowUV : MonoBehaviour
 {
 
     float parallex = 3f;
+    float parallex2 = 1f;
 
     void Update()
     {
@@ -16,7 +17,7 @@ public class FollowUV : MonoBehaviour
 
         Vector2 offset = mat.mainTextureOffset;
 
-        offset.x = transform.position.x / transform.localScale.x / parallex;
+        offset.x = transform.position.x / transform.localScale.x / parallex2;
         offset.y = transform.position.y / transform.localScale.y / parallex;
 
         mat.mainTextureOffset = offset;

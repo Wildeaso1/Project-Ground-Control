@@ -1805,7 +1805,7 @@ RectTransform:
   m_GameObject: {fileID: 1131548044}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.66586, y: 0.66586, z: 0.66586}
+  m_LocalScale: {x: 0.7430332, y: 0.7430332, z: 0.7430332}
   m_Children:
   - {fileID: 300296023}
   m_Father: {fileID: 1780826095}
@@ -1813,7 +1813,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -331, y: -159}
+  m_AnchoredPosition: {x: -313.7, y: -196}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1131548046
@@ -2117,7 +2117,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: -193.6, y: -26}
+  m_AnchoredPosition: {x: -193.6, y: -31.2}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1316985927
@@ -2834,7 +2834,7 @@ MonoBehaviour:
   m_ScreenX: 0.5
   m_ScreenY: 0.5
   m_CameraDistance: 10
-  m_DeadZoneWidth: 0.76
+  m_DeadZoneWidth: 0.65
   m_DeadZoneHeight: 0.55
   m_DeadZoneDepth: 0
   m_UnlimitedSoftZone: 0
@@ -3096,7 +3096,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -343.8, y: 142.4}
+  m_AnchoredPosition: {x: -343.8, y: 181.3}
   m_SizeDelta: {x: 161.68, y: 52.8}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1847207878
