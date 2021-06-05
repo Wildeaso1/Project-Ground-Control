@@ -10,6 +10,8 @@ TagManager:
   - Gold
   - Asteroid
   - Spacship
+  - Walls
+  - Bullet
   layers:
   - Default
   - TransparentFX

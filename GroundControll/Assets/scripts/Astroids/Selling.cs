@@ -12,9 +12,9 @@ public class Selling : MonoBehaviour
     // Ore prijs
     public void Start()
     {
-        IronSell = 100;
-        GoldSell = 300;
-        CobaltSell = 200;
+        IronSell = 50;
+        GoldSell = 400;
+        CobaltSell = 150;
     }
 
     // Functions om de credit met het amount te verhogen

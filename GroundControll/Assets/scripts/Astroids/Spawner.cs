@@ -11,6 +11,7 @@ public class Spawner : MonoBehaviour
 
     void Start()
     {
+        InvokeRepeating("spawnObjects", 30f, 30f);
         spawnObjects();
     }
 
@@ -23,9 +24,10 @@ public class Spawner : MonoBehaviour
         }
     }
 
-
+    
     public void spawnObjects()
     {
+        
         int randomItem = 0;
         GameObject toSpawn;
         MeshCollider c = quad.GetComponent<MeshCollider>();
@@ -53,4 +55,6 @@ public class Spawner : MonoBehaviour
             Destroy(o);
         }
     }
+
+    
 }
