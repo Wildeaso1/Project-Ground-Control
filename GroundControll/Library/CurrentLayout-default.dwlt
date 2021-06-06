@@ -21,7 +21,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: Game
   m_RootView: {fileID: 2}
-  m_MinSize: {x: 875, y: 542}
+  m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 1
 --- !u!114 &2
@@ -46,7 +46,7 @@ MonoBehaviour:
     y: 0
     width: 1536
     height: 781
-  m_MinSize: {x: 875, y: 542}
+  m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_UseTopView: 1
   m_TopViewHeight: 30
@@ -122,7 +122,7 @@ MonoBehaviour:
   m_MinSize: {x: 708, y: 492}
   m_MaxSize: {x: 18003, y: 14042}
   vertical: 0
-  controlID: 4623
+  controlID: 1356
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -147,7 +147,7 @@ MonoBehaviour:
   m_MinSize: {x: 433, y: 492}
   m_MaxSize: {x: 14003, y: 14042}
   vertical: 1
-  controlID: 4624
+  controlID: 1357
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -169,10 +169,10 @@ MonoBehaviour:
     y: 0
     width: 1143.2
     height: 398.4
-  m_MinSize: {x: 401, y: 221}
-  m_MaxSize: {x: 8001, y: 4021}
+  m_MinSize: {x: 403, y: 221}
+  m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 4625
+  controlID: 1358
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -249,7 +249,7 @@ MonoBehaviour:
   m_MinSize: {x: 433, y: 271}
   m_MaxSize: {x: 14003, y: 10021}
   vertical: 0
-  controlID: 4650
+  controlID: 1337
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -364,7 +364,7 @@ MonoBehaviour:
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
   m_RenderIMGUI: 1
-  m_MaximizeOnPlay: 1
+  m_MaximizeOnPlay: 0
   m_UseMipMap: 0
   m_VSyncEnabled: 0
   m_Gizmos: 0
@@ -448,7 +448,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: e0b3ffff54b4ffff3cb6ffff54b6ffff42e1ffffb6e1ffffbce1ffffcce1ffff54e3ffffc8e3ffffcee3ffffdee3ffff66efffffdaefffffb4f1ffffc8f1ffffa0faffff206e0000c26e0000f26e00000c6f0000426f0000666f000010780000607800008c780000
+      m_ExpandedIDs: 78beffffecbeffffd0c0ffffe4c0ffff3efbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -508,9 +508,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 428.8734, y: 1037.8643, z: -92.92944}
+    m_Target: {x: -3.0464506, y: 4.2235346, z: -152.21512}
     speed: 2
-    m_Value: {x: 428.8734, y: 1037.8643, z: -92.92944}
+    m_Value: {x: -3.0464506, y: 4.2235346, z: -152.21512}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -561,9 +561,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 516.31525
+    m_Target: 32.263813
     speed: 2
-    m_Value: 516.31525
+    m_Value: 32.263813
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -626,22 +626,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/scripts/Background
+    - Assets/scripts/Astroids
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/scripts/Background
+  - Assets/scripts/Astroids
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\mikey\Documents\Ma\Bewijzenmap\X 1\Y 4 (Expanding Space)\BO\Project-Ground-Control\GroundControll
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: f0560000
-    m_LastClickedID: 22256
-    m_ExpandedIDs: 000000003c4e00003e4e0000404e0000424e0000444e000000ca9a3b
+    m_SelectedIDs: 9a4d0000
+    m_LastClickedID: 19866
+    m_ExpandedIDs: 00000000844d0000864d0000884d00008a4d00008e4d000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -669,7 +669,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000003c4e00003e4e0000404e0000424e000000ca9a3b
+    m_ExpandedIDs: 00000000844d0000864d0000884d00008a4d000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 

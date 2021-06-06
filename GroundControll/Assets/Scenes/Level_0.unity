@@ -1249,11 +1249,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2085f4a944831ca4796c4c6042aad45d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  numberToSpawn: 25
+  numberToSpawn: 30
   spawnPool:
   - {fileID: 5444204405517039190, guid: a4a8e3b44c1b955419d6fd20d37a8781, type: 3}
   quad: {fileID: 1026934947}
-  Amount: 10
+  Amount: 20
 --- !u!4 &740191661
 Transform:
   m_ObjectHideFlags: 0
