@@ -6,11 +6,12 @@ public class PlayerHP : MonoBehaviour
 {
     public static int PlayerHealth = 100;
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.tag == "Asteroid")
+        if (collision.gameObject.tag == "Asteroid")
         {
             PlayerHealth -= 10;
+            Debug.Log("Hi");
         }
     }
 }

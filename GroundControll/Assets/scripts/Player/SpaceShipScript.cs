@@ -8,7 +8,6 @@ public class SpaceShipScript : MonoBehaviour
     public float thrustSpeed = 15.0f;
     public float thrustSpeedBackwards = -0.5f;
     public float rotationSpeed = 3.0f;
-
     private Rigidbody2D _rigidbody;
     private bool _thrusting;
     private bool _thrustingBack;
@@ -45,6 +44,12 @@ public class SpaceShipScript : MonoBehaviour
         else
         {
             _turnDirection = 0.0f;
+        }
+
+
+        if (PlayerHP.PlayerHealth == 0)
+        {
+            Destroy(this.gameObject);
         }
     }
 

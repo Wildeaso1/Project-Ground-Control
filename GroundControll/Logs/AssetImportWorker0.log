@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2020.3/release' branch; Version is '2020.3.7f1 (dd97f2c94397) revision 14522354'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Home; OS build 18363.1440; Version 1909; 64bit' Language: 'nl' Physical Memory: 16228 MB
+OS: 'Windows 10 Pro; OS build 19043.985; Version 2009; 64bit' Language: 'nl' Physical Memory: 16330 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
@@ -11,1000 +11,478 @@ C:\Program Files\Unity\Hub\Editor\2020.3.7f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-D:/MA/X.1/Y.4/BO/Project-Ground-Control/GroundControll
+D:/School/BO/Project-Ground-Control/GroundControll
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-61808
-Successfully changed project path to: D:/MA/X.1/Y.4/BO/Project-Ground-Control/GroundControll
-D:/MA/X.1/Y.4/BO/Project-Ground-Control/GroundControll
+58875
+Successfully changed project path to: D:/School/BO/Project-Ground-Control/GroundControll
+D:/School/BO/Project-Ground-Control/GroundControll
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 52.97 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 51.19 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.7f1 (dd97f2c94397)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path D:/MA/X.1/Y.4/BO/Project-Ground-Control/GroundControll/Assets
+[Subsystems] Discovering subsystems at path D:/School/BO/Project-Ground-Control/GroundControll/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 1660 Ti (ID=0x2191)
+    Renderer: NVIDIA GeForce GTX 1070 (ID=0x1b81)
     Vendor:   
-    VRAM:     5991 MB
-    Driver:   27.21.14.6663
+    VRAM:     8088 MB
+    Driver:   27.21.14.6647
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56420
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56760
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002067 seconds.
+Registered in 0.002167 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 79.18 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 52.15 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.117 seconds
+- Completed reload, in  0.959 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001176 seconds.
+Registered in 0.002233 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-0000027180184FA0 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000271B22100D0 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002737B2393E0 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002737B6EA090 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002737B1FF0D0 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002737AFA0010 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002737ADFE020 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\PsdPlugin.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002737B4B9460 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027180EE33B0 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002737ADFE020 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002737B0F1420 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002737B319E30 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027180090020 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002718111F5D0 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002737B2393E0 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002737AF578E0 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002737B74B030 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002718F9B24C0 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002737B1248F0 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002737B7D3620 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002737AC9F0A0 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002737B2472C0 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027180541020 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.Mathematics.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002737B7D3620 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002737B41E010 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000271800E1940 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Cinemachine.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000271807F6630 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000271800E1940 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000271800E1940 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002737B7D3620 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002737B1A4830 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002737AC9F860 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002737AC9F860 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027180BF4020 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027181561430 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002737B1A5D70 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002737AB6FB50 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027180DC2E20 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002737B750440 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027180C08030 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002737B14AF10 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 55.59 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 53.19 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.045 seconds
+- Completed reload, in  0.992 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.47 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.46 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3162 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3164 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 139.7 MB.
-System memory in use after: 139.7 MB.
+System memory in use after: 139.8 MB.
 
-Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 3610.
-Total: 2.665500 ms (FindLiveObjects: 0.411100 ms CreateObjectMapping: 0.157000 ms MarkObjects: 1.973200 ms  DeleteObjects: 0.123200 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/scripts/Player
-  artifactKey: Guid(aec96a80f69a06a4cae0f267d56f8c8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/scripts/Player using Guid(aec96a80f69a06a4cae0f267d56f8c8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32534f9782e15fc7d2a662e8160396b5') in 0.011319 seconds
-  Import took 0.015779 seconds .
+Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 3612.
+Total: 2.367600 ms (FindLiveObjects: 0.264100 ms CreateObjectMapping: 0.159300 ms MarkObjects: 1.820800 ms  DeleteObjects: 0.122600 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.818334 seconds.
-  path: Assets/scripts/Player/PlayerHP.cs
-  artifactKey: Guid(51c8451c7d8018d41adedf25cc29c823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/scripts/Player/PlayerHP.cs using Guid(51c8451c7d8018d41adedf25cc29c823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccd501418d36477f3412b42fe3236e8c') in 0.043077 seconds
-  Import took 0.048492 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001234 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-0000027180184FA0 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000271B22100D0 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000271830FEE50 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000271869A6BB0 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027183F150B0 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002737AFA0010 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027181115780 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\PsdPlugin.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027186B402E0 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002737AFBDF40 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000271814F8030 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000271814F8030 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027180090020 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027180EFB020 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027180CB5020 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000271830FEE50 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027181AF39A0 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002737AEFE410 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000271869EFBD0 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027180000080 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002737B4DED10 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027183B007E0 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000271812AA440 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002718021B020 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.Mathematics.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000271830FEE50 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002718304C040 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002737AFA0010 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Cinemachine.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027186B402E0 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002737AFA0010 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002737AFA0010 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000271808A5030 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002737B1A4830 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027183B007E0 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027183B007E0 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000271803F1020 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002737B4BC430 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027181FA0080 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027186602290 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002737B218D90 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027180CB5020 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002737AFA0010 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002737B4BC430 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.54 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.934 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.48 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3039 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 131.4 MB.
-System memory in use after: 131.5 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3615.
-Total: 2.931800 ms (FindLiveObjects: 0.276300 ms CreateObjectMapping: 0.148200 ms MarkObjects: 2.397300 ms  DeleteObjects: 0.108800 ms)
+  path: Assets/scripts/Astroids
+  artifactKey: Guid(13b59108d4ab00d4790adf94e14c376e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/Astroids using Guid(13b59108d4ab00d4790adf94e14c376e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee72731e31f9f8158273633841f38316') in 0.008647 seconds
+  Import took 0.013056 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 386.083746 seconds.
+  Time since last request: 0.000271 seconds.
+  path: Assets/scripts/Astroids/AsteroidHealth.cs
+  artifactKey: Guid(2652a1da907f7ee459373f1c16cc66b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/Astroids/AsteroidHealth.cs using Guid(2652a1da907f7ee459373f1c16cc66b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79e11db06d77e5931e1eb689519c8aaa') in 0.039627 seconds
+  Import took 0.043543 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 59.349668 seconds.
   path: Assets/Prefabs/Asteroid.prefab
   artifactKey: Guid(a4a8e3b44c1b955419d6fd20d37a8781) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Asteroid.prefab using Guid(a4a8e3b44c1b955419d6fd20d37a8781) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '869954f268c9b9586bb541f78227456e') in 0.210065 seconds
-  Import took 0.216087 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000302 seconds.
-  path: Assets/Prefabs/Iron.prefab
-  artifactKey: Guid(d9051da5caa39324eb503b94602fb483) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Iron.prefab using Guid(d9051da5caa39324eb503b94602fb483) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eeca4773c0d74fcff4ba08948c014f58') in 0.015397 seconds
-  Import took 0.020338 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000429 seconds.
-  path: Assets/Prefabs/Cobalt.prefab
-  artifactKey: Guid(ab5729cb220bfd547b43cc72860f907b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Cobalt.prefab using Guid(ab5729cb220bfd547b43cc72860f907b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5888d9cd8c6794b2db73e159d1041171') in 0.025412 seconds
-  Import took 0.032088 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000342 seconds.
-  path: Assets/Prefabs/Bullet.prefab
-  artifactKey: Guid(52fe93eb14ee06a4289af0b1136ffdc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Bullet.prefab using Guid(52fe93eb14ee06a4289af0b1136ffdc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ee6bd62036c70711403a95d48fdc39b') in 0.019606 seconds
-  Import took 0.025326 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000646 seconds.
-  path: Assets/Prefabs/Gold.prefab
-  artifactKey: Guid(f55b0734649709a4e8a7b353b3e5c55f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Gold.prefab using Guid(f55b0734649709a4e8a7b353b3e5c55f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '968ca0d82a49adb256da524677b6849f') in 0.018902 seconds
-  Import took 0.025322 seconds .
+Start importing Assets/Prefabs/Asteroid.prefab using Guid(a4a8e3b44c1b955419d6fd20d37a8781) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c925007d7084c764bcf79b2f616b7b9') in 0.185068 seconds
+  Import took 0.189628 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001326 seconds.
+Registered in 0.002156 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-0000027183103370 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000271B2210470 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002718378F3A0 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000273A150BC00 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000273A0F63E20 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002737B0DE010 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000271830F5020 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\PsdPlugin.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000271803BF510 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000271B22882F0 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002718084C000 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000271814F8030 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000273A15AE010 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027180F23050 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000271B2284140 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000271815EAAE0 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002718145A020 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002737B59E020 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000271869E64E0 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002737ADEE010 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027182E70010 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027183B00020 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027180F34460 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027180541020 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.Mathematics.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000271862F7050 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027183798130 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027375CB4010 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Cinemachine.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027375CB4010 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027180413010 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027182F55040 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002718605CE80 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027183A4D960 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027183B00BC0 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027183AFFE30 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027186A24480 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002718084C000 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002718673B470 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027186602BA0 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002718145A020 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027186381020 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027182F55040 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000271818CE020 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.48 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.47 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.980 seconds
+- Completed reload, in  0.962 seconds
 Platform modules already initialized, skipping
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.48 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.49 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3039 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3040 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 136.5 MB.
+System memory in use after: 136.6 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3661.
+Total: 2.439800 ms (FindLiveObjects: 0.301400 ms CreateObjectMapping: 0.165300 ms MarkObjects: 1.863500 ms  DeleteObjects: 0.108600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002549 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.936 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3040 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 136.6 MB.
 System memory in use after: 136.7 MB.
 
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3664.
-Total: 5.019600 ms (FindLiveObjects: 0.312900 ms CreateObjectMapping: 0.138200 ms MarkObjects: 4.310900 ms  DeleteObjects: 0.254000 ms)
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3665.
+Total: 2.951900 ms (FindLiveObjects: 0.280000 ms CreateObjectMapping: 0.145500 ms MarkObjects: 2.414100 ms  DeleteObjects: 0.111500 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 219.283910 seconds.
-  path: Assets/scripts/Astroids
-  artifactKey: Guid(13b59108d4ab00d4790adf94e14c376e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/scripts/Astroids using Guid(13b59108d4ab00d4790adf94e14c376e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f8ea3ea8b6d23879b7d1ce6799675b6') in 0.012913 seconds
-  Import took 0.019576 seconds .
+  Time since last request: 207.611632 seconds.
+  path: Assets/scripts/Astroids/Scatter.cs
+  artifactKey: Guid(0110d0ac01cb9b44ba865b167a00e598) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/Astroids/Scatter.cs using Guid(0110d0ac01cb9b44ba865b167a00e598) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb3795e1a0f9efe90b42a3e7fcc405bb') in 0.015326 seconds
+  Import took 0.020865 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 20.302430 seconds.
-  path: Assets/scripts/Astroids/AsteroidHealth.cs
-  artifactKey: Guid(2652a1da907f7ee459373f1c16cc66b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/scripts/Astroids/AsteroidHealth.cs using Guid(2652a1da907f7ee459373f1c16cc66b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22a81af9c26a0c604e2330e62c63eadd') in 0.009525 seconds
-  Import took 0.014929 seconds .
+  Time since last request: 0.016870 seconds.
+  path: Assets/scripts/Astroids/Scatter.cs
+  artifactKey: Guid(0110d0ac01cb9b44ba865b167a00e598) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/Astroids/Scatter.cs using Guid(0110d0ac01cb9b44ba865b167a00e598) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb3795e1a0f9efe90b42a3e7fcc405bb') in 0.002536 seconds
+  Import took 0.008012 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002012 seconds.
+Registered in 0.002734 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-0000027186A36010 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000271805DA850 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002718343A4C0 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000273A11BD2F0 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000271830B1AB0 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002737B0DE010 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027180172B90 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\PsdPlugin.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000271825CD020 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000273A0C437C0 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000271803D1530 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027183677DB0 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027186416F00 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027180F23050 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027180C56E10 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000273A0D3A960 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027183A22030 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002737B675210 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000271869E9CF0 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002718061B8A0 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002737B4DED10 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027183B007E0 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000273527D60A0 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000273A0C59620 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.Mathematics.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027186C2AD60 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027183C61010 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027375CB4010 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Cinemachine.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027186B3C2D0 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002737B4AC420 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002737ADEE010 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000273A0CAB440 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027186A21180 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027183B007E0 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027183B007E0 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027186D8DF80 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000271803D1530 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000271869A6AF0 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002718365E820 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027183A22030 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000273A0D3A960 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002737B4AC420 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027183EF76F0 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.49 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.064 seconds
+- Completed reload, in  1.077 seconds
 Platform modules already initialized, skipping
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.53 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.47 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3040 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 136.6 MB.
+System memory in use after: 136.7 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3669.
+Total: 2.632800 ms (FindLiveObjects: 0.289500 ms CreateObjectMapping: 0.141400 ms MarkObjects: 2.076900 ms  DeleteObjects: 0.124200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 51.214087 seconds.
+  path: Assets/scripts/Astroids/Scatter.cs
+  artifactKey: Guid(0110d0ac01cb9b44ba865b167a00e598) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/Astroids/Scatter.cs using Guid(0110d0ac01cb9b44ba865b167a00e598) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a053dae1cd8c9a6b5129e8d43125d068') in 0.005016 seconds
+  Import took 0.009995 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.239018 seconds.
+  path: Assets/scripts/Player
+  artifactKey: Guid(aec96a80f69a06a4cae0f267d56f8c8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/Player using Guid(aec96a80f69a06a4cae0f267d56f8c8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad724eeffa84e1f9b2717e0e784d7fd9') in 0.007027 seconds
+  Import took 0.011397 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/scripts/Player
+  artifactKey: Guid(aec96a80f69a06a4cae0f267d56f8c8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/Player using Guid(aec96a80f69a06a4cae0f267d56f8c8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad724eeffa84e1f9b2717e0e784d7fd9') in 0.002004 seconds
+  Import took 0.007732 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.785226 seconds.
+  path: Assets/scripts/Player/PlayerHP.cs
+  artifactKey: Guid(51c8451c7d8018d41adedf25cc29c823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/Player/PlayerHP.cs using Guid(51c8451c7d8018d41adedf25cc29c823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25b8114e500f0c1596562a7367ee21a0') in 0.006166 seconds
+  Import took 0.010511 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000942 seconds.
+  path: Assets/scripts/Player/PlayerHP.cs
+  artifactKey: Guid(51c8451c7d8018d41adedf25cc29c823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/Player/PlayerHP.cs using Guid(51c8451c7d8018d41adedf25cc29c823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25b8114e500f0c1596562a7367ee21a0') in 0.002156 seconds
+  Import took 0.006787 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002178 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.088 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3040 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 136.7 MB.
 System memory in use after: 136.7 MB.
 
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3669.
-Total: 6.126300 ms (FindLiveObjects: 0.689300 ms CreateObjectMapping: 1.038600 ms MarkObjects: 4.254700 ms  DeleteObjects: 0.142100 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 11.750594 seconds.
-  path: Assets/scripts/Astroids/Inventory-Shop
-  artifactKey: Guid(d9e413def58dd7d4f9d4910e7933027a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/scripts/Astroids/Inventory-Shop using Guid(d9e413def58dd7d4f9d4910e7933027a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '927902d7fd2c3887d0166939997e3ce7') in 0.011891 seconds
-  Import took 0.017195 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001680 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-0000027182A2C010 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000271B2211690 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027183AE4550 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027182660350 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000273A10B4580 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027180413010 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027181C6D340 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\PsdPlugin.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000273A0507020 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000273A15CE020 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027182FB84A0 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000271818CE020 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027186416F00 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002718356AAF0 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002737B054F20 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002718365A4C0 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027183A22030 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002737B675210 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000273A18F2930 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002718144A010 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002737B4DED10 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027183B00BC0 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027182907230 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027180541020 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.Mathematics.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027183AE4550 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002737B765010 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002718015E010 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Cinemachine.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027186B3C2D0 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002737B4AC420 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002737B4AC420 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002718605CE80 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000273A11C1FF0 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027183B00BC0 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027183AFF670 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000273A0ED6D00 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027182FB84A0 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000271869A3920 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027183F0AE30 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027183A22030 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027183E3D070 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002737B4AC420 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027183677DB0 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.16 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.014 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.48 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3040 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 136.7 MB.
-System memory in use after: 136.8 MB.
-
 Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3673.
-Total: 3.926000 ms (FindLiveObjects: 0.612300 ms CreateObjectMapping: 0.304000 ms MarkObjects: 2.867200 ms  DeleteObjects: 0.140900 ms)
+Total: 3.274900 ms (FindLiveObjects: 0.480500 ms CreateObjectMapping: 0.221100 ms MarkObjects: 2.432200 ms  DeleteObjects: 0.140000 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 190.764728 seconds.
-  path: Assets/scripts/Astroids/AsteroidHealth.cs
-  artifactKey: Guid(2652a1da907f7ee459373f1c16cc66b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/scripts/Astroids/AsteroidHealth.cs using Guid(2652a1da907f7ee459373f1c16cc66b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed3d345e6eaf908d86de7d98ba05dbc6') in 0.004954 seconds
-  Import took 0.010014 seconds .
+  Time since last request: 100.342779 seconds.
+  path: Assets/scripts/Player/SpaceShipScript.cs
+  artifactKey: Guid(2968d4ddc2e35e14a995dfd252509401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/Player/SpaceShipScript.cs using Guid(2968d4ddc2e35e14a995dfd252509401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6788ac04f2d7b90ea72336385652a707') in 0.010368 seconds
+  Import took 0.016017 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.018104 seconds.
+  path: Assets/scripts/Player/SpaceShipScript.cs
+  artifactKey: Guid(2968d4ddc2e35e14a995dfd252509401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/Player/SpaceShipScript.cs using Guid(2968d4ddc2e35e14a995dfd252509401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6788ac04f2d7b90ea72336385652a707') in 0.003370 seconds
+  Import took 0.009017 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001738 seconds.
+Registered in 0.002238 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-0000027180445020 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000271805DB6D0 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002718343A4C0 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000273A0EC4030 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000273A0F62B60 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002737B0DE010 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002737B33F020 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\PsdPlugin.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027182A4C050 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000273A0C437C0 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002718366C220 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027183677DB0 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027186416F00 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002718356AAF0 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000271837F4F30 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000273A0D3A960 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027183A22030 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002737B675210 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000273A0417D70 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002718144A010 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002737B4DED10 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002737AF44A20 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000273527D60A0 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000273A0C59620 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.Mathematics.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000273A15098C0 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002737B765010 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027375CB4010 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Cinemachine.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000271814F8030 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027182B4E020 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002737ADEE010 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027186881020 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027180C56020 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002737AF455C0 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002737AF455C0 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000273A0B77EA0 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002718366C220 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027183B09070 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002718365DB70 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027183A22030 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000273A0D3A960 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002718061B8A0 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000271818CE020 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.72 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.74 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.954 seconds
+- Completed reload, in  1.105 seconds
 Platform modules already initialized, skipping
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.51 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.46 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3040 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 136.7 MB.
 System memory in use after: 136.8 MB.
 
 Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3677.
-Total: 3.561600 ms (FindLiveObjects: 0.490000 ms CreateObjectMapping: 0.169100 ms MarkObjects: 2.777700 ms  DeleteObjects: 0.123500 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 30.352805 seconds.
-  path: Assets/scripts/Astroids/Scatter.cs
-  artifactKey: Guid(0110d0ac01cb9b44ba865b167a00e598) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/scripts/Astroids/Scatter.cs using Guid(0110d0ac01cb9b44ba865b167a00e598) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b4f83e0d97fee3ec449d4c1e4067d31') in 0.035028 seconds
-  Import took 0.039953 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 19.178178 seconds.
-  path: Assets/Pipeline/New 2D Renderer Data.asset
-  artifactKey: Guid(23d2e5d52a912e54c8dc1e9fc7e59c64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pipeline/New 2D Renderer Data.asset using Guid(23d2e5d52a912e54c8dc1e9fc7e59c64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48fa9958fcd4f06bd78a4977b2399900') in 0.014634 seconds
-  Import took 0.019398 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000349 seconds.
-  path: Assets/Pipeline/UniversalRenderPipelineAsset.asset
-  artifactKey: Guid(53f64f2ce5d4bf34b82bad1b04abc837) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pipeline/UniversalRenderPipelineAsset.asset using Guid(53f64f2ce5d4bf34b82bad1b04abc837) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dd3dc0be4016982cd191259cf2fa265') in 0.008997 seconds
-  Import took 0.014108 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000293 seconds.
-  path: Assets/Pipeline/UniversalRenderPipelineAsset_Renderer.asset
-  artifactKey: Guid(98679713f1db02e4d9eafb303be665b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pipeline/UniversalRenderPipelineAsset_Renderer.asset using Guid(98679713f1db02e4d9eafb303be665b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd95e2cadf9ba7b65b12922956755d882') in 0.008689 seconds
-  Import took 0.014223 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 15.488485 seconds.
-  path: Assets/Prefabs/Asteroid.prefab
-  artifactKey: Guid(a4a8e3b44c1b955419d6fd20d37a8781) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Asteroid.prefab using Guid(a4a8e3b44c1b955419d6fd20d37a8781) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecdd9750bd3e1bc76c16a03855d9ba12') in 0.141374 seconds
-  Import took 0.146847 seconds .
+Total: 3.250800 ms (FindLiveObjects: 0.288000 ms CreateObjectMapping: 0.137400 ms MarkObjects: 2.676300 ms  DeleteObjects: 0.148100 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001625 seconds.
+Registered in 0.002154 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-0000027180184FA0 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000271B22100D0 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027186441220 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002718366B570 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000271830B1330 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027180413010 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027181C6D340 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\PsdPlugin.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027186296170 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000273A0C437C0 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027181115510 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000271818CE020 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027186416F00 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002718356AAF0 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000273A28FD020 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000271805DEC90 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002737B675210 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002737B675210 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000273A2040460 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002737B221600 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000271B22882F0 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000273A265EC10 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000273527D60A0 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027180541020 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.Mathematics.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027186441220 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002737B765010 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027375CB4010 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Cinemachine.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000271814F8030 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027180890010 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027180890010 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002737AFBA030 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002737B1A4830 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000273A265EC10 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000273A265EC10 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027183A4FC20 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002718084C000 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027181FA0080 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002718365DD40 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000271815E5000 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027183E3D070 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027180890010 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000271830F5020 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.14 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.46 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.936 seconds
+- Completed reload, in  1.076 seconds
 Platform modules already initialized, skipping
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.13 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 3.56 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3042 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 136.9 MB.
-System memory in use after: 137.0 MB.
+Unloading 3040 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 136.7 MB.
+System memory in use after: 136.8 MB.
 
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3719.
-Total: 4.542500 ms (FindLiveObjects: 0.320900 ms CreateObjectMapping: 0.163400 ms MarkObjects: 3.646700 ms  DeleteObjects: 0.409700 ms)
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3681.
+Total: 4.107600 ms (FindLiveObjects: 0.513500 ms CreateObjectMapping: 0.195500 ms MarkObjects: 3.219000 ms  DeleteObjects: 0.178500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 48.503709 seconds.
+  path: Assets/scripts/Player/PlayerHP.cs
+  artifactKey: Guid(51c8451c7d8018d41adedf25cc29c823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/Player/PlayerHP.cs using Guid(51c8451c7d8018d41adedf25cc29c823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b579370931a2e537cd2d8f61c8fa6ff') in 0.005665 seconds
+  Import took 0.010047 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001261 seconds.
+Registered in 0.002924 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-0000027180184FA0 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000271805DB330 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000271864432D0 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000273A0EC9B90 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000273A0F645A0 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027180890010 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000271839F93B0 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\PsdPlugin.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027186296170 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000273A0C437C0 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027182B5E030 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027182F07500 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027186416F00 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000271860A5010 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002718296E020 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000273A2CA7A10 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027183A12020 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002737B675210 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000273A1DFF850 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027180EFB020 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000271862F4010 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027183B005F0 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000273A19FD4C0 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002718210D020 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.Mathematics.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000273A12618B0 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002737B765010 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002718144A010 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Cinemachine.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000271814F8030 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000271800C8050 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027181C5D310 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027186402030 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027183B751A0 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027183B005F0 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027183B005F0 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000273A0A18CA0 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027182B5E030 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000273A13372F0 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002737B389810 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027183A12020 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000273A2CA7A10 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027181C5D310 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027183D1F020 doesn't match image D:\MA\X.1\Y.4\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.119 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3040 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 136.7 MB.
+System memory in use after: 136.8 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3685.
+Total: 4.605000 ms (FindLiveObjects: 0.539100 ms CreateObjectMapping: 0.279200 ms MarkObjects: 3.659800 ms  DeleteObjects: 0.125100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002155 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.73 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.085 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3040 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 136.7 MB.
+System memory in use after: 136.8 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3689.
+Total: 2.893000 ms (FindLiveObjects: 0.281300 ms CreateObjectMapping: 0.148400 ms MarkObjects: 2.358700 ms  DeleteObjects: 0.103500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 58.816516 seconds.
+  path: Assets/scripts/Background
+  artifactKey: Guid(85f62c744fd713c4cb1b0e31032f099a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/Background using Guid(85f62c744fd713c4cb1b0e31032f099a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca1e39cfb08789ff8c9137d4c681f359') in 0.014666 seconds
+  Import took 0.035891 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002164 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.093 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.68 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3039 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 136.7 MB.
+System memory in use after: 136.8 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3692.
+Total: 2.756500 ms (FindLiveObjects: 0.407600 ms CreateObjectMapping: 0.170400 ms MarkObjects: 2.062300 ms  DeleteObjects: 0.115300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 221.334947 seconds.
+  path: Assets/scripts/Player/SpaceShipScript.cs
+  artifactKey: Guid(2968d4ddc2e35e14a995dfd252509401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/Player/SpaceShipScript.cs using Guid(2968d4ddc2e35e14a995dfd252509401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6b919f574314be7ac8bee698e6a8b57') in 0.004985 seconds
+  Import took 0.009065 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.197438 seconds.
+  path: Assets/scripts/Player/PlayerHP.cs
+  artifactKey: Guid(51c8451c7d8018d41adedf25cc29c823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/Player/PlayerHP.cs using Guid(51c8451c7d8018d41adedf25cc29c823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccd501418d36477f3412b42fe3236e8c') in 0.002544 seconds
+  Import took 0.007704 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002301 seconds.
+Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.48 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.981 seconds
+- Completed reload, in  1.174 seconds
 Platform modules already initialized, skipping
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.58 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.46 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3040 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 136.8 MB.
-System memory in use after: 136.9 MB.
+System memory in use before: 136.7 MB.
+System memory in use after: 136.8 MB.
 
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3723.
-Total: 2.914300 ms (FindLiveObjects: 0.482600 ms CreateObjectMapping: 0.179900 ms MarkObjects: 2.087700 ms  DeleteObjects: 0.162300 ms)
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3697.
+Total: 3.466700 ms (FindLiveObjects: 0.328800 ms CreateObjectMapping: 0.161500 ms MarkObjects: 2.856900 ms  DeleteObjects: 0.117800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002125 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.893 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3040 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 136.7 MB.
+System memory in use after: 136.8 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3701.
+Total: 2.533000 ms (FindLiveObjects: 0.308600 ms CreateObjectMapping: 0.153300 ms MarkObjects: 1.950500 ms  DeleteObjects: 0.119700 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 42.139930 seconds.
-  path: Assets/scripts/Astroids/AsteroidHealth.cs
-  artifactKey: Guid(2652a1da907f7ee459373f1c16cc66b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/scripts/Astroids/AsteroidHealth.cs using Guid(2652a1da907f7ee459373f1c16cc66b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27613ca355b30ea5a6c06fbd30fbb5b8') in 0.008438 seconds
-  Import took 0.025215 seconds .
+  Time since last request: 185.980524 seconds.
+  path: Assets/scripts/Player/PlayerHP.cs
+  artifactKey: Guid(51c8451c7d8018d41adedf25cc29c823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/Player/PlayerHP.cs using Guid(51c8451c7d8018d41adedf25cc29c823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59a66dfd112cc2e72db19eea1977a474') in 0.004844 seconds
+  Import took 0.009044 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002208 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.133 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3040 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 136.7 MB.
+System memory in use after: 136.8 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3705.
+Total: 2.692900 ms (FindLiveObjects: 0.308400 ms CreateObjectMapping: 0.153100 ms MarkObjects: 2.114200 ms  DeleteObjects: 0.116400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.625019 seconds.
+  path: Assets/scripts/Player/PlayerHP.cs
+  artifactKey: Guid(51c8451c7d8018d41adedf25cc29c823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/Player/PlayerHP.cs using Guid(51c8451c7d8018d41adedf25cc29c823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd28e7af12990a3eff64a129d3782c862') in 0.005710 seconds
+  Import took 0.011958 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002134 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.879 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3040 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 136.8 MB.
+System memory in use after: 136.8 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3709.
+Total: 2.857000 ms (FindLiveObjects: 0.432000 ms CreateObjectMapping: 0.189700 ms MarkObjects: 2.128400 ms  DeleteObjects: 0.105900 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
