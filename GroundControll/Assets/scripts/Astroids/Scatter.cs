@@ -30,7 +30,7 @@ public class Scatter : MonoBehaviour
         var GoldN = Random.Range(-1, 2);
         var CobaltN = Random.Range(0, 3);
 
-        if (collision.gameObject.tag == "Bullet")
+        if (AsteroidHealth.AsteroidHP == 0)
         {
             for (int i = 0; i < IronN; i++) 
             {

@@ -44,6 +44,7 @@ GameObject:
   - component: {fileID: 5444204405517039185}
   - component: {fileID: 5444204405517039184}
   - component: {fileID: 9020111100939919170}
+  - component: {fileID: 5278706261036620183}
   m_Layer: 0
   m_Name: Asteroid
   m_TagString: Asteroid
@@ -193,3 +194,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Playsound: {fileID: 8300000, guid: f952bd301ce5a2e4182a20ccfb74ee2e, type: 3}
+--- !u!114 &5278706261036620183
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5444204405517039190}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2652a1da907f7ee459373f1c16cc66b2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
