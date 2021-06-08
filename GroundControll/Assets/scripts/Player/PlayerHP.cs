@@ -6,6 +6,14 @@ public class PlayerHP : MonoBehaviour
 {
     public static int PlayerHealth = 100;
 
+    private void Update()
+    {
+        if (PlayerHealth == 0)
+        {
+            Destroy(this.gameObject);
+        }
+    }
+
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.tag == "Asteroid")

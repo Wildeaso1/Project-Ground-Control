@@ -32,7 +32,7 @@ public class Scatter : MonoBehaviour
 
         if (AsteroidHealth.AsteroidHP == 0)
         {
-            AsteroidHealth.AsteroidHP += 5;
+            AsteroidHealth.AsteroidHP = 5;
             for (int i = 0; i < IronN; i++) 
             {
                 GameObject Iron = Instantiate(IronObject, SpawnPoint.position, Quaternion.Euler(0, 0, Random.Range(0,360)));

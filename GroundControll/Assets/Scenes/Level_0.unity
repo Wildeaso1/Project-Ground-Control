@@ -3315,7 +3315,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   thrustSpeed: 15
-  thrustSpeedBackwards: -0.5
+  thrustSpeedBackwards: -5
   rotationSpeed: 3
   Shooting: {fileID: 1507351222}
 --- !u!114 &1858397670

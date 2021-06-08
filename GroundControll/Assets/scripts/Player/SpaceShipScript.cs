@@ -45,12 +45,6 @@ public class SpaceShipScript : MonoBehaviour
         {
             _turnDirection = 0.0f;
         }
-
-
-        if (PlayerHP.PlayerHealth == 0)
-        {
-            Destroy(this.gameObject);
-        }
     }
 
     private void FixedUpdate()
