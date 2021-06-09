@@ -2,11 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class PlayerHP : MonoBehaviour
 {
     public static int PlayerHealth = 100;
-
+    public Text HealthText;
     public string GameOverScene;
     private void Update()
     {
@@ -14,7 +15,10 @@ public class PlayerHP : MonoBehaviour
         {
             Destroy(this.gameObject);
             SceneManager.LoadScene(GameOverScene);
+            PlayerHealth = 100;
         }
+
+        HealthText.text = "" + PlayerHealth;
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
@@ -25,4 +29,6 @@ public class PlayerHP : MonoBehaviour
             Debug.Log("Hi");
         }
     }
+
+    
 }
