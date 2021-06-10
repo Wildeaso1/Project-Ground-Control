@@ -4,12 +4,14 @@ using UnityEngine;
 
 public class AsteroidHealth : MonoBehaviour
 {
+    public int AsteroidHPSmallDeath;
     public int AsteroidHPSmall;
-    public int AsteroidHPSmallMax = 1;
+    public int AsteroidHPSmallMax;
     public AsteroidHealthBar asteroidHealthBar;
 
     private void Start()
     {
+        AsteroidHPSmallDeath = AsteroidHPSmallMax / AsteroidHPSmallMax;
         AsteroidHPSmall = AsteroidHPSmallMax;
         asteroidHealthBar.SetMaxHealth(AsteroidHPSmallMax);
     }

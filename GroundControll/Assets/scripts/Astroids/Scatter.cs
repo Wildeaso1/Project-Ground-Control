@@ -30,9 +30,8 @@ public class Scatter : MonoBehaviour
         var GoldN = Random.Range(-1, 2);
         var CobaltN = Random.Range(0, 3);
 
-        if (GetComponent<AsteroidHealth>().AsteroidHPSmall == 0)
+        if (GetComponent<AsteroidHealth>().AsteroidHPSmall == GetComponent<AsteroidHealth>().AsteroidHPSmallDeath)
         {
-            GetComponent<AsteroidHealth>().AsteroidHPSmall = 2;
             for (int i = 0; i < IronN; i++) 
             {
                 GameObject Iron = Instantiate(IronObject, SpawnPoint.position, Quaternion.Euler(0, 0, Random.Range(0,360)));

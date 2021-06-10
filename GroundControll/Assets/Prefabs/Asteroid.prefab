@@ -386,7 +386,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AsteroidHPSmall: 0
-  AsteroidHPSmallMax: 2
+  AsteroidHPSmallMax: 3
   asteroidHealthBar: {fileID: 7356681805472160828}
 --- !u!1 &8167975236423817783
 GameObject:
