@@ -2107,10 +2107,7 @@ MonoBehaviour:
   HealthFour: {fileID: 58054224}
   HealthFive: {fileID: 1815976042}
   HealthSix: {fileID: 740407246}
-  ColorGreen: {fileID: 2100000, guid: 71aa728388aabf14ab05e05d285d1fb5, type: 2}
-  ColorYellow: {fileID: 2100000, guid: f763e372e2260a84291c305805bf2ac8, type: 2}
-  ColorRed: {fileID: 2100000, guid: ca3f8c29f33f71545a7ec472bb342c49, type: 2}
-  ColorChanging: {fileID: 2100000, guid: 700b04872eb5d424aa0f4558b4193650, type: 2}
+  HealthColor: {fileID: 2100000, guid: 700b04872eb5d424aa0f4558b4193650, type: 2}
 --- !u!1 &966815951
 GameObject:
   m_ObjectHideFlags: 0

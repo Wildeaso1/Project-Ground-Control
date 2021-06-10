@@ -6,7 +6,8 @@ using UnityEngine.UI;
 
 public class PlayerHP : MonoBehaviour
 {
-    public static int PlayerHealth = 120;
+    public static int MaxHealth = 120;
+    public static int PlayerHealth = MaxHealth;
     public string GameOverScene;
     public GameObject LightUpUi;
     public static bool Started = false;
@@ -21,11 +22,11 @@ public class PlayerHP : MonoBehaviour
         {
             Destroy(this.gameObject);
             SceneManager.LoadScene(GameOverScene);
-            PlayerHealth = 120;
+            PlayerHealth = MaxHealth;
         }
 
         
-        if (PlayerHealth <= 40 && !Started)
+        if (PlayerHealth <= PlayerHealthBar.HP5 && !Started)
         {
             StartCoroutine(LightUp());
         }
@@ -43,7 +44,6 @@ public class PlayerHP : MonoBehaviour
     IEnumerator LightUp()
     {
         Started = true;
-        Debug.Log("Testing");
         LightUpUi.SetActive(false);
         yield return new WaitForSecondsRealtime(1);
         LightUpUi.SetActive(true);
