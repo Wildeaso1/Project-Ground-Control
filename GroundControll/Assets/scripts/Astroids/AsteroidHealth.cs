@@ -4,26 +4,29 @@ using UnityEngine;
 
 public class AsteroidHealth : MonoBehaviour
 {
-    public static int AsteroidHPSmall;
-    public static int AsteroidHPSmallMax;
+    public int AsteroidHPSmall;
+    public int AsteroidHPSmallMax = 1;
+    public AsteroidHealthBar asteroidHealthBar;
 
     private void Start()
     {
         AsteroidHPSmall = AsteroidHPSmallMax;
-    }
-
-    public int AsteroidHealthPoints
-    {
-        get { return AsteroidHPSmall; }
-        set { AsteroidHPSmall = Mathf.Clamp(AsteroidHPSmall, 0, 3); }
+        asteroidHealthBar.SetMaxHealth(AsteroidHPSmallMax);
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.tag == "Bullet")
         {
-            AsteroidHPSmall -= 1;
+            TakeDamage(1);
         }
+    }
+
+    private void TakeDamage(int Damage)
+    {
+
+         AsteroidHPSmall -= Damage;
+         asteroidHealthBar.SetHealth(AsteroidHPSmall);
     }
 
 }

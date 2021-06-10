@@ -27,7 +27,6 @@ public class Spawner : MonoBehaviour
     
     public void spawnObjects()
     {
-        AsteroidHealth.AsteroidHPSmall = 3;
         int randomItem = 0;
         GameObject toSpawn;
         MeshCollider c = quad.GetComponent<MeshCollider>();

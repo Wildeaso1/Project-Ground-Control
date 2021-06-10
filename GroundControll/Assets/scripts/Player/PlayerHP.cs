@@ -7,13 +7,16 @@ using UnityEngine.UI;
 public class PlayerHP : MonoBehaviour
 {
     public static int MaxHealth = 120;
-    public static int PlayerHealth = MaxHealth;
+    public static int PlayerHealth;
+    public PlayerHealthBar HealthBar;
     public string GameOverScene;
     public GameObject LightUpUi;
     public static bool Started = false;
 
     private void Start()
     {
+        PlayerHealth = MaxHealth;
+        HealthBar.SetMaxHealth(MaxHealth);
     }
 
     private void Update()
@@ -26,7 +29,7 @@ public class PlayerHP : MonoBehaviour
         }
 
         
-        if (PlayerHealth <= PlayerHealthBar.HP5 && !Started)
+       if (PlayerHealth <= 40 && !Started)
         {
             StartCoroutine(LightUp());
         }
@@ -37,6 +40,7 @@ public class PlayerHP : MonoBehaviour
         if (collision.gameObject.tag == "Asteroid")
         {
             PlayerHealth -= 10;
+            HealthBar.SetHealth(PlayerHealth);
         }
     }
 
