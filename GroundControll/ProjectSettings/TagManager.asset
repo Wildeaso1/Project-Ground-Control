@@ -9,9 +9,10 @@ TagManager:
   - Iron
   - Gold
   - Asteroid
-  - Spacship
   - Walls
   - Bullet
+  - Spaceship
+  - ShowHealth
   layers:
   - Default
   - TransparentFX
