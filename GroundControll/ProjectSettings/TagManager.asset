@@ -53,3 +53,6 @@ TagManager:
   - name: 1
     uniqueID: 1771122457
     locked: 0
+  - name: Asteroid HP
+    uniqueID: 1233513343
+    locked: 0
