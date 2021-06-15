@@ -4,9 +4,10 @@ using UnityEngine;
 
 public class AsteroidHealth : MonoBehaviour
 {
-    public int AsteroidHPSmallDeath;
-    public int AsteroidHPSmall;
-    public int AsteroidHPSmallMax;
+    public float AsteroidHPSmallDeath;
+    public float AsteroidHPSmall;
+    public float AsteroidHPSmallV;
+    public float AsteroidHPSmallMax;
     public AsteroidHealthBar asteroidHealthBar;
     public Rigidbody2D _rigidbody;
 
@@ -14,7 +15,13 @@ public class AsteroidHealth : MonoBehaviour
     {
         AsteroidHPSmallDeath = AsteroidHPSmallMax / AsteroidHPSmallMax;
         AsteroidHPSmall = AsteroidHPSmallMax;
+        AsteroidHPSmallV = AsteroidHPSmallMax;
         asteroidHealthBar.SetMaxHealth(AsteroidHPSmallMax);
+    }
+
+    private void Update()
+    {
+        
     }
 
 
@@ -24,6 +31,7 @@ public class AsteroidHealth : MonoBehaviour
         {
             StartCoroutine(FreezeFrame());
             TakeDamage(1);
+            AsteroidHPSmallV = Mathf.Lerp(AsteroidHPSmallV, AsteroidHPSmall, 5f) * Time.deltaTime;
         }
     }
 
@@ -31,7 +39,7 @@ public class AsteroidHealth : MonoBehaviour
     {
 
          AsteroidHPSmall -= Damage;
-         asteroidHealthBar.SetHealth(AsteroidHPSmall);
+         asteroidHealthBar.SetHealth(AsteroidHPSmallV);
     }
 
     public void FreezeFrame2()

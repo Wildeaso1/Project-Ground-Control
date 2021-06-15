@@ -8,13 +8,13 @@ public class AsteroidHealthBar : MonoBehaviour
     public Slider AsteroidHPSlider;
     
 
-    public void SetMaxHealth(int health)
+    public void SetMaxHealth(float health)
     {
         AsteroidHPSlider.maxValue = health;
         AsteroidHPSlider.value = health;
     }
 
-    public void SetHealth(int health)
+    public void SetHealth(float health)
     {
         AsteroidHPSlider.value = health;
     }

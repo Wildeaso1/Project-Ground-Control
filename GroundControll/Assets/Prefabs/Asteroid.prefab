@@ -35,7 +35,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0.059999943}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &7475921426129253858
@@ -84,7 +84,7 @@ MonoBehaviour:
   m_Direction: 3
   m_MinValue: 0
   m_MaxValue: 7
-  m_WholeNumbers: 1
+  m_WholeNumbers: 0
   m_Value: 7
   m_OnValueChanged:
     m_PersistentCalls:
@@ -160,7 +160,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0.2783019, b: 0.2783019, a: 1}
+  m_Color: {r: 0, g: 1, b: 0.16267419, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -386,6 +386,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AsteroidHPSmallDeath: 0
   AsteroidHPSmall: 0
+  AsteroidHPSmallV: 0
   AsteroidHPSmallMax: 7
   asteroidHealthBar: {fileID: 7356681805472160828}
   _rigidbody: {fileID: 5444204405517039184}
