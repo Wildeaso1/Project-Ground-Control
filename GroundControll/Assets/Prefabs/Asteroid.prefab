@@ -64,7 +64,7 @@ MonoBehaviour:
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
-    m_ColorMultiplier: 1
+    m_ColorMultiplier: 4.52
     m_FadeDuration: 1.61
   m_SpriteState:
     m_HighlightedSprite: {fileID: 0}
@@ -386,7 +386,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AsteroidHPSmallDeath: 0
   AsteroidHPSmall: 0
-  AsteroidHPSmallV: 0
   AsteroidHPSmallMax: 7
   asteroidHealthBar: {fileID: 7356681805472160828}
   _rigidbody: {fileID: 5444204405517039184}

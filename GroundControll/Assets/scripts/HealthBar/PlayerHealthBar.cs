@@ -2,12 +2,15 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using DG.Tweening;
 
 public class PlayerHealthBar : MonoBehaviour
 {
 
     public Slider HPSlider;
     public Gradient GradientSlider;
+    private float TargetHealthPlayer;
+    private float SlidingTime = 0.2f;
     public Image Fill;
     public void SetMaxHealth (int health)
     {
@@ -19,7 +22,8 @@ public class PlayerHealthBar : MonoBehaviour
 
     public void SetHealth(int health)
     {
-        HPSlider.value = health;
+        TargetHealthPlayer = health;
+        HPSlider.DOValue(TargetHealthPlayer, SlidingTime);
 
         Fill.color = GradientSlider.Evaluate(HPSlider.normalizedValue);
     }
