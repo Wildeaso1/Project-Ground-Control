@@ -15,11 +15,11 @@ D:/School/BO/Project-Ground-Control/GroundControll
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-60249
+64570
 Successfully changed project path to: D:/School/BO/Project-Ground-Control/GroundControll
 D:/School/BO/Project-Ground-Control/GroundControll
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 60.07 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 57.62 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.7f1 (dd97f2c94397)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/Resources/UnitySubsystems
@@ -36,132 +36,864 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56864
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56004
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002550 seconds.
+Registered in 0.001796 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 74.62 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 53.88 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.254 seconds
+- Completed reload, in  1.007 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004804 seconds.
+Registered in 0.003784 seconds.
 Begin MonoManager ReloadAssembly
+Symbol file data-000001BA8815C100 doesn't match image D:\School\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BA8815C100 doesn't match image D:\School\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 73.58 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 54.72 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.467 seconds
+- Completed reload, in  1.008 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.47 ms, found 1 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.57 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3176 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 140.8 MB.
-System memory in use after: 140.8 MB.
+Unloading 3177 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 140.9 MB.
+System memory in use after: 140.9 MB.
 
-Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 3630.
-Total: 2.406200 ms (FindLiveObjects: 0.319300 ms CreateObjectMapping: 0.160600 ms MarkObjects: 1.798600 ms  DeleteObjects: 0.126600 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/scripts/HealthBar/AsteroidHealthBar.cs
-  artifactKey: Guid(36acbde0f7ff6144bb7287a479abd738) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/scripts/HealthBar/AsteroidHealthBar.cs using Guid(36acbde0f7ff6144bb7287a479abd738) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b34b26c25db638c4cbc1c132225f848a') in 0.036495 seconds
-  Import took 0.042560 seconds .
+Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 3631.
+Total: 2.515000 ms (FindLiveObjects: 0.424900 ms CreateObjectMapping: 0.194600 ms MarkObjects: 1.750600 ms  DeleteObjects: 0.143700 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 29.343707 seconds.
-  path: Assets/scripts/HealthBar/AsteroidHealthBar.cs
-  artifactKey: Guid(36acbde0f7ff6144bb7287a479abd738) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/scripts/HealthBar/AsteroidHealthBar.cs using Guid(36acbde0f7ff6144bb7287a479abd738) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6e79d955f6a5f30c7ac6da64f85aa61') in 0.002939 seconds
-  Import took 0.008302 seconds .
+  path: Assets/Materials/Materials/MapTexture.renderTexture
+  artifactKey: Guid(359e881b044689a47904d8c13733fcf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/MapTexture.renderTexture using Guid(359e881b044689a47904d8c13733fcf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dd4e51f266244c1ae99abe02d6ff198') in 0.107268 seconds
+  Import took 0.180179 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.615838 seconds.
+  path: Assets/Materials/Assets/1200px-Armed_forces_red_triangle.svg.png
+  artifactKey: Guid(f4e64d0fe1aafb6448e0357f52de033c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Assets/1200px-Armed_forces_red_triangle.svg.png using Guid(f4e64d0fe1aafb6448e0357f52de033c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c779af675b2b2f281a310c74189fda6') in 0.041756 seconds
+  Import took 0.076406 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.005461 seconds.
+Registered in 0.003666 seconds.
 Begin MonoManager ReloadAssembly
+Symbol file data-000001BA8DE43040 doesn't match image D:\School\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BA8CA35030 doesn't match image D:\School\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.46 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.57 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.920 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.70 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3053 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 135.5 MB.
+System memory in use after: 135.6 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3644.
+Total: 3.785400 ms (FindLiveObjects: 0.320800 ms CreateObjectMapping: 0.193900 ms MarkObjects: 3.162300 ms  DeleteObjects: 0.107300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003415 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001BA88724020 doesn't match image D:\School\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BA87EF8020 doesn't match image D:\School\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.999 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.93 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3053 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 135.6 MB.
+System memory in use after: 135.7 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3648.
+Total: 2.879300 ms (FindLiveObjects: 0.505700 ms CreateObjectMapping: 0.258000 ms MarkObjects: 2.003400 ms  DeleteObjects: 0.111100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003970 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001BAB7B59020 doesn't match image D:\School\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BA94698010 doesn't match image D:\School\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.896 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3053 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 135.6 MB.
+System memory in use after: 135.7 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3652.
+Total: 2.696700 ms (FindLiveObjects: 0.300400 ms CreateObjectMapping: 0.151700 ms MarkObjects: 2.105900 ms  DeleteObjects: 0.137300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004657 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001BA93533030 doesn't match image D:\School\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BA906FC1B0 doesn't match image D:\School\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.86 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.170 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3053 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 135.6 MB.
+System memory in use after: 135.7 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3656.
+Total: 2.349100 ms (FindLiveObjects: 0.288700 ms CreateObjectMapping: 0.144200 ms MarkObjects: 1.802700 ms  DeleteObjects: 0.112700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 384.849188 seconds.
+  path: Assets/scripts/Target.cs
+  artifactKey: Guid(d06425dcf2c8ec74b8e30e891f669987) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/Target.cs using Guid(d06425dcf2c8ec74b8e30e891f669987) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be150ff02751ca1b794de0e68d39d131') in 0.015968 seconds
+  Import took 0.021031 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003751 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001BA8CFC1020 doesn't match image D:\School\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BA906FC1B0 doesn't match image D:\School\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.974 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3053 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 135.7 MB.
+System memory in use after: 135.8 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3660.
+Total: 2.581100 ms (FindLiveObjects: 0.373200 ms CreateObjectMapping: 0.169500 ms MarkObjects: 1.911800 ms  DeleteObjects: 0.125600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003909 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001BA8FCC9010 doesn't match image D:\School\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BA93140010 doesn't match image D:\School\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.122 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3053 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 135.7 MB.
+System memory in use after: 135.8 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3664.
+Total: 2.804700 ms (FindLiveObjects: 0.300700 ms CreateObjectMapping: 0.190500 ms MarkObjects: 2.191100 ms  DeleteObjects: 0.121500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003654 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001BA8CFC1020 doesn't match image D:\School\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BA906FC1B0 doesn't match image D:\School\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.74 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.243 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3053 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 135.7 MB.
+System memory in use after: 135.8 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3668.
+Total: 3.050800 ms (FindLiveObjects: 0.445500 ms CreateObjectMapping: 0.206700 ms MarkObjects: 2.273400 ms  DeleteObjects: 0.124300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 297.059245 seconds.
+  path: Assets/scripts/Target.cs
+  artifactKey: Guid(d06425dcf2c8ec74b8e30e891f669987) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/Target.cs using Guid(d06425dcf2c8ec74b8e30e891f669987) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd6c98dd0f3c73f1873ebb9168774d52') in 0.010984 seconds
+  Import took 0.015717 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.746236 seconds.
+  path: Assets/Resources/DOTweenSettings.asset
+  artifactKey: Guid(dd902517599ddcd4baf35aca37a77a81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/DOTweenSettings.asset using Guid(dd902517599ddcd4baf35aca37a77a81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4abdcb7bce8d9dba6ee540487ad76546') in 0.014073 seconds
+  Import took 0.019412 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004091 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001BA88724020 doesn't match image D:\School\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BA906FC1B0 doesn't match image D:\School\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.096 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3053 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 135.7 MB.
+System memory in use after: 135.8 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3672.
+Total: 3.250700 ms (FindLiveObjects: 0.477500 ms CreateObjectMapping: 0.196400 ms MarkObjects: 2.459800 ms  DeleteObjects: 0.115400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 30.118396 seconds.
+  path: Assets/Materials/Assets/1200px-Armed_forces_red_triangle.svg.png
+  artifactKey: Guid(f4e64d0fe1aafb6448e0357f52de033c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Assets/1200px-Armed_forces_red_triangle.svg.png using Guid(f4e64d0fe1aafb6448e0357f52de033c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86c8a6dd844e03c4197e26fb68a520cd') in 0.054643 seconds
+  Import took 0.059346 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.785869 seconds.
+  path: Assets/Materials/Assets/1200px-Armed_forces_red_triangle.svg.png
+  artifactKey: Guid(f4e64d0fe1aafb6448e0357f52de033c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Assets/1200px-Armed_forces_red_triangle.svg.png using Guid(f4e64d0fe1aafb6448e0357f52de033c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44b17171fd641a721b369f4dc019bf03') in 0.015504 seconds
+  Import took 0.020501 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 103.856081 seconds.
+  path: Assets/Materials/Assets/1200px-Armed_forces_red_triangle.svg 1.png
+  artifactKey: Guid(e88b68f92292feb4ab8d42b4fdfd5081) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Assets/1200px-Armed_forces_red_triangle.svg 1.png using Guid(e88b68f92292feb4ab8d42b4fdfd5081) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37d6c2d60bb49beaaeaf86ec5df33203') in 0.014525 seconds
+  Import took 0.020400 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.147051 seconds.
+  path: Assets/Materials/Assets/1200px-Armed_forces_red_triangle.svg 1.png
+  artifactKey: Guid(e88b68f92292feb4ab8d42b4fdfd5081) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Assets/1200px-Armed_forces_red_triangle.svg 1.png using Guid(e88b68f92292feb4ab8d42b4fdfd5081) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6751c0a7a6e509c394c0cd3efdd70adf') in 0.010812 seconds
+  Import took 0.016299 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 102.475246 seconds.
+  path: Assets/Materials/Assets/Regular_triangle.svg.png
+  artifactKey: Guid(afad037a5e3ad07439675478eedbe73c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Assets/Regular_triangle.svg.png using Guid(afad037a5e3ad07439675478eedbe73c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '665779ae891a6d9929e6e0210b508f61') in 0.018029 seconds
+  Import took 0.023135 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 38.849933 seconds.
+  path: Assets/Materials/Assets/44-440751_transparent-triangle-white-white-triangle-png.png
+  artifactKey: Guid(7ff989d11e148854380aeb3f4a76f04b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Assets/44-440751_transparent-triangle-white-white-triangle-png.png using Guid(7ff989d11e148854380aeb3f4a76f04b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4649130baa92a7fed64b79e08e048d9a') in 0.015763 seconds
+  Import took 0.021903 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001577 seconds.
+  path: Assets/Materials/Assets/44-440751_transparent-triangle-white-white-triangle-png.png
+  artifactKey: Guid(7ff989d11e148854380aeb3f4a76f04b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Assets/44-440751_transparent-triangle-white-white-triangle-png.png using Guid(7ff989d11e148854380aeb3f4a76f04b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4649130baa92a7fed64b79e08e048d9a') in 0.009251 seconds
+  Import took 0.014299 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003648 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001BA8FCC9010 doesn't match image D:\School\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BA906FC1B0 doesn't match image D:\School\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 4.35 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.161 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3053 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 135.7 MB.
+System memory in use after: 135.8 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3681.
+Total: 2.685300 ms (FindLiveObjects: 0.296500 ms CreateObjectMapping: 0.154600 ms MarkObjects: 2.111800 ms  DeleteObjects: 0.120900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003579 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001BA88724020 doesn't match image D:\School\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BA906FC1B0 doesn't match image D:\School\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.098 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3053 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 135.7 MB.
+System memory in use after: 135.8 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3685.
+Total: 2.533500 ms (FindLiveObjects: 0.286700 ms CreateObjectMapping: 0.150000 ms MarkObjects: 1.985400 ms  DeleteObjects: 0.110600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004779 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001BA92F6C030 doesn't match image D:\School\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BA906FC1B0 doesn't match image D:\School\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.76 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.163 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3053 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 135.7 MB.
+System memory in use after: 135.8 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3689.
+Total: 2.686500 ms (FindLiveObjects: 0.315500 ms CreateObjectMapping: 0.175200 ms MarkObjects: 2.077900 ms  DeleteObjects: 0.116800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 725.100112 seconds.
+  path: Assets/Materials/Materials/Home-icon.svg.png
+  artifactKey: Guid(6f5d71400f5229240bd6b48a8808456e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/Home-icon.svg.png using Guid(6f5d71400f5229240bd6b48a8808456e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cec58c8180bc4d073fbe09d1b39617b') in 0.057637 seconds
+  Import took 0.064242 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.230590 seconds.
+  path: Assets/Materials/Materials/Home-icon.svg.png
+  artifactKey: Guid(6f5d71400f5229240bd6b48a8808456e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/Home-icon.svg.png using Guid(6f5d71400f5229240bd6b48a8808456e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe8fe7d72a0957025dda0fbbe9f73df3') in 0.016518 seconds
+  Import took 0.022625 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003810 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001BA88724020 doesn't match image D:\School\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BA906FC1B0 doesn't match image D:\School\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.089 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3053 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 135.7 MB.
+System memory in use after: 135.8 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3694.
+Total: 2.887700 ms (FindLiveObjects: 0.379500 ms CreateObjectMapping: 0.198500 ms MarkObjects: 2.192100 ms  DeleteObjects: 0.115500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004313 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001BA939DA010 doesn't match image D:\School\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BA906FC1B0 doesn't match image D:\School\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
 - Completed reload, in  1.080 seconds
 Platform modules already initialized, skipping
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.47 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.49 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3052 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 132.5 MB.
-System memory in use after: 132.6 MB.
+Unloading 3053 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 135.8 MB.
+System memory in use after: 135.8 MB.
 
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3634.
-Total: 3.081500 ms (FindLiveObjects: 0.269000 ms CreateObjectMapping: 0.140800 ms MarkObjects: 2.558400 ms  DeleteObjects: 0.112300 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004110 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.47 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.057 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.48 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3052 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 132.5 MB.
-System memory in use after: 132.6 MB.
-
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3638.
-Total: 3.122500 ms (FindLiveObjects: 0.269600 ms CreateObjectMapping: 0.138700 ms MarkObjects: 2.576800 ms  DeleteObjects: 0.136500 ms)
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3698.
+Total: 2.446300 ms (FindLiveObjects: 0.327300 ms CreateObjectMapping: 0.143900 ms MarkObjects: 1.860500 ms  DeleteObjects: 0.113400 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.004110 seconds.
+Registered in 0.004658 seconds.
 Begin MonoManager ReloadAssembly
+Symbol file data-000001BA8F850010 doesn't match image D:\School\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BA906FC1B0 doesn't match image D:\School\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.74 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.56 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.009 seconds
+- Completed reload, in  1.074 seconds
 Platform modules already initialized, skipping
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.48 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.46 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3052 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 132.6 MB.
-System memory in use after: 132.6 MB.
+Unloading 3053 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 135.8 MB.
+System memory in use after: 135.9 MB.
 
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3642.
-Total: 3.198600 ms (FindLiveObjects: 0.436100 ms CreateObjectMapping: 0.183300 ms MarkObjects: 2.458500 ms  DeleteObjects: 0.119600 ms)
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3702.
+Total: 2.493000 ms (FindLiveObjects: 0.309200 ms CreateObjectMapping: 0.155300 ms MarkObjects: 1.878600 ms  DeleteObjects: 0.148900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003977 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001BA92F6C030 doesn't match image D:\School\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BA906FC1B0 doesn't match image D:\School\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.944 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3053 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 135.8 MB.
+System memory in use after: 135.9 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3706.
+Total: 2.762700 ms (FindLiveObjects: 0.338100 ms CreateObjectMapping: 0.181500 ms MarkObjects: 2.113000 ms  DeleteObjects: 0.129100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004220 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001BA939DA010 doesn't match image D:\School\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BA92F40050 doesn't match image D:\School\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.095 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.60 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3053 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 135.8 MB.
+System memory in use after: 135.9 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3710.
+Total: 2.757700 ms (FindLiveObjects: 0.365300 ms CreateObjectMapping: 0.208600 ms MarkObjects: 2.064800 ms  DeleteObjects: 0.118100 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 72.391571 seconds.
-  path: Assets/scripts/HealthBar/AsteroidHealthBar.cs
-  artifactKey: Guid(36acbde0f7ff6144bb7287a479abd738) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/scripts/HealthBar/AsteroidHealthBar.cs using Guid(36acbde0f7ff6144bb7287a479abd738) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28a2c8fd983e9897586ed000de8432cc') in 0.005479 seconds
-  Import took 0.010280 seconds .
+  Time since last request: 615.216681 seconds.
+  path: Assets/Materials/Assets/free-home-icon-189-thumb.png
+  artifactKey: Guid(fe6a9651f64056d48821557fc80b145c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Assets/free-home-icon-189-thumb.png using Guid(fe6a9651f64056d48821557fc80b145c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9203ebf30eb885a682e21a3ba50b08d') in 0.051837 seconds
+  Import took 0.057103 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/Materials/Assets/free-home-icon-189-thumb.png
+  artifactKey: Guid(fe6a9651f64056d48821557fc80b145c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Assets/free-home-icon-189-thumb.png using Guid(fe6a9651f64056d48821557fc80b145c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9203ebf30eb885a682e21a3ba50b08d') in 0.011563 seconds
+  Import took 0.017423 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.003602 seconds.
+Registered in 0.003451 seconds.
 Begin MonoManager ReloadAssembly
+Symbol file data-000001BA939DA010 doesn't match image D:\School\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BA92F40050 doesn't match image D:\School\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.82 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.086 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3053 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 135.8 MB.
+System memory in use after: 135.9 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3715.
+Total: 2.700100 ms (FindLiveObjects: 0.273600 ms CreateObjectMapping: 0.130300 ms MarkObjects: 2.166000 ms  DeleteObjects: 0.129100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003696 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001BA939DA010 doesn't match image D:\School\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BA94528050 doesn't match image D:\School\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.13 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.160 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.82 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3053 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 135.8 MB.
+System memory in use after: 135.9 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3719.
+Total: 2.969300 ms (FindLiveObjects: 0.360200 ms CreateObjectMapping: 0.229900 ms MarkObjects: 2.236500 ms  DeleteObjects: 0.141400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003654 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001BA939DA010 doesn't match image D:\School\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BA94528050 doesn't match image D:\School\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.82 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.146 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.62 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3053 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 135.8 MB.
+System memory in use after: 135.9 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3723.
+Total: 3.741500 ms (FindLiveObjects: 0.415200 ms CreateObjectMapping: 0.294200 ms MarkObjects: 2.906100 ms  DeleteObjects: 0.124600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003446 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001BA939DA010 doesn't match image D:\School\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BA94528050 doesn't match image D:\School\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.09 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.191 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3053 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 135.8 MB.
+System memory in use after: 135.9 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3727.
+Total: 2.627900 ms (FindLiveObjects: 0.395100 ms CreateObjectMapping: 0.174600 ms MarkObjects: 1.944600 ms  DeleteObjects: 0.112400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004066 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001BA9070BFE0 doesn't match image D:\School\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BA94528050 doesn't match image D:\School\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.45 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.130 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3053 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 135.9 MB.
+System memory in use after: 135.9 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3731.
+Total: 3.452000 ms (FindLiveObjects: 0.360600 ms CreateObjectMapping: 0.188300 ms MarkObjects: 2.697600 ms  DeleteObjects: 0.204200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003749 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001BA9070BFE0 doesn't match image D:\School\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BA94528050 doesn't match image D:\School\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.132 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3053 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 135.9 MB.
+System memory in use after: 136.0 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3735.
+Total: 3.775100 ms (FindLiveObjects: 0.432800 ms CreateObjectMapping: 0.169900 ms MarkObjects: 3.048200 ms  DeleteObjects: 0.123000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003785 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001BA9070BFE0 doesn't match image D:\School\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BA94528050 doesn't match image D:\School\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.71 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.130 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3053 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 135.9 MB.
+System memory in use after: 136.0 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3739.
+Total: 3.641000 ms (FindLiveObjects: 0.466100 ms CreateObjectMapping: 0.238700 ms MarkObjects: 2.762300 ms  DeleteObjects: 0.172500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 697.444306 seconds.
+  path: Assets/Materials/Assets/Planets
+  artifactKey: Guid(222d50210c509754b8bf51f650508c83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Assets/Planets using Guid(222d50210c509754b8bf51f650508c83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9ac176acdedd015b8bbb78f4fd8963e') in 0.009348 seconds
+  Import took 0.014541 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003450 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001BA8DF4C020 doesn't match image D:\School\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BA94528050 doesn't match image D:\School\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.47 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.136 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3053 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 135.9 MB.
+System memory in use after: 136.0 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3743.
+Total: 4.972500 ms (FindLiveObjects: 1.373300 ms CreateObjectMapping: 0.343100 ms MarkObjects: 3.126000 ms  DeleteObjects: 0.128800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003462 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001BA8DF4C020 doesn't match image D:\School\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BA94528050 doesn't match image D:\School\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.142 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3053 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 135.9 MB.
+System memory in use after: 136.0 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3747.
+Total: 2.952300 ms (FindLiveObjects: 0.372900 ms CreateObjectMapping: 0.223000 ms MarkObjects: 2.187300 ms  DeleteObjects: 0.167900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003528 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001BA92F6C030 doesn't match image D:\School\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BA94528050 doesn't match image D:\School\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.91 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.124 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3053 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 135.9 MB.
+System memory in use after: 136.0 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3751.
+Total: 3.003700 ms (FindLiveObjects: 0.305500 ms CreateObjectMapping: 0.185100 ms MarkObjects: 2.306500 ms  DeleteObjects: 0.205200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003618 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001BA92F6C030 doesn't match image D:\School\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BA94528050 doesn't match image D:\School\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.78 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.119 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.90 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3053 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 135.9 MB.
+System memory in use after: 136.0 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3755.
+Total: 3.415000 ms (FindLiveObjects: 0.460100 ms CreateObjectMapping: 0.236200 ms MarkObjects: 2.549700 ms  DeleteObjects: 0.167600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003531 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001BA92F6C030 doesn't match image D:\School\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BA94528050 doesn't match image D:\School\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
 - Completed reload, in  1.084 seconds
@@ -169,103 +901,777 @@ Platform modules already initialized, skipping
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Refreshing native plugins compatible for Editor in 0.47 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3052 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 132.6 MB.
-System memory in use after: 132.7 MB.
+Unloading 3053 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 135.9 MB.
+System memory in use after: 136.0 MB.
 
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3646.
-Total: 3.765600 ms (FindLiveObjects: 0.296500 ms CreateObjectMapping: 0.156400 ms MarkObjects: 3.180700 ms  DeleteObjects: 0.131200 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003517 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.49 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.936 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.65 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3052 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 132.6 MB.
-System memory in use after: 132.7 MB.
-
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3650.
-Total: 4.713700 ms (FindLiveObjects: 0.465200 ms CreateObjectMapping: 0.278800 ms MarkObjects: 3.853200 ms  DeleteObjects: 0.114600 ms)
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3759.
+Total: 2.662900 ms (FindLiveObjects: 0.355700 ms CreateObjectMapping: 0.138300 ms MarkObjects: 2.055900 ms  DeleteObjects: 0.111600 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.003716 seconds.
+Registered in 0.003989 seconds.
 Begin MonoManager ReloadAssembly
+Symbol file data-000001BA92F6C030 doesn't match image D:\School\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BA94528050 doesn't match image D:\School\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.49 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.47 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.917 seconds
+- Completed reload, in  0.891 seconds
 Platform modules already initialized, skipping
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.46 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.54 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3052 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 132.6 MB.
-System memory in use after: 132.7 MB.
+Unloading 3053 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 135.9 MB.
+System memory in use after: 136.0 MB.
 
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3654.
-Total: 3.755200 ms (FindLiveObjects: 0.292500 ms CreateObjectMapping: 0.151400 ms MarkObjects: 3.185300 ms  DeleteObjects: 0.124800 ms)
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3763.
+Total: 4.011000 ms (FindLiveObjects: 0.557800 ms CreateObjectMapping: 0.270600 ms MarkObjects: 3.001800 ms  DeleteObjects: 0.178900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004107 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001BA92F6C030 doesn't match image D:\School\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BA94528050 doesn't match image D:\School\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.35 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.128 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3053 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 135.9 MB.
+System memory in use after: 136.0 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3767.
+Total: 2.885500 ms (FindLiveObjects: 0.361200 ms CreateObjectMapping: 0.187100 ms MarkObjects: 2.218900 ms  DeleteObjects: 0.117400 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 119.304041 seconds.
-  path: Assets/scripts/HealthBar/PlayerHealthBar.cs
-  artifactKey: Guid(2c50699fc9f340144a1d30474ba7850c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/scripts/HealthBar/PlayerHealthBar.cs using Guid(2c50699fc9f340144a1d30474ba7850c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3c26296686965af50a1fea08ccfe2bf') in 0.010202 seconds
-  Import took 0.014785 seconds .
+  Time since last request: 444.371387 seconds.
+  path: Assets/scripts/Target.cs
+  artifactKey: Guid(d06425dcf2c8ec74b8e30e891f669987) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/Target.cs using Guid(d06425dcf2c8ec74b8e30e891f669987) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83c83a5274fae745d65f3325515b4620') in 0.009751 seconds
+  Import took 0.015193 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.003928 seconds.
+Registered in 0.003566 seconds.
 Begin MonoManager ReloadAssembly
+Symbol file data-000001BA92F6C030 doesn't match image D:\School\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BA94528050 doesn't match image D:\School\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.55 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.47 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.109 seconds
+- Completed reload, in  1.047 seconds
 Platform modules already initialized, skipping
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.50 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.47 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3052 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 132.6 MB.
-System memory in use after: 132.7 MB.
+Unloading 3053 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 135.9 MB.
+System memory in use after: 136.0 MB.
 
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3658.
-Total: 3.116400 ms (FindLiveObjects: 0.302400 ms CreateObjectMapping: 0.125100 ms MarkObjects: 2.458400 ms  DeleteObjects: 0.229400 ms)
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3771.
+Total: 2.380000 ms (FindLiveObjects: 0.314400 ms CreateObjectMapping: 0.134900 ms MarkObjects: 1.816300 ms  DeleteObjects: 0.113200 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.004574 seconds.
+Registered in 0.005079 seconds.
 Begin MonoManager ReloadAssembly
+Symbol file data-000001BA92F6C030 doesn't match image D:\School\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BA94528050 doesn't match image D:\School\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.50 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.51 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.170 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3053 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 135.9 MB.
+System memory in use after: 136.0 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3775.
+Total: 3.084500 ms (FindLiveObjects: 0.387200 ms CreateObjectMapping: 0.177000 ms MarkObjects: 2.399700 ms  DeleteObjects: 0.119500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003626 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001BA92F6C030 doesn't match image D:\School\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BA94528050 doesn't match image D:\School\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
 - Completed reload, in  1.120 seconds
 Platform modules already initialized, skipping
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.66 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3053 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 135.9 MB.
+System memory in use after: 136.0 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3779.
+Total: 3.178700 ms (FindLiveObjects: 0.396800 ms CreateObjectMapping: 0.250600 ms MarkObjects: 2.391500 ms  DeleteObjects: 0.138600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003717 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001BA92F6C030 doesn't match image D:\School\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BA94528050 doesn't match image D:\School\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 20.16 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.137 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3053 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 135.9 MB.
+System memory in use after: 136.0 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3783.
+Total: 3.285700 ms (FindLiveObjects: 0.385500 ms CreateObjectMapping: 0.161500 ms MarkObjects: 2.614100 ms  DeleteObjects: 0.123500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003812 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001BA92F6C030 doesn't match image D:\School\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BA94528050 doesn't match image D:\School\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.120 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3053 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 136.0 MB.
+System memory in use after: 136.1 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3787.
+Total: 3.178000 ms (FindLiveObjects: 0.484100 ms CreateObjectMapping: 0.250900 ms MarkObjects: 2.295400 ms  DeleteObjects: 0.146300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003499 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001BA92F6C030 doesn't match image D:\School\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BA94528050 doesn't match image D:\School\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.97 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.075 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3053 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 136.0 MB.
+System memory in use after: 136.1 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3791.
+Total: 2.716300 ms (FindLiveObjects: 0.431400 ms CreateObjectMapping: 0.204400 ms MarkObjects: 1.963800 ms  DeleteObjects: 0.115300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003488 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001BA8DF4C020 doesn't match image D:\School\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BA94528050 doesn't match image D:\School\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.86 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.138 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.58 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3053 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 136.0 MB.
+System memory in use after: 136.1 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3795.
+Total: 3.841700 ms (FindLiveObjects: 0.566400 ms CreateObjectMapping: 0.319800 ms MarkObjects: 2.799500 ms  DeleteObjects: 0.154700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003591 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001BA8DF4C020 doesn't match image D:\School\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BA94528050 doesn't match image D:\School\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.152 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3053 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 136.0 MB.
+System memory in use after: 136.1 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3799.
+Total: 3.035800 ms (FindLiveObjects: 0.363600 ms CreateObjectMapping: 0.172300 ms MarkObjects: 2.348700 ms  DeleteObjects: 0.150200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003459 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001BA92F6C030 doesn't match image D:\School\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BA94528050 doesn't match image D:\School\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.125 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3053 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 136.0 MB.
+System memory in use after: 136.1 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3803.
+Total: 3.474600 ms (FindLiveObjects: 0.370500 ms CreateObjectMapping: 0.215400 ms MarkObjects: 2.654700 ms  DeleteObjects: 0.232400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003992 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001BA92F6C030 doesn't match image D:\School\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BA94528050 doesn't match image D:\School\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.143 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.58 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3053 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 136.0 MB.
+System memory in use after: 136.1 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3807.
+Total: 3.307100 ms (FindLiveObjects: 0.322300 ms CreateObjectMapping: 0.149500 ms MarkObjects: 2.698200 ms  DeleteObjects: 0.135900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003532 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001BA92F6C030 doesn't match image D:\School\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BA94528050 doesn't match image D:\School\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.109 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Refreshing native plugins compatible for Editor in 0.47 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3052 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 132.6 MB.
-System memory in use after: 132.7 MB.
+Unloading 3053 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 136.0 MB.
+System memory in use after: 136.1 MB.
 
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3662.
-Total: 2.370000 ms (FindLiveObjects: 0.272700 ms CreateObjectMapping: 0.141000 ms MarkObjects: 1.847700 ms  DeleteObjects: 0.107700 ms)
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3811.
+Total: 2.687600 ms (FindLiveObjects: 0.430500 ms CreateObjectMapping: 0.175200 ms MarkObjects: 1.961500 ms  DeleteObjects: 0.119300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004165 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001BA92F6C030 doesn't match image D:\School\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BA94528050 doesn't match image D:\School\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.137 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.83 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3053 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 136.0 MB.
+System memory in use after: 136.1 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3815.
+Total: 3.607500 ms (FindLiveObjects: 0.321500 ms CreateObjectMapping: 0.178000 ms MarkObjects: 2.991500 ms  DeleteObjects: 0.115500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003410 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001BA92F6C030 doesn't match image D:\School\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BA94528050 doesn't match image D:\School\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.90 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.116 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3053 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 136.0 MB.
+System memory in use after: 136.1 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3819.
+Total: 2.864300 ms (FindLiveObjects: 0.414000 ms CreateObjectMapping: 0.148900 ms MarkObjects: 2.186900 ms  DeleteObjects: 0.112900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003654 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001BA92F6C030 doesn't match image D:\School\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BA94528050 doesn't match image D:\School\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.138 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.82 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3053 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 136.0 MB.
+System memory in use after: 136.1 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3823.
+Total: 3.563300 ms (FindLiveObjects: 0.378000 ms CreateObjectMapping: 0.215800 ms MarkObjects: 2.767400 ms  DeleteObjects: 0.200800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003565 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001BA92F6C030 doesn't match image D:\School\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BA94528050 doesn't match image D:\School\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.108 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.62 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3053 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 136.1 MB.
+System memory in use after: 136.1 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3827.
+Total: 3.277100 ms (FindLiveObjects: 0.473700 ms CreateObjectMapping: 0.193600 ms MarkObjects: 2.494300 ms  DeleteObjects: 0.114600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004376 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001BA92F6C030 doesn't match image D:\School\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BA94528050 doesn't match image D:\School\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.90 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.145 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3053 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 136.1 MB.
+System memory in use after: 136.2 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3831.
+Total: 3.863400 ms (FindLiveObjects: 0.487400 ms CreateObjectMapping: 0.243100 ms MarkObjects: 2.934400 ms  DeleteObjects: 0.197100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004753 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001BA92F6C030 doesn't match image D:\School\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BA94528050 doesn't match image D:\School\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.111 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3053 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 136.1 MB.
+System memory in use after: 136.2 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3835.
+Total: 3.416300 ms (FindLiveObjects: 0.447000 ms CreateObjectMapping: 0.263800 ms MarkObjects: 2.589700 ms  DeleteObjects: 0.115000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003526 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001BA92F6C030 doesn't match image D:\School\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BA94528050 doesn't match image D:\School\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.139 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3053 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 136.1 MB.
+System memory in use after: 136.2 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3839.
+Total: 3.447300 ms (FindLiveObjects: 0.556600 ms CreateObjectMapping: 0.199400 ms MarkObjects: 2.547400 ms  DeleteObjects: 0.142400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003852 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001BA92F6C030 doesn't match image D:\School\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BA94528050 doesn't match image D:\School\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.933 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3053 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 136.1 MB.
+System memory in use after: 136.2 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3843.
+Total: 2.659400 ms (FindLiveObjects: 0.283100 ms CreateObjectMapping: 0.169000 ms MarkObjects: 2.092200 ms  DeleteObjects: 0.114100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003828 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001BA92F6C030 doesn't match image D:\School\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BA94528050 doesn't match image D:\School\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.129 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3053 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 136.1 MB.
+System memory in use after: 136.2 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3847.
+Total: 3.720000 ms (FindLiveObjects: 0.404500 ms CreateObjectMapping: 0.209900 ms MarkObjects: 2.972200 ms  DeleteObjects: 0.132300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004192 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001BA92F6C030 doesn't match image D:\School\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BA94528050 doesn't match image D:\School\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.943 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3053 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 136.1 MB.
+System memory in use after: 136.2 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3851.
+Total: 3.259900 ms (FindLiveObjects: 0.532300 ms CreateObjectMapping: 0.273300 ms MarkObjects: 2.276100 ms  DeleteObjects: 0.176600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003524 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001BA92F6C030 doesn't match image D:\School\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BA94528050 doesn't match image D:\School\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.904 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3053 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 136.1 MB.
+System memory in use after: 136.2 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3855.
+Total: 2.664500 ms (FindLiveObjects: 0.317400 ms CreateObjectMapping: 0.157000 ms MarkObjects: 2.074900 ms  DeleteObjects: 0.113900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004286 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001BA92F6C030 doesn't match image D:\School\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BA94528050 doesn't match image D:\School\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.984 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3053 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 136.1 MB.
+System memory in use after: 136.2 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3859.
+Total: 2.389300 ms (FindLiveObjects: 0.306300 ms CreateObjectMapping: 0.133100 ms MarkObjects: 1.826800 ms  DeleteObjects: 0.122000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1215.174256 seconds.
+  path: Assets/scripts/Linkedin-Celebrate-Icon-ClappingHands500.png
+  artifactKey: Guid(f55684e1756724b4694179fc62dda7a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/Linkedin-Celebrate-Icon-ClappingHands500.png using Guid(f55684e1756724b4694179fc62dda7a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bfa153b6ec86045f223225ce2f6e0e2') in 0.052464 seconds
+  Import took 0.058033 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003742 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001BA92F6C030 doesn't match image D:\School\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BA94528050 doesn't match image D:\School\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.099 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3053 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 136.1 MB.
+System memory in use after: 136.2 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3864.
+Total: 2.436500 ms (FindLiveObjects: 0.314200 ms CreateObjectMapping: 0.138800 ms MarkObjects: 1.872300 ms  DeleteObjects: 0.110300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003486 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001BA92F6C030 doesn't match image D:\School\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BA94528050 doesn't match image D:\School\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.74 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.150 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.61 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3053 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 136.1 MB.
+System memory in use after: 136.2 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3868.
+Total: 3.356900 ms (FindLiveObjects: 0.384300 ms CreateObjectMapping: 0.194900 ms MarkObjects: 2.640700 ms  DeleteObjects: 0.135900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004188 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001BA92F6C030 doesn't match image D:\School\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BA94528050 doesn't match image D:\School\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.72 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.100 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3053 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 136.1 MB.
+System memory in use after: 136.2 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3872.
+Total: 3.612300 ms (FindLiveObjects: 0.521100 ms CreateObjectMapping: 0.226000 ms MarkObjects: 2.712800 ms  DeleteObjects: 0.150600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004507 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001BABB3400B0 doesn't match image D:\School\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BA94528050 doesn't match image D:\School\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.81 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.125 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3053 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 136.2 MB.
+System memory in use after: 136.3 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3876.
+Total: 2.668600 ms (FindLiveObjects: 0.325900 ms CreateObjectMapping: 0.136600 ms MarkObjects: 2.094300 ms  DeleteObjects: 0.110900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003586 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001BA92F6C030 doesn't match image D:\School\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BA94528050 doesn't match image D:\School\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.73 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.115 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3053 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 136.2 MB.
+System memory in use after: 136.3 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3880.
+Total: 2.609100 ms (FindLiveObjects: 0.313600 ms CreateObjectMapping: 0.144200 ms MarkObjects: 2.036100 ms  DeleteObjects: 0.114300 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

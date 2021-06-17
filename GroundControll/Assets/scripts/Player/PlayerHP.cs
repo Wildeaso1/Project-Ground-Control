@@ -13,6 +13,7 @@ public class PlayerHP : MonoBehaviour
     public GameObject LightUpUi;
     public static bool Started = false;
 
+
     private void Start()
     {
         PlayerHealth = MaxHealth;

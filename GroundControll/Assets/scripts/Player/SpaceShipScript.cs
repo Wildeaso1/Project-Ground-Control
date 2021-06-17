@@ -13,6 +13,10 @@ public class SpaceShipScript : MonoBehaviour
     private bool _thrustingBack;
     private float _turnDirection;
     public AudioSource Shooting;
+    public GameObject Map;
+    public GameObject TargetIndicators;
+    private bool Pause = false;
+    public GameObject Waypoints;
 
     // Shooting sound effect
     public void ShootingEffect()
@@ -45,6 +49,38 @@ public class SpaceShipScript : MonoBehaviour
         {
             _turnDirection = 0.0f;
         }
+
+        if (Input.GetKeyDown(KeyCode.M))
+        {
+            if (Pause)
+            {
+                MapResume();
+            }
+
+            else
+            {
+                MapPause();
+            }
+        }
+    }
+
+
+    public void MapResume()
+    {
+        Map.SetActive(false);
+        Time.timeScale = 1f;
+        Pause = false;
+        TargetIndicators.SetActive(false);
+        Waypoints.SetActive(false);
+    }
+
+    public void MapPause()
+    {
+        Map.SetActive(true);
+        Time.timeScale = 0f;
+        Pause = true;
+        TargetIndicators.SetActive(true);
+        Waypoints.SetActive(true);
     }
 
     private void FixedUpdate()

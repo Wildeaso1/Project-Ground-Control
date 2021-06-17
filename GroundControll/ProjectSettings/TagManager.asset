@@ -13,6 +13,7 @@ TagManager:
   - Bullet
   - Spaceship
   - ShowHealth
+  - Camera
   layers:
   - Default
   - TransparentFX
@@ -24,8 +25,8 @@ TagManager:
   - 
   - Background
   - Ship
-  - 
-  - 
+  - Spawn
+  - Waypoints
   - 
   - 
   - 
