@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 1683122980061174458}
   - component: {fileID: 7475921426129253858}
   - component: {fileID: 7356681805472160828}
-  m_Layer: 5
+  m_Layer: 12
   m_Name: HealthBar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -113,7 +113,7 @@ GameObject:
   - component: {fileID: 308283350667569182}
   - component: {fileID: 2768234981573866224}
   - component: {fileID: 3931425030854218027}
-  m_Layer: 5
+  m_Layer: 12
   m_Name: Image
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -186,7 +186,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5444204405001323725}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Debris_Spawn
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -222,7 +222,7 @@ GameObject:
   - component: {fileID: 5444204405517039184}
   - component: {fileID: 9020111100939919170}
   - component: {fileID: 5278706261036620183}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Asteroid
   m_TagString: Asteroid
   m_Icon: {fileID: 0}
@@ -401,7 +401,7 @@ GameObject:
   - component: {fileID: 767468747571875971}
   - component: {fileID: 4544681414371127102}
   - component: {fileID: 6248703153841516660}
-  m_Layer: 5
+  m_Layer: 12
   m_Name: Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}

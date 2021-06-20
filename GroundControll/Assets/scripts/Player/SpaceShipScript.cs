@@ -102,6 +102,7 @@ public class SpaceShipScript : MonoBehaviour
         }
     }
 
+
     // Score updaten met de juiste ores die je oppakt
     private void OnCollisionEnter2D(Collision2D collision)
     {

@@ -44,7 +44,14 @@ public class PlayerHP : MonoBehaviour
             HealthBar.SetHealth(PlayerHealth);
         }
     }
-
+    private void OnTriggerStay2D(Collider2D collision)
+    {
+        if (collision.gameObject.tag == "Blackhole")
+        {
+            PlayerHealth -= 1;
+            HealthBar.SetHealth(PlayerHealth);
+        }
+    }
 
     IEnumerator LightUp()
     {
