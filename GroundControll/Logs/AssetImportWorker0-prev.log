@@ -15,11 +15,11 @@ D:/School/BO/Project-Ground-Control/GroundControll
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-61107
+56243
 Successfully changed project path to: D:/School/BO/Project-Ground-Control/GroundControll
 D:/School/BO/Project-Ground-Control/GroundControll
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 58.77 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 60.52 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.7f1 (dd97f2c94397)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/Resources/UnitySubsystems
@@ -36,770 +36,1146 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56604
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56584
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001850 seconds.
+Registered in 0.001876 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 57.14 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 59.12 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.111 seconds
+- Completed reload, in  1.073 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003815 seconds.
+Registered in 0.003906 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-00000260C3363020 doesn't match image D:\School\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file data-0000025EA5951650 doesn't match image D:\School\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Cinemachine.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002627E35E530 doesn't match image D:\School\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file data-0000025EAA20A020 doesn't match image D:\School\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 60.16 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 59.06 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.097 seconds
+- Completed reload, in  1.202 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 0.50 ms, found 1 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.83 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3177 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 140.9 MB.
-System memory in use after: 141.0 MB.
+Unloading 3178 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 141.5 MB.
+System memory in use after: 141.6 MB.
 
-Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 3632.
-Total: 2.377400 ms (FindLiveObjects: 0.267100 ms CreateObjectMapping: 0.136700 ms MarkObjects: 1.863000 ms  DeleteObjects: 0.109700 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/Materials/Textures/black_hole.png
-  artifactKey: Guid(af042b878b29ed24884a071ed8746b70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Textures/black_hole.png using Guid(af042b878b29ed24884a071ed8746b70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b9d1cdcedbb9bb317c5d0763d26aa96') in 0.114338 seconds
-  Import took 0.120617 seconds .
+Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 3635.
+Total: 3.655100 ms (FindLiveObjects: 0.374900 ms CreateObjectMapping: 0.246800 ms MarkObjects: 2.885700 ms  DeleteObjects: 0.146200 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 43.176969 seconds.
-  path: Assets/Materials/Assets/Ships
-  artifactKey: Guid(6460d422d571c0547a2b8ff42f2b87c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Assets/Ships using Guid(6460d422d571c0547a2b8ff42f2b87c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c93cd4b89292a0444900f00390061e10') in 0.010781 seconds
-  Import took 0.015508 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.592108 seconds.
   path: Assets/Materials/Textures/Blackhole material.mat
   artifactKey: Guid(9034e6f3af2d8e841a590f8ca8f97179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Textures/Blackhole material.mat using Guid(9034e6f3af2d8e841a590f8ca8f97179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43d6b66213a02ed914e7f0c8863e203a') in 0.152876 seconds
-  Import took 0.158014 seconds .
+Start importing Assets/Materials/Textures/Blackhole material.mat using Guid(9034e6f3af2d8e841a590f8ca8f97179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b96a8c658192e217c596c79030346d4') in 0.225939 seconds
+  Import took 0.231231 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 48.647242 seconds.
-  path: Packages/com.unity.render-pipelines.universal/Editor/2D/Resources/SceneViewIcons/SpriteLight.png
-  artifactKey: Guid(70d16a5f04690d74ab9b1ddcbefd47bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.universal/Editor/2D/Resources/SceneViewIcons/SpriteLight.png using Guid(70d16a5f04690d74ab9b1ddcbefd47bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3108017386b7b7a98b1e8518477f3dcb') in 0.040391 seconds
-  Import took 0.046764 seconds .
+  Time since last request: 218.313839 seconds.
+  path: Assets/Materials/Textures/New Shader Graph.shadergraph
+  artifactKey: Guid(0c74e1ac30efba44db86ca06842fa669) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Textures/New Shader Graph.shadergraph using Guid(0c74e1ac30efba44db86ca06842fa669) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfb59fc2e11827528fa348e89bc3f8d1') in 0.012612 seconds
+  Import took 0.018312 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000209 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/Assets/Icons/status-error-light@2x.png
-  artifactKey: Guid(b99e43bf99b3c954f91bde2ad0c1eac2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/Assets/Icons/status-error-light@2x.png using Guid(b99e43bf99b3c954f91bde2ad0c1eac2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35e576af3a81138f55f85dced2663d7d') in 0.030966 seconds
-  Import took 0.035935 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000229 seconds.
-  path: Packages/com.unity.render-pipelines.universal/Editor/2D/ShapeEditor/Resources/Path/tangentNormal.png
-  artifactKey: Guid(02831714bf266174cbf2a363196c49dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.universal/Editor/2D/ShapeEditor/Resources/Path/tangentNormal.png using Guid(02831714bf266174cbf2a363196c49dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e8346662655a38f83340f3a9bcc07ec') in 0.106485 seconds
-  Import took 0.112010 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000174 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/Assets/Icons/status-error-dark@2x.png
-  artifactKey: Guid(a0fdac62174ca014b94a537688fc684d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/Assets/Icons/status-error-dark@2x.png using Guid(a0fdac62174ca014b94a537688fc684d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '061e4a1e7a96b01f641506144af5868a') in 0.032591 seconds
-  Import took 0.038398 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000181 seconds.
-  path: Packages/com.unity.render-pipelines.universal/Editor/2D/ShapeEditor/Resources/TangentBrokenPro.png
-  artifactKey: Guid(bf2498e489f73d547aafc73fd66a36cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.universal/Editor/2D/ShapeEditor/Resources/TangentBrokenPro.png using Guid(bf2498e489f73d547aafc73fd66a36cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b6f9574bfd4721d81bc1475ab1da0b1') in 0.062155 seconds
-  Import took 0.067501 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000190 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/Assets/Icons/status-warning-light.png
-  artifactKey: Guid(7f5bfdeb677f0f9439f594f1cf98266a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/Assets/Icons/status-warning-light.png using Guid(7f5bfdeb677f0f9439f594f1cf98266a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f3c77f18fa74425315556afb952bdb7') in 0.025337 seconds
-  Import took 0.031964 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000266 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/Assets/Icons/status-warning-dark.png
-  artifactKey: Guid(c2d8bb87691276f4d93f1b74330d1d90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/Assets/Icons/status-warning-dark.png using Guid(c2d8bb87691276f4d93f1b74330d1d90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b0f193274d67e8d4386bb3b5b7e658b') in 0.060178 seconds
-  Import took 0.065491 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000187 seconds.
-  path: Packages/com.unity.2d.spriteshape/Editor/Icons/SpriteShapeController@64.png
-  artifactKey: Guid(d1508e1dc42abb745b24c8891a614d2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.spriteshape/Editor/Icons/SpriteShapeController@64.png using Guid(d1508e1dc42abb745b24c8891a614d2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4eba8a3a8ef9cfee9f1c03aba3aeb063') in 0.041202 seconds
-  Import took 0.047545 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000201 seconds.
-  path: Packages/com.unity.render-pipelines.universal/Textures/FilmGrain/Thin01.png
-  artifactKey: Guid(654c582f7f8a5a14dbd7d119cbde215d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.universal/Textures/FilmGrain/Thin01.png using Guid(654c582f7f8a5a14dbd7d119cbde215d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a68aac80ad0bdef3e1d998584a966eb0') in 0.038928 seconds
-  Import took 0.045484 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000187 seconds.
-  path: Packages/com.unity.render-pipelines.universal/Editor/2D/ShapeEditor/Resources/TangentLinear.png
-  artifactKey: Guid(4867cb38cc0872c45b205c593c4ce5c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.universal/Editor/2D/ShapeEditor/Resources/TangentLinear.png using Guid(4867cb38cc0872c45b205c593c4ce5c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '310c25d085409fff0b36a0e205d95e73') in 0.076625 seconds
-  Import took 0.082624 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000200 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/Assets/Icons/status-error-light.png
-  artifactKey: Guid(8d3ab9b7cb3a1794a891374315d8305a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/Assets/Icons/status-error-light.png using Guid(8d3ab9b7cb3a1794a891374315d8305a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4cb609ee09502d4933d69a729bd830b') in 0.038510 seconds
-  Import took 0.043607 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000222 seconds.
-  path: Packages/com.unity.render-pipelines.universal/Textures/FilmGrain/Thin02.png
-  artifactKey: Guid(dd77ffd079630404e879388999033049) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.universal/Textures/FilmGrain/Thin02.png using Guid(dd77ffd079630404e879388999033049) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc16feff6a85dd4f6b2a865695c98a9d') in 0.013789 seconds
-  Import took 0.018917 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000210 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/Assets/Icons/status-info-dark@2x.png
-  artifactKey: Guid(eba49403f5934c74b8114ead5f397592) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/Assets/Icons/status-info-dark@2x.png using Guid(eba49403f5934c74b8114ead5f397592) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed1c05bedeb0fc8ea04b924605fc7909') in 0.036727 seconds
-  Import took 0.042397 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000209 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/Assets/Icons/status-error-dark.png
-  artifactKey: Guid(8f169193df3d51042a705fa81fc46e72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/Assets/Icons/status-error-dark.png using Guid(8f169193df3d51042a705fa81fc46e72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ece089c8e23537986775d100597686c1') in 0.048826 seconds
-  Import took 0.055731 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000177 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/Assets/Icons/status-info-dark.png
-  artifactKey: Guid(fa1ff86f20525894b9bd92f1b1909ccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/Assets/Icons/status-info-dark.png using Guid(fa1ff86f20525894b9bd92f1b1909ccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '419c3ebf509b3a9a64af9318b495fba6') in 0.032883 seconds
-  Import took 0.037672 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000189 seconds.
-  path: Packages/com.unity.2d.path/Editor/Handles/Path/tangentNormal.png
-  artifactKey: Guid(0ece669b27aea44439cadb539418c627) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.path/Editor/Handles/Path/tangentNormal.png using Guid(0ece669b27aea44439cadb539418c627) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f567bc9c2cc501aa2591cd535e9609d') in 0.036107 seconds
-  Import took 0.041815 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000212 seconds.
-  path: Packages/com.unity.render-pipelines.universal/Editor/2D/ShapeEditor/Resources/TangentLinearPro.png
-  artifactKey: Guid(2ce62e9a7e0a56844bf0b342840bbdf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.universal/Editor/2D/ShapeEditor/Resources/TangentLinearPro.png using Guid(2ce62e9a7e0a56844bf0b342840bbdf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1435377d560f1cab2b9e4c7af37f921e') in 0.034529 seconds
-  Import took 0.039514 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000182 seconds.
-  path: Packages/com.unity.2d.spriteshape/Editor/Icons/SpriteShape@64.png
-  artifactKey: Guid(0a9a0f36a52ce7f4d813fbf5d8f76a1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.spriteshape/Editor/Icons/SpriteShape@64.png using Guid(0a9a0f36a52ce7f4d813fbf5d8f76a1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b976d1905eb8362077b62276fdcebd7') in 0.029782 seconds
-  Import took 0.035359 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000204 seconds.
-  path: Packages/com.unity.render-pipelines.universal/Editor/2D/ShapeEditor/Resources/TangentBroken.png
-  artifactKey: Guid(cdf84f3eb174395469aa10a6cf7b04a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.universal/Editor/2D/ShapeEditor/Resources/TangentBroken.png using Guid(cdf84f3eb174395469aa10a6cf7b04a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fdac6678c875bdb1da9653c36c627a9') in 0.032280 seconds
-  Import took 0.039385 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000199 seconds.
-  path: Packages/com.unity.render-pipelines.universal/Editor/2D/Resources/SceneViewIcons/SpriteLight.png
-  artifactKey: Guid(70d16a5f04690d74ab9b1ddcbefd47bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.universal/Editor/2D/Resources/SceneViewIcons/SpriteLight.png using Guid(70d16a5f04690d74ab9b1ddcbefd47bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3108017386b7b7a98b1e8518477f3dcb') in 0.007318 seconds
-  Import took 0.013750 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000196 seconds.
-  path: Packages/com.unity.render-pipelines.universal/Editor/2D/Resources/InspectorIcons/SpriteLight.png
-  artifactKey: Guid(8839c54710da3374f994e12f39b6d65f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.universal/Editor/2D/Resources/InspectorIcons/SpriteLight.png using Guid(8839c54710da3374f994e12f39b6d65f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '581e54c5066c05cddb24ad021d818872') in 0.049303 seconds
-  Import took 0.054833 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000850 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/Assets/Icons/status-warning-dark@2x.png
-  artifactKey: Guid(98d032c68be4a784ab77b461c5341fc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/Assets/Icons/status-warning-dark@2x.png using Guid(98d032c68be4a784ab77b461c5341fc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8195c4e1042f2f4d3f4216c160539e10') in 0.029316 seconds
-  Import took 0.034885 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000231 seconds.
-  path: Packages/com.unity.render-pipelines.universal/Editor/2D/ShapeEditor/Resources/TangentContinuous.png
-  artifactKey: Guid(f3d009ca5277c90499f90541e08d8021) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.universal/Editor/2D/ShapeEditor/Resources/TangentContinuous.png using Guid(f3d009ca5277c90499f90541e08d8021) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36b013ce6bea3b5b0d09469e4c73eda8') in 0.033906 seconds
-  Import took 0.039206 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000159 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/Assets/Icons/status-info-light@2x.png
-  artifactKey: Guid(e7a0d3e65a5b4ab4db5ba97e4fc06f99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/Assets/Icons/status-info-light@2x.png using Guid(e7a0d3e65a5b4ab4db5ba97e4fc06f99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd440db78c6b49706f9c5431b4d488879') in 0.024859 seconds
-  Import took 0.029649 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000185 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/Assets/Icons/status-info-light.png
-  artifactKey: Guid(34b3e61f975861a4cba8efcb5f6f05ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/Assets/Icons/status-info-light.png using Guid(34b3e61f975861a4cba8efcb5f6f05ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4dc3a52390bae29bc0c4af7137d9008') in 0.031619 seconds
-  Import took 0.036736 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000166 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/Assets/Icons/status-warning-light@2x.png
-  artifactKey: Guid(274868c191eceec47af7c288217e75cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/Assets/Icons/status-warning-light@2x.png using Guid(274868c191eceec47af7c288217e75cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4671058cd2593e5b3eb4435cf6bcbf48') in 0.020524 seconds
-  Import took 0.026032 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000181 seconds.
-  path: Packages/com.unity.render-pipelines.universal/Editor/2D/ShapeEditor/Resources/TangentContinuousPro.png
-  artifactKey: Guid(071cd56d8f85dc247838300862f43e2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.universal/Editor/2D/ShapeEditor/Resources/TangentContinuousPro.png using Guid(071cd56d8f85dc247838300862f43e2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f272cb2fedd4c96371d1c38ad04dac3') in 0.026407 seconds
-  Import took 0.032390 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000208 seconds.
-  path: Packages/com.unity.timeline/Editor/StyleSheets/Images/Shared/Timeline-Marker-Multi-Overlay.png
-  artifactKey: Guid(75f26f1c549568c4e9950a368bd08cb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/Shared/Timeline-Marker-Multi-Overlay.png using Guid(75f26f1c549568c4e9950a368bd08cb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eabde722992eccf183ca2ba4276503dd') in 0.051550 seconds
-  Import took 0.056410 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.314237 seconds.
-  path: Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/TrackLockButtonEnabled.png
-  artifactKey: Guid(cf575301f1e76c4478de0e77db15eba0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/TrackLockButtonEnabled.png using Guid(cf575301f1e76c4478de0e77db15eba0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6973ccd3b7261d5c63b7603a6150228b') in 0.076138 seconds
-  Import took 0.081117 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000177 seconds.
-  path: Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/TrackMarkerButtonEnabled@2x.png
-  artifactKey: Guid(c35a22ede3f5feb488bf69587ddc36ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/TrackMarkerButtonEnabled@2x.png using Guid(c35a22ede3f5feb488bf69587ddc36ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3671fd8120d9ab0699b04922dafb2b3') in 0.061871 seconds
-  Import took 0.067270 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000187 seconds.
-  path: Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/TrackMarkerButtonDisabled.png
-  artifactKey: Guid(33a52b41b4de5874ca7da1da32067e39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/TrackMarkerButtonDisabled.png using Guid(33a52b41b4de5874ca7da1da32067e39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92c4edfc6935ce4d09ebe1db61a0adc7') in 0.062405 seconds
-  Import took 0.067257 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000152 seconds.
-  path: Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/TrackMuteButtonDisabled.png
-  artifactKey: Guid(5216b1b48296ef345ad2d2ec43105bf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/TrackMuteButtonDisabled.png using Guid(5216b1b48296ef345ad2d2ec43105bf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70b9cc9ef11bfcb64e1422f5e7f2d360') in 0.028443 seconds
-  Import took 0.034105 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000217 seconds.
-  path: Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/TrackRecordButtonDisabled.png
-  artifactKey: Guid(495998c718a094540bbe57ae5ab07647) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/TrackRecordButtonDisabled.png using Guid(495998c718a094540bbe57ae5ab07647) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45f80e7d000b9344425f5b1f124e2876') in 0.020643 seconds
-  Import took 0.025882 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000212 seconds.
-  path: Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/TrackMarkerButtonDisabled@2x.png
-  artifactKey: Guid(193dae938a3136440b693b45a2494737) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/TrackMarkerButtonDisabled@2x.png using Guid(193dae938a3136440b693b45a2494737) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c0f352df3a8cf46c018aaac083eba0a') in 0.029107 seconds
-  Import took 0.035822 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000996 seconds.
-  path: Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/TrackLockButtonEnabled@2x.png
-  artifactKey: Guid(b8c531b4e51e4994a81837c4e9b0d649) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/TrackLockButtonEnabled@2x.png using Guid(b8c531b4e51e4994a81837c4e9b0d649) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da6b9db934388b71b182a45af23d3d37') in 0.060093 seconds
-  Import took 0.066247 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000157 seconds.
-  path: Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/TrackMuteButtonDisabled@2x.png
-  artifactKey: Guid(db31466324572e740a431e4e0e03a016) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/TrackMuteButtonDisabled@2x.png using Guid(db31466324572e740a431e4e0e03a016) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2093b9d2dd2ffc9869ae7acc0d2577b') in 0.031735 seconds
-  Import took 0.037278 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000235 seconds.
-  path: Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/TrackRecordButtonEnabled@2x.png
-  artifactKey: Guid(8fdae4ac756ed6047b01021ff0cc3ebb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/TrackRecordButtonEnabled@2x.png using Guid(8fdae4ac756ed6047b01021ff0cc3ebb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26696444b6f8a6a0c14155f15270c144') in 0.050264 seconds
-  Import took 0.055227 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000182 seconds.
-  path: Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/TrackMarkerButtonEnabled.png
-  artifactKey: Guid(d1eccbb425fdacc4ba53ce4223f4ea30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/TrackMarkerButtonEnabled.png using Guid(d1eccbb425fdacc4ba53ce4223f4ea30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bdd34edc1684ed3be6d711a98eb77d1') in 0.039068 seconds
-  Import took 0.044621 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000203 seconds.
-  path: Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/TrackLockButtonEnabled.png
-  artifactKey: Guid(cf575301f1e76c4478de0e77db15eba0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/TrackLockButtonEnabled.png using Guid(cf575301f1e76c4478de0e77db15eba0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6973ccd3b7261d5c63b7603a6150228b') in 0.005540 seconds
-  Import took 0.010510 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000206 seconds.
-  path: Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/TrackRecordButtonDisabled@2x.png
-  artifactKey: Guid(6091f9516d23100479c03bca26138bc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/TrackRecordButtonDisabled@2x.png using Guid(6091f9516d23100479c03bca26138bc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da6efffc9e513f05096b3f05a762912a') in 0.027368 seconds
-  Import took 0.032680 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000193 seconds.
-  path: Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/TrackMuteButtonEnabled.png
-  artifactKey: Guid(81e8b4a4bcbf7a14898e2658fd827642) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/TrackMuteButtonEnabled.png using Guid(81e8b4a4bcbf7a14898e2658fd827642) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a6c6b5170232859157434d031a4ee23') in 0.044448 seconds
-  Import took 0.050524 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000218 seconds.
-  path: Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/TrackMuteButtonEnabled@2x.png
-  artifactKey: Guid(512aaee9b220348408a2e518f98d6e14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/TrackMuteButtonEnabled@2x.png using Guid(512aaee9b220348408a2e518f98d6e14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a740649a8711c8864ebfb2744f245630') in 0.031019 seconds
-  Import took 0.036285 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000172 seconds.
-  path: Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/TrackRecordButtonEnabled.png
-  artifactKey: Guid(c6a0c6226c05f954fa6cd03aebb4d255) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/TrackRecordButtonEnabled.png using Guid(c6a0c6226c05f954fa6cd03aebb4d255) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc35f6de40c84147e3c869566cc7bf53') in 0.030910 seconds
-  Import took 0.035406 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 68.609720 seconds.
+  Time since last request: 68.766846 seconds.
   path: Assets/Materials/Textures/Blackhole material.mat
   artifactKey: Guid(9034e6f3af2d8e841a590f8ca8f97179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Textures/Blackhole material.mat using Guid(9034e6f3af2d8e841a590f8ca8f97179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aeac1e47ed54f2e921f0d5cf799288fd') in 0.015799 seconds
-  Import took 0.023010 seconds .
+Start importing Assets/Materials/Textures/Blackhole material.mat using Guid(9034e6f3af2d8e841a590f8ca8f97179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd18fda6be33e6d449a25d04719a821b') in 0.016304 seconds
+  Import took 0.021917 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 545.719988 seconds.
+  Time since last request: 3.372076 seconds.
   path: Assets/Materials/Textures/New Shader Graph.shadergraph
-  artifactKey: Guid(569f3c268c782164caf422c7a1c615a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Textures/New Shader Graph.shadergraph using Guid(569f3c268c782164caf422c7a1c615a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10e9e938f63b23e0d914f39a3ef79431') in 0.012782 seconds
-  Import took 0.019206 seconds .
+  artifactKey: Guid(0c74e1ac30efba44db86ca06842fa669) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Textures/New Shader Graph.shadergraph using Guid(0c74e1ac30efba44db86ca06842fa669) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e4c1d21ea334b2b8e9b7a1f9d210ed5') in 0.004663 seconds
+  Import took 0.009481 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.126833 seconds.
+  Time since last request: 75.339259 seconds.
   path: Assets/Materials/Textures/New Shader Graph.shadergraph
-  artifactKey: Guid(569f3c268c782164caf422c7a1c615a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Textures/New Shader Graph.shadergraph using Guid(569f3c268c782164caf422c7a1c615a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10e9e938f63b23e0d914f39a3ef79431') in 0.004068 seconds
-  Import took 0.012458 seconds .
+  artifactKey: Guid(0c74e1ac30efba44db86ca06842fa669) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Textures/New Shader Graph.shadergraph using Guid(0c74e1ac30efba44db86ca06842fa669) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94dd76f45999d0b4a1ff75b6e3b4cf36') in 0.005057 seconds
+  Import took 0.010896 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 361.955964 seconds.
-  path: Assets/Materials/Textures/HDR Color.cs
-  artifactKey: Guid(e489573276042c04a86f00ac9ab2e03c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Textures/HDR Color.cs using Guid(e489573276042c04a86f00ac9ab2e03c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb250820fb128354b90b8dd42e3b8bec') in 0.017179 seconds
-  Import took 0.026201 seconds .
+  Time since last request: 22.209086 seconds.
+  path: Assets/Materials/fonts/Crumbled-Pixels SDF.asset
+  artifactKey: Guid(ffc75ced641ed7949872c54db944a156) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/fonts/Crumbled-Pixels SDF.asset using Guid(ffc75ced641ed7949872c54db944a156) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b93043b7379dd69bc408a76d681d68dd') in 0.066291 seconds
+  Import took 0.074035 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1429.727376 seconds.
+  path: Assets/Materials/Textures/New Shader Graph.shadergraph
+  artifactKey: Guid(0c74e1ac30efba44db86ca06842fa669) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Textures/New Shader Graph.shadergraph using Guid(0c74e1ac30efba44db86ca06842fa669) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42079dc39813701d3f80d219f2dd897a') in 0.005999 seconds
+  Import took 0.012329 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002981 seconds.
+  path: Assets/Materials/Textures/New Shader Graph.shadergraph
+  artifactKey: Guid(0c74e1ac30efba44db86ca06842fa669) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Textures/New Shader Graph.shadergraph using Guid(0c74e1ac30efba44db86ca06842fa669) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42079dc39813701d3f80d219f2dd897a') in 0.004576 seconds
+  Import took 0.010189 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.250591 seconds.
+  path: Assets/Materials/Textures/New Shader Graph.shadergraph
+  artifactKey: Guid(0c74e1ac30efba44db86ca06842fa669) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Textures/New Shader Graph.shadergraph using Guid(0c74e1ac30efba44db86ca06842fa669) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae4cebcfd6a245ba8f972c63d1f9b9ec') in 0.004498 seconds
+  Import took 0.010005 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 47.056768 seconds.
+  path: Assets/Materials/Textures/New Shader Graph.shadergraph
+  artifactKey: Guid(0c74e1ac30efba44db86ca06842fa669) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Textures/New Shader Graph.shadergraph using Guid(0c74e1ac30efba44db86ca06842fa669) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fda1cdfdae0d3e5de59e0f3ae633da35') in 0.005871 seconds
+  Import took 0.011528 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 96.775649 seconds.
+  path: Assets/Materials/Textures/New Shader Graph.shadergraph
+  artifactKey: Guid(0c74e1ac30efba44db86ca06842fa669) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Textures/New Shader Graph.shadergraph using Guid(0c74e1ac30efba44db86ca06842fa669) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82a9001564dd812b4bffafb2ab55a69a') in 0.004324 seconds
+  Import took 0.009845 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 30.836161 seconds.
+  path: Assets/Materials/Textures/New Shader Graph.shadergraph
+  artifactKey: Guid(0c74e1ac30efba44db86ca06842fa669) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Textures/New Shader Graph.shadergraph using Guid(0c74e1ac30efba44db86ca06842fa669) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56528925e3a8945f8be70f5206c6e2f1') in 0.004581 seconds
+  Import took 0.009824 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.310899 seconds.
+  path: Assets/Materials/Textures/New Shader Graph.shadergraph
+  artifactKey: Guid(0c74e1ac30efba44db86ca06842fa669) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Textures/New Shader Graph.shadergraph using Guid(0c74e1ac30efba44db86ca06842fa669) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '393bc1150126818c541b12bf7c9cf5b0') in 0.005042 seconds
+  Import took 0.010104 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.129153 seconds.
+  path: Assets/Materials/Textures/New Shader Graph.shadergraph
+  artifactKey: Guid(0c74e1ac30efba44db86ca06842fa669) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Textures/New Shader Graph.shadergraph using Guid(0c74e1ac30efba44db86ca06842fa669) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac43350246d66cfbb6d813ffcdb0520c') in 0.004562 seconds
+  Import took 0.009655 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010471 seconds.
+  path: Assets/Materials/Textures/New Shader Graph.shadergraph
+  artifactKey: Guid(0c74e1ac30efba44db86ca06842fa669) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Textures/New Shader Graph.shadergraph using Guid(0c74e1ac30efba44db86ca06842fa669) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac43350246d66cfbb6d813ffcdb0520c') in 0.005173 seconds
+  Import took 0.010573 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 148.798318 seconds.
+  path: Assets/Materials/Textures/Blackhole material.mat
+  artifactKey: Guid(9034e6f3af2d8e841a590f8ca8f97179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Textures/Blackhole material.mat using Guid(9034e6f3af2d8e841a590f8ca8f97179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '420d5022a9b1636a07122bcbda19214d') in 0.023777 seconds
+  Import took 0.030617 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.005581 seconds.
+Registered in 0.004768 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-00000260C33B7030 doesn't match image D:\School\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file data-0000025EA586AA20 doesn't match image D:\School\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Cinemachine.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000260C33B7030 doesn't match image D:\School\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file data-0000025EA9D75020 doesn't match image D:\School\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.64 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.020 seconds
+- Completed reload, in  1.048 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3053 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 138.8 MB.
+System memory in use after: 138.9 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3719.
+Total: 3.780100 ms (FindLiveObjects: 0.532900 ms CreateObjectMapping: 0.242100 ms MarkObjects: 2.834900 ms  DeleteObjects: 0.168400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 63.008602 seconds.
+  path: Assets/Materials/Textures/New Shader Graph.shadergraph
+  artifactKey: Guid(0c74e1ac30efba44db86ca06842fa669) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Textures/New Shader Graph.shadergraph using Guid(0c74e1ac30efba44db86ca06842fa669) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e4eff7acc849fdf5363f0c9fb5b7be3') in 0.015752 seconds
+  Import took 0.021636 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003599 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000025EAD990E90 doesn't match image D:\School\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025EB0D5F370 doesn't match image D:\School\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.62 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.011 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3052 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 138.8 MB.
+System memory in use after: 138.9 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3723.
+Total: 3.072200 ms (FindLiveObjects: 0.400000 ms CreateObjectMapping: 0.206100 ms MarkObjects: 2.358500 ms  DeleteObjects: 0.106400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.508434 seconds.
+  path: Assets/Materials/Materials/PlaceHolder.mat
+  artifactKey: Guid(4a0a18481545a4a45b005fda0da1d505) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/PlaceHolder.mat using Guid(4a0a18481545a4a45b005fda0da1d505) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f32b4d0cd427726a7c2d70f64f1651f') in 0.167813 seconds
+  Import took 0.174097 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.438487 seconds.
+  path: Assets/Materials/Materials/Blackhole
+  artifactKey: Guid(2e6e400946a073941ae1ef7a92226192) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/Blackhole using Guid(2e6e400946a073941ae1ef7a92226192) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebe70566dcfceb058558c08600890b8f') in 0.008521 seconds
+  Import took 0.014629 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003537 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000025EA56E3330 doesn't match image D:\School\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025EAB5E1010 doesn't match image D:\School\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.017 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3052 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 138.9 MB.
+System memory in use after: 139.0 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3763.
+Total: 2.545200 ms (FindLiveObjects: 0.302400 ms CreateObjectMapping: 0.137600 ms MarkObjects: 1.994600 ms  DeleteObjects: 0.109200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 204.745381 seconds.
+  path: Assets/scripts/Blackhole
+  artifactKey: Guid(4c00398f98b87c144a10c437db37b969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/Blackhole using Guid(4c00398f98b87c144a10c437db37b969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '600576229f7bdad7a80c3a4242dd7fd0') in 0.006413 seconds
+  Import took 0.011506 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.614432 seconds.
+  path: Assets/scripts/Blackhole/BlackHole.cs
+  artifactKey: Guid(eb2a9336588b8764b94eb64c4e9fddc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/Blackhole/BlackHole.cs using Guid(eb2a9336588b8764b94eb64c4e9fddc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b70250c9fa5ed94a620e5705a85c983') in 0.020641 seconds
+  Import took 0.027894 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002280 seconds.
+  path: Assets/scripts/Blackhole/BlackHole.cs
+  artifactKey: Guid(eb2a9336588b8764b94eb64c4e9fddc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/Blackhole/BlackHole.cs using Guid(eb2a9336588b8764b94eb64c4e9fddc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b70250c9fa5ed94a620e5705a85c983') in 0.003978 seconds
+  Import took 0.009753 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003886 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000025EB172F030 doesn't match image D:\School\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025EB0874020 doesn't match image D:\School\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.62 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.079 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3053 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 138.9 MB.
+System memory in use after: 139.1 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3768.
+Total: 3.647500 ms (FindLiveObjects: 0.568200 ms CreateObjectMapping: 0.272600 ms MarkObjects: 2.691300 ms  DeleteObjects: 0.113700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 179.464188 seconds.
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '918451e15146bc7f11a1423cb28fa4fd') in 0.022572 seconds
+  Import took 0.030871 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004840 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000025EAD9D6C90 doesn't match image D:\School\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025EAA7A9040 doesn't match image D:\School\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.84 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.439 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.97 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3053 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 139.0 MB.
+System memory in use after: 139.1 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3772.
+Total: 2.951800 ms (FindLiveObjects: 0.341300 ms CreateObjectMapping: 0.179200 ms MarkObjects: 2.315500 ms  DeleteObjects: 0.114800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004368 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000025EB6BFA010 doesn't match image D:\School\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025EA5696940 doesn't match image D:\School\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.82 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.395 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3053 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 139.0 MB.
+System memory in use after: 139.1 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3776.
+Total: 4.653400 ms (FindLiveObjects: 0.496600 ms CreateObjectMapping: 0.304600 ms MarkObjects: 3.740900 ms  DeleteObjects: 0.110300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003947 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000025EAD9D6C90 doesn't match image D:\School\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025EA588AA70 doesn't match image D:\School\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.276 seconds
 Platform modules already initialized, skipping
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Refreshing native plugins compatible for Editor in 0.51 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3053 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 137.9 MB.
-System memory in use after: 138.1 MB.
+System memory in use before: 139.0 MB.
+System memory in use after: 139.1 MB.
 
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3724.
-Total: 2.636200 ms (FindLiveObjects: 0.301100 ms CreateObjectMapping: 0.161900 ms MarkObjects: 2.077000 ms  DeleteObjects: 0.095100 ms)
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3780.
+Total: 3.025700 ms (FindLiveObjects: 0.348800 ms CreateObjectMapping: 0.159900 ms MarkObjects: 2.377000 ms  DeleteObjects: 0.137900 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.003805 seconds.
+Registered in 0.004111 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-00000260C7508360 doesn't match image D:\School\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file data-0000025EAB1BF020 doesn't match image D:\School\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Cinemachine.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000260C7982010 doesn't match image D:\School\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file data-0000025EAA5F9030 doesn't match image D:\School\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.64 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.55 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.267 seconds
+- Completed reload, in  1.420 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 2.84 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3053 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 139.0 MB.
+System memory in use after: 139.1 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3784.
+Total: 4.279700 ms (FindLiveObjects: 0.474200 ms CreateObjectMapping: 0.185500 ms MarkObjects: 3.482600 ms  DeleteObjects: 0.135600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003481 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000025EADC19020 doesn't match image D:\School\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025EAA7A9040 doesn't match image D:\School\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.056 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3053 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 139.0 MB.
+System memory in use after: 139.1 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3788.
+Total: 2.778800 ms (FindLiveObjects: 0.315900 ms CreateObjectMapping: 0.162300 ms MarkObjects: 2.194300 ms  DeleteObjects: 0.105400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003626 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000025EB44B5050 doesn't match image D:\School\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025EA588AA70 doesn't match image D:\School\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.048 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.62 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3053 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 139.0 MB.
+System memory in use after: 139.1 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3792.
+Total: 3.193600 ms (FindLiveObjects: 0.356200 ms CreateObjectMapping: 0.160600 ms MarkObjects: 2.555900 ms  DeleteObjects: 0.119300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005008 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000025EAD9D6C90 doesn't match image D:\School\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025EA588AA70 doesn't match image D:\School\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.72 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.384 seconds
 Platform modules already initialized, skipping
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Refreshing native plugins compatible for Editor in 0.55 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3053 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 138.0 MB.
-System memory in use after: 138.1 MB.
+System memory in use before: 139.0 MB.
+System memory in use after: 139.2 MB.
 
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3728.
-Total: 4.192800 ms (FindLiveObjects: 0.449300 ms CreateObjectMapping: 0.212800 ms MarkObjects: 3.401000 ms  DeleteObjects: 0.128400 ms)
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3796.
+Total: 3.559700 ms (FindLiveObjects: 0.465400 ms CreateObjectMapping: 0.192400 ms MarkObjects: 2.789300 ms  DeleteObjects: 0.111100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003966 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000025EADC19020 doesn't match image D:\School\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025EAD144040 doesn't match image D:\School\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.79 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.318 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3053 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 139.0 MB.
+System memory in use after: 139.2 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3800.
+Total: 3.182900 ms (FindLiveObjects: 0.404200 ms CreateObjectMapping: 0.192200 ms MarkObjects: 2.460200 ms  DeleteObjects: 0.125100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005025 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000025EAA8D7030 doesn't match image D:\School\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025EA588AA70 doesn't match image D:\School\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.386 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.80 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3053 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 139.0 MB.
+System memory in use after: 139.2 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3804.
+Total: 4.907700 ms (FindLiveObjects: 0.851800 ms CreateObjectMapping: 0.292100 ms MarkObjects: 3.606700 ms  DeleteObjects: 0.155300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004925 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000025EAB1BF020 doesn't match image D:\School\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025EB07E0050 doesn't match image D:\School\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.370 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.78 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3053 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 139.0 MB.
+System memory in use after: 139.2 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3808.
+Total: 4.730900 ms (FindLiveObjects: 0.624600 ms CreateObjectMapping: 0.388800 ms MarkObjects: 3.613600 ms  DeleteObjects: 0.102100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006842 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000025EAB1BF020 doesn't match image D:\School\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025EB07E0050 doesn't match image D:\School\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.61 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.581 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3053 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 139.1 MB.
+System memory in use after: 139.2 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3812.
+Total: 3.030400 ms (FindLiveObjects: 0.435700 ms CreateObjectMapping: 0.174800 ms MarkObjects: 2.309400 ms  DeleteObjects: 0.109000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003759 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000025EAB1BF020 doesn't match image D:\School\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025EABB6B050 doesn't match image D:\School\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.84 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.383 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.77 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3053 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 139.1 MB.
+System memory in use after: 139.2 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3816.
+Total: 4.923800 ms (FindLiveObjects: 0.544300 ms CreateObjectMapping: 0.339600 ms MarkObjects: 3.857900 ms  DeleteObjects: 0.180300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004482 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000025EAB1BF020 doesn't match image D:\School\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025EB07E0050 doesn't match image D:\School\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.68 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.412 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.98 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3053 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 139.1 MB.
+System memory in use after: 139.2 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3820.
+Total: 3.600900 ms (FindLiveObjects: 0.551800 ms CreateObjectMapping: 0.319700 ms MarkObjects: 2.587700 ms  DeleteObjects: 0.140200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005020 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000025EAB1BF020 doesn't match image D:\School\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025EABB6B050 doesn't match image D:\School\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.58 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.426 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.97 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3053 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 139.1 MB.
+System memory in use after: 139.2 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3824.
+Total: 4.422600 ms (FindLiveObjects: 0.437200 ms CreateObjectMapping: 0.216400 ms MarkObjects: 3.617100 ms  DeleteObjects: 0.150500 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 177.218556 seconds.
-  path: Assets/Materials/Textures/HDR Color.cs
-  artifactKey: Guid(e489573276042c04a86f00ac9ab2e03c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Textures/HDR Color.cs using Guid(e489573276042c04a86f00ac9ab2e03c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fe6b4a3adbe130719cf252b3dfa2d46') in 0.007819 seconds
-  Import took 0.013213 seconds .
+  Time since last request: 1707.302524 seconds.
+  path: Assets/Prefabs/Asteroid.prefab
+  artifactKey: Guid(a4a8e3b44c1b955419d6fd20d37a8781) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Asteroid.prefab using Guid(a4a8e3b44c1b955419d6fd20d37a8781) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc709d62b1eb5433503d75789b560328') in 0.219671 seconds
+  Import took 0.226722 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 290.137155 seconds.
-  path: Assets/Materials/Materials/black_hole.mat
-  artifactKey: Guid(dce256dc6ff13e54e935bcaf1769a9a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Materials/black_hole.mat using Guid(dce256dc6ff13e54e935bcaf1769a9a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efcb1265d1d68beee03ce9a91c4bc81d') in 0.153044 seconds
-  Import took 0.159432 seconds .
+  Time since last request: 12.571281 seconds.
+  path: Assets/scripts/Blackhole/BlackHole.cs
+  artifactKey: Guid(eb2a9336588b8764b94eb64c4e9fddc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/Blackhole/BlackHole.cs using Guid(eb2a9336588b8764b94eb64c4e9fddc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd82539341108d563b1b8b7e24720c7cc') in 0.004039 seconds
+  Import took 0.011876 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 11.760445 seconds.
-  path: Assets/Resources
-  artifactKey: Guid(46d63a76a156b694896bd994a16222e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources using Guid(46d63a76a156b694896bd994a16222e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f10049fe9973120eaa115ee1309631a4') in 0.008410 seconds
-  Import took 0.013296 seconds .
+  Time since last request: 0.001181 seconds.
+  path: Assets/scripts/Blackhole/BlackHole.cs
+  artifactKey: Guid(eb2a9336588b8764b94eb64c4e9fddc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/Blackhole/BlackHole.cs using Guid(eb2a9336588b8764b94eb64c4e9fddc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd82539341108d563b1b8b7e24720c7cc') in 0.004910 seconds
+  Import took 0.012841 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 5.804132 seconds.
-  path: Assets/TextMesh Pro/Fonts
-  artifactKey: Guid(6ab70aee4d56447429c680537fbf93ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Fonts using Guid(6ab70aee4d56447429c680537fbf93ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a387d357f8c7c7d744a02e07474bbf1') in 0.010063 seconds
-  Import took 0.015735 seconds .
+  Time since last request: 112.017954 seconds.
+  path: Assets/scripts/Player
+  artifactKey: Guid(aec96a80f69a06a4cae0f267d56f8c8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/Player using Guid(aec96a80f69a06a4cae0f267d56f8c8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad724eeffa84e1f9b2717e0e784d7fd9') in 0.012686 seconds
+  Import took 0.018788 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004641 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000025EAC6A6FC0 doesn't match image D:\School\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025EB07E0050 doesn't match image D:\School\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.74 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.334 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3053 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 139.1 MB.
+System memory in use after: 139.2 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3864.
+Total: 3.053900 ms (FindLiveObjects: 0.472700 ms CreateObjectMapping: 0.173200 ms MarkObjects: 2.241700 ms  DeleteObjects: 0.164800 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.261789 seconds.
-  path: Assets/TextMesh Pro/Resources
-  artifactKey: Guid(243e06394e614e5d99fab26083b707fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Resources using Guid(243e06394e614e5d99fab26083b707fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '761cfc911be47bba2d675dea50ed5412') in 0.020026 seconds
-  Import took 0.027583 seconds .
+  Time since last request: 143.279475 seconds.
+  path: Assets/scripts/Player/PlayerHP.cs
+  artifactKey: Guid(51c8451c7d8018d41adedf25cc29c823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/Player/PlayerHP.cs using Guid(51c8451c7d8018d41adedf25cc29c823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb7c582571706cdb129af4f7b6a56717') in 0.014400 seconds
+  Import took 0.020547 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004041 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000025EAB1BF020 doesn't match image D:\School\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025EABB6B050 doesn't match image D:\School\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.296 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.67 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3053 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 139.1 MB.
+System memory in use after: 139.2 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3868.
+Total: 4.119900 ms (FindLiveObjects: 0.386200 ms CreateObjectMapping: 0.216500 ms MarkObjects: 3.275200 ms  DeleteObjects: 0.240700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004071 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000025EAB1BF020 doesn't match image D:\School\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025EB07E0050 doesn't match image D:\School\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.104 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3053 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 139.1 MB.
+System memory in use after: 139.2 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3872.
+Total: 3.334400 ms (FindLiveObjects: 0.307700 ms CreateObjectMapping: 0.171800 ms MarkObjects: 2.736600 ms  DeleteObjects: 0.117300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003856 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000025EAA8D7030 doesn't match image D:\School\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025EABB6B050 doesn't match image D:\School\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.369 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.86 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3053 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 139.1 MB.
+System memory in use after: 139.3 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3876.
+Total: 4.716200 ms (FindLiveObjects: 0.320700 ms CreateObjectMapping: 0.171900 ms MarkObjects: 4.020400 ms  DeleteObjects: 0.201600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004575 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000025EAA8D7030 doesn't match image D:\School\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025EB07E0050 doesn't match image D:\School\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.268 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.04 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3053 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 139.1 MB.
+System memory in use after: 139.3 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3880.
+Total: 141.277900 ms (FindLiveObjects: 1.503700 ms CreateObjectMapping: 1.547200 ms MarkObjects: 137.863300 ms  DeleteObjects: 0.362000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004227 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000025EAB1BF020 doesn't match image D:\School\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025EABB6B050 doesn't match image D:\School\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.61 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.423 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.77 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3053 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 139.1 MB.
+System memory in use after: 139.3 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3884.
+Total: 3.686300 ms (FindLiveObjects: 0.564400 ms CreateObjectMapping: 0.311200 ms MarkObjects: 2.692000 ms  DeleteObjects: 0.117500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005984 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000025EAA8D7030 doesn't match image D:\School\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025EB0C17010 doesn't match image D:\School\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.275 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.60 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3053 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 139.1 MB.
+System memory in use after: 139.3 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3888.
+Total: 3.774300 ms (FindLiveObjects: 0.398400 ms CreateObjectMapping: 0.196500 ms MarkObjects: 3.027300 ms  DeleteObjects: 0.151000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004357 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000025EAD2BD050 doesn't match image D:\School\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025EB07E0050 doesn't match image D:\School\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.430 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3053 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 139.2 MB.
+System memory in use after: 139.3 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3892.
+Total: 6.190800 ms (FindLiveObjects: 0.526400 ms CreateObjectMapping: 0.241300 ms MarkObjects: 4.873000 ms  DeleteObjects: 0.548200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005364 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000025EAA8D7030 doesn't match image D:\School\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025EB0C17010 doesn't match image D:\School\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.377 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3053 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 139.2 MB.
+System memory in use after: 139.3 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3896.
+Total: 4.701300 ms (FindLiveObjects: 0.534000 ms CreateObjectMapping: 0.237600 ms MarkObjects: 3.820200 ms  DeleteObjects: 0.107800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005197 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000025EAB1BF020 doesn't match image D:\School\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025EB0C17010 doesn't match image D:\School\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.218 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3053 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 139.2 MB.
+System memory in use after: 139.3 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3900.
+Total: 3.652500 ms (FindLiveObjects: 0.544300 ms CreateObjectMapping: 0.240600 ms MarkObjects: 2.748600 ms  DeleteObjects: 0.117600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006027 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000025EAA8D7030 doesn't match image D:\School\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025EB0C17010 doesn't match image D:\School\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.383 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.82 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3053 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 139.2 MB.
+System memory in use after: 139.3 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3904.
+Total: 3.513200 ms (FindLiveObjects: 0.653000 ms CreateObjectMapping: 0.233200 ms MarkObjects: 2.504600 ms  DeleteObjects: 0.121100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005672 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000025EAB1BF020 doesn't match image D:\School\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025EB1643050 doesn't match image D:\School\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.317 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.60 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3053 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 139.2 MB.
+System memory in use after: 139.3 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3908.
+Total: 3.354900 ms (FindLiveObjects: 0.468500 ms CreateObjectMapping: 0.192200 ms MarkObjects: 2.574100 ms  DeleteObjects: 0.118800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003541 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000025EAA8D7030 doesn't match image D:\School\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025EB1643050 doesn't match image D:\School\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.278 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3053 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 139.2 MB.
+System memory in use after: 139.3 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3912.
+Total: 3.128700 ms (FindLiveObjects: 0.493100 ms CreateObjectMapping: 0.217000 ms MarkObjects: 2.285100 ms  DeleteObjects: 0.132100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004113 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000025EAB1BF020 doesn't match image D:\School\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025EABB6B050 doesn't match image D:\School\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.87 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.359 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.75 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3053 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 139.2 MB.
+System memory in use after: 139.3 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3916.
+Total: 3.821400 ms (FindLiveObjects: 0.604400 ms CreateObjectMapping: 0.346100 ms MarkObjects: 2.720600 ms  DeleteObjects: 0.148500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004240 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000025EAA8D7030 doesn't match image D:\School\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025EB1643050 doesn't match image D:\School\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.83 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.353 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.93 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3053 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 139.2 MB.
+System memory in use after: 139.3 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3920.
+Total: 2.927400 ms (FindLiveObjects: 0.418200 ms CreateObjectMapping: 0.189900 ms MarkObjects: 2.195800 ms  DeleteObjects: 0.122200 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.024588 seconds.
-  path: Assets/TextMesh Pro/Resources/TMP Settings.asset
-  artifactKey: Guid(3f5b5dff67a942289a9defa416b206f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Resources/TMP Settings.asset using Guid(3f5b5dff67a942289a9defa416b206f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99069dcd375e19417585fef259967a59') in 0.058717 seconds
-  Import took 0.065689 seconds .
+  Time since last request: 932.109733 seconds.
+  path: Assets/scripts/Main menu
+  artifactKey: Guid(d00182c6bf1542947bbf5dcbdfd90f7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/Main menu using Guid(d00182c6bf1542947bbf5dcbdfd90f7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed2e0dec1ffbbe4aee45facdfcf38ffb') in 0.013279 seconds
+  Import took 0.019584 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.731164 seconds.
-  path: Assets/TextMesh Pro/Resources/Sprite Assets
-  artifactKey: Guid(512a49d95c0c4332bdd98131869c23c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Resources/Sprite Assets using Guid(512a49d95c0c4332bdd98131869c23c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb65d2e3ef5257ac4908eb434f65d967') in 0.007878 seconds
-  Import took 0.012804 seconds .
+  Time since last request: 1.259252 seconds.
+  path: Assets/scripts/Astroids
+  artifactKey: Guid(13b59108d4ab00d4790adf94e14c376e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/Astroids using Guid(13b59108d4ab00d4790adf94e14c376e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee72731e31f9f8158273633841f38316') in 0.008441 seconds
+  Import took 0.014344 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.216278 seconds.
-  path: Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset
-  artifactKey: Guid(c41005c129ba4d66911b75229fd70b45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset using Guid(c41005c129ba4d66911b75229fd70b45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0741eaf667014bc70d88ef1fa36eb97') in 0.009235 seconds
-  Import took 0.013772 seconds .
+  Time since last request: 1.016861 seconds.
+  path: Assets/scripts/Astroids/AsteroidHealth.cs
+  artifactKey: Guid(2652a1da907f7ee459373f1c16cc66b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/Astroids/AsteroidHealth.cs using Guid(2652a1da907f7ee459373f1c16cc66b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '103069aff1ce0e68e406fcaf52bd5178') in 0.009564 seconds
+  Import took 0.015430 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 181.315379 seconds.
-  path: Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader
-  artifactKey: Guid(48bb5f55d8670e349b6e614913f9d910) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader using Guid(48bb5f55d8670e349b6e614913f9d910) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a4d21b6ae3a72a9681e2e476dcc11aa') in 0.013469 seconds
-  Import took 0.019665 seconds .
+  Time since last request: 1.400455 seconds.
+  path: Assets/scripts/Astroids/Spawner.cs
+  artifactKey: Guid(2085f4a944831ca4796c4c6042aad45d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/Astroids/Spawner.cs using Guid(2085f4a944831ca4796c4c6042aad45d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2840bd9a7d1709cb6283e5890f69b80') in 0.011306 seconds
+  Import took 0.150647 seconds .
 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.853735 seconds.
-  path: Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader
-  artifactKey: Guid(1e3b057af24249748ff873be7fafee47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader using Guid(1e3b057af24249748ff873be7fafee47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39b20636853e77800ccee0499e82435e') in 0.008811 seconds
-  Import took 0.015235 seconds .
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004415 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000025EAB1BF020 doesn't match image D:\School\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025EB1643050 doesn't match image D:\School\BO\Project-Ground-Control\GroundControll\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.74 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.218 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.83 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3053 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 139.2 MB.
+System memory in use after: 139.4 MB.
 
-========================================================================
-Received Import Request.
-  Time since last request: 0.006424 seconds.
-  path: Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader
-  artifactKey: Guid(1e3b057af24249748ff873be7fafee47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader using Guid(1e3b057af24249748ff873be7fafee47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39b20636853e77800ccee0499e82435e') in 0.003783 seconds
-  Import took 0.009976 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.393954 seconds.
-  path: Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader
-  artifactKey: Guid(128e987d567d4e2c824d754223b3f3b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader using Guid(128e987d567d4e2c824d754223b3f3b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7888bb3b65b6ee214a0fb96aa17ff02a') in 0.009574 seconds
-  Import took 0.014740 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.004654 seconds.
-  path: Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader
-  artifactKey: Guid(128e987d567d4e2c824d754223b3f3b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader using Guid(128e987d567d4e2c824d754223b3f3b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7888bb3b65b6ee214a0fb96aa17ff02a') in 0.004038 seconds
-  Import took 0.009446 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.658416 seconds.
-  path: Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader
-  artifactKey: Guid(dd89cf5b9246416f84610a006f916af7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader using Guid(dd89cf5b9246416f84610a006f916af7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86d25066823e8f9ceca1f04d57c288dc') in 0.014083 seconds
-  Import took 0.024127 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.429960 seconds.
-  path: Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader
-  artifactKey: Guid(14eb328de4b8eb245bb7cea29e4ac00b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader using Guid(14eb328de4b8eb245bb7cea29e4ac00b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab7b032dc56ea418815817e266a0b481') in 0.010134 seconds
-  Import took 0.017045 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.009678 seconds.
-  path: Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader
-  artifactKey: Guid(14eb328de4b8eb245bb7cea29e4ac00b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader using Guid(14eb328de4b8eb245bb7cea29e4ac00b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab7b032dc56ea418815817e266a0b481') in 0.004140 seconds
-  Import took 0.010124 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.271711 seconds.
-  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader
-  artifactKey: Guid(bc1ede39bf3643ee8e493720e4259791) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader using Guid(bc1ede39bf3643ee8e493720e4259791) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd45dcd00a4c07b7dc4271c9ba35a54d7') in 0.011416 seconds
-  Import took 0.018206 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.005167 seconds.
-  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader
-  artifactKey: Guid(bc1ede39bf3643ee8e493720e4259791) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader using Guid(bc1ede39bf3643ee8e493720e4259791) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd45dcd00a4c07b7dc4271c9ba35a54d7') in 0.003616 seconds
-  Import took 0.010740 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.751118 seconds.
-  path: Assets/TextMesh Pro/Shaders/TMP_SDF.shader
-  artifactKey: Guid(68e6db2ebdc24f95958faec2be5558d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Shaders/TMP_SDF.shader using Guid(68e6db2ebdc24f95958faec2be5558d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3194e9233a269c864773cbeaad561e2f') in 0.008880 seconds
-  Import took 0.013893 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.478618 seconds.
-  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader
-  artifactKey: Guid(f7ada0af4f174f0694ca6a487b8f543d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader using Guid(f7ada0af4f174f0694ca6a487b8f543d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '059941649bd4e985c66605dacdae2722') in 0.008994 seconds
-  Import took 0.014505 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.006488 seconds.
-  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader
-  artifactKey: Guid(f7ada0af4f174f0694ca6a487b8f543d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader using Guid(f7ada0af4f174f0694ca6a487b8f543d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '059941649bd4e985c66605dacdae2722') in 0.003728 seconds
-  Import took 0.008641 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.383538 seconds.
-  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader
-  artifactKey: Guid(85187c2149c549c5b33f0cdb02836b17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader using Guid(85187c2149c549c5b33f0cdb02836b17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd6966efd02a2ed9383cbc4e8b8b9e14') in 0.009995 seconds
-  Import took 0.017068 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.004395 seconds.
-  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader
-  artifactKey: Guid(85187c2149c549c5b33f0cdb02836b17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader using Guid(85187c2149c549c5b33f0cdb02836b17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd6966efd02a2ed9383cbc4e8b8b9e14') in 0.003892 seconds
-  Import took 0.009500 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 11.686535 seconds.
-  path: Assets/Materials/Assets/Project Assets
-  artifactKey: Guid(e8999a18eff2f2b48942e9d82dc80527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Assets/Project Assets using Guid(e8999a18eff2f2b48942e9d82dc80527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd9676680756bab3a7b766a79ec33b7c') in 0.009740 seconds
-  Import took 0.015337 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.932605 seconds.
-  path: Assets/Materials/Assets/Project Assets/Main Icon
-  artifactKey: Guid(23010c043dbc7a94db1511b2fb487e84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Assets/Project Assets/Main Icon using Guid(23010c043dbc7a94db1511b2fb487e84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b07c0111f1e2ab23064fef10962c5e6d') in 0.008091 seconds
-  Import took 0.013549 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.635370 seconds.
-  path: Assets/Materials/Assets/Ships/ShipNormal.png
-  artifactKey: Guid(740f6d723d5cdfb4dac7565f167e8604) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Assets/Ships/ShipNormal.png using Guid(740f6d723d5cdfb4dac7565f167e8604) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9603fe89cd6f6ec63696ad83e8fc36d') in 0.032865 seconds
-  Import took 0.038053 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 13.475498 seconds.
-  path: Assets/Scenes/Level_0
-  artifactKey: Guid(8e9b9fdfc9e8cb642ac892989e4ff777) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Level_0 using Guid(8e9b9fdfc9e8cb642ac892989e4ff777) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7267089ee48bc007d8cdb2aaf841cd31') in 0.010575 seconds
-  Import took 0.015825 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.048096 seconds.
-  path: Assets/Scenes/Level_0/Global Volume Profile 1.asset
-  artifactKey: Guid(6ca1af2d7319ba24fb84ecbf3a55bcf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Level_0/Global Volume Profile 1.asset using Guid(6ca1af2d7319ba24fb84ecbf3a55bcf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de3b4e61a11f487f83eb429e1ab88bae') in 0.021206 seconds
-  Import took 0.037707 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000257 seconds.
-  path: Assets/Scenes/Level_0/Global Volume Profile.asset
-  artifactKey: Guid(51fb5bdf4bc55d248952b4f74e2d30d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Level_0/Global Volume Profile.asset using Guid(51fb5bdf4bc55d248952b4f74e2d30d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '844a5a0c87ecfe5b85e7045b8055fea3') in 0.019506 seconds
-  Import took 0.028141 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000190 seconds.
-  path: Assets/Scenes/Level_0/Sphere Volume Profile.asset
-  artifactKey: Guid(bb3d524589cbcff46963fd85e525c98b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Level_0/Sphere Volume Profile.asset using Guid(bb3d524589cbcff46963fd85e525c98b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16b64157d684b8272057366927aea022') in 0.011990 seconds
-  Import took 0.019307 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 583.949205 seconds.
-  path: Assets/Materials/Textures/NewUnlitShader.shader
-  artifactKey: Guid(35464f8641e2fdb4da8aa0154d9b2cf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Textures/NewUnlitShader.shader using Guid(35464f8641e2fdb4da8aa0154d9b2cf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aff0c3dc30c5fb269bfe767921edc3dd') in 0.012009 seconds
-  Import took 0.020601 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 29.548652 seconds.
-  path: Assets/Materials/Textures/New Shader Graph.shadergraph
-  artifactKey: Guid(569f3c268c782164caf422c7a1c615a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Textures/New Shader Graph.shadergraph using Guid(569f3c268c782164caf422c7a1c615a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efb16cf59c42d6f31b8781fd292d9a9d') in 0.005689 seconds
-  Import took 0.011712 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.461248 seconds.
-  path: Assets/Materials/Textures/New Shader Graph.shadergraph
-  artifactKey: Guid(569f3c268c782164caf422c7a1c615a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Textures/New Shader Graph.shadergraph using Guid(569f3c268c782164caf422c7a1c615a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efb16cf59c42d6f31b8781fd292d9a9d') in 0.005348 seconds
-  Import took 0.011900 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 94.157515 seconds.
-  path: Assets/Materials/Textures/New Shader Graph.shadergraph
-  artifactKey: Guid(569f3c268c782164caf422c7a1c615a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Textures/New Shader Graph.shadergraph using Guid(569f3c268c782164caf422c7a1c615a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8dc320b72eaaea174c6e4c32e8b573e') in 0.004428 seconds
-  Import took 0.010360 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.266076 seconds.
-  path: Assets/Materials/Textures/New Shader Graph.shadergraph
-  artifactKey: Guid(569f3c268c782164caf422c7a1c615a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Textures/New Shader Graph.shadergraph using Guid(569f3c268c782164caf422c7a1c615a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8dc320b72eaaea174c6e4c32e8b573e') in 0.004936 seconds
-  Import took 0.009673 seconds .
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3924.
+Total: 3.712200 ms (FindLiveObjects: 0.342100 ms CreateObjectMapping: 0.143800 ms MarkObjects: 3.005400 ms  DeleteObjects: 0.219300 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
