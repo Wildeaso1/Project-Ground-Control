@@ -5,7 +5,7 @@ using UnityEngine;
 public class SpaceShipScript : MonoBehaviour
 {
     public static float thrustSpeed = 10.0f; 
-    public static int rotationSpeed =  2; 
+    public static float rotationSpeed =  2f; 
     private Rigidbody2D _rigidbody;
     private bool _thrusting;
     private bool _thrustingBack;
@@ -29,7 +29,7 @@ public class SpaceShipScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
+        Debug.Log(cannonLevel);
         if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow))
         {
             _turnDirection = 1.0f;
@@ -63,22 +63,22 @@ public class SpaceShipScript : MonoBehaviour
 
         if (rotationLevel == 1)
         {
-            //rotationSpeed = 2.0f;
+            rotationSpeed = 4.0f;
         }
 
         if (rotationLevel == 2)
         {
-            //rotationSpeed = 100.0f;
+            rotationSpeed = 6.0f;
         }
 
         if (rotationLevel == 3)
         {
-            //rotationSpeed = 6.0f;
+            rotationSpeed = 8.0f;
         }
 
         if (cannonLevel == 1)
         {
-            rotationSpeed = 2;
+            
         }
 
         if (cannonLevel == 2)

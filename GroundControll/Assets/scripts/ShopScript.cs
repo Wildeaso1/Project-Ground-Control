@@ -14,13 +14,13 @@ public class ShopScript : MonoBehaviour
 
     public Text TextCannonLevel;
     public Text cannonUpgradeCost;
-    public float cannonCost = SpaceShipScript.cannonLevel * 10;
+    public int cannonCost = SpaceShipScript.cannonLevel * 10;
     public Text textBoosterLevel;
     public Text boosteUpgradeCost;
-    public float boosterCost = SpaceShipScript.boosterLevel * 10;
+    public int boosterCost = SpaceShipScript.boosterLevel * 10;
     public Text textRoationLevel;
     public Text rotationUpgradeCost;
-    public float rotationCost = SpaceShipScript.rotationLevel * 10;
+    public int rotationCost = SpaceShipScript.rotationLevel * 10;
     
 
     // Start is called before the first frame update
@@ -37,31 +37,20 @@ public class ShopScript : MonoBehaviour
         TextCobalt.text = "" + Inventory.ScoreCobalt;
         TextCredits.text = "" + Inventory.ScoreCredits;
 
-        
-        if(SpaceShipScript.cannonLevel == 3) // cannon text update
-        {
-            cannonCost = 0;
-            TextCannonLevel.text = "Max";
-            cannonUpgradeCost.text = "-/-";
-        }
-
-        else if(SpaceShipScript.cannonLevel <= 3)
-        {
-            cannonCost = SpaceShipScript.cannonLevel * 10;
-            TextCannonLevel.text = SpaceShipScript.cannonLevel.ToString();
-            cannonUpgradeCost.text = cannonCost.ToString();
-        }
-
         boosterCost = SpaceShipScript.boosterLevel * 10;
         rotationCost = SpaceShipScript.rotationLevel * 10;
+        cannonCost = SpaceShipScript.cannonLevel * 10;
 
-        textBoosterLevel.text = SpaceShipScript.cannonLevel.ToString();
+        textBoosterLevel.text = SpaceShipScript.boosterLevel.ToString();
         boosteUpgradeCost.text = boosterCost.ToString();
-        textRoationLevel.text = SpaceShipScript.cannonLevel.ToString();
+
+        textRoationLevel.text = SpaceShipScript.rotationLevel.ToString();
         rotationUpgradeCost.text = rotationCost.ToString();
 
+        TextCannonLevel.text = SpaceShipScript.cannonLevel.ToString();
+        cannonUpgradeCost.text = cannonCost.ToString();
 
-
+        
     }
 
     public void PauseGame()
@@ -111,13 +100,14 @@ public class ShopScript : MonoBehaviour
     {
         if(SpaceShipScript.rotationLevel == 3)
         {
-            TextCannonLevel.text = "Max";
+            
         }
 
         else if (Inventory.ScoreCredits >= rotationCost)
         {
             SpaceShipScript.rotationLevel = SpaceShipScript.rotationLevel + 1;
             Debug.Log(SpaceShipScript.rotationLevel);
+            Inventory.ScoreCredits = Inventory.ScoreCredits - rotationCost;
         }
     }
 
@@ -133,21 +123,22 @@ public class ShopScript : MonoBehaviour
         {
             SpaceShipScript.boosterLevel = SpaceShipScript.boosterLevel + 1;
             Debug.Log(SpaceShipScript.boosterLevel);
+            Inventory.ScoreCredits = Inventory.ScoreCredits - boosterCost;
         }
     }
 
     public void Upgrade2()
     {
-        if (SpaceShipScript.rotationLevel == 4)
+        if (SpaceShipScript.cannonLevel == 4)
         {
 
         }
 
-        else if (Inventory.ScoreCredits >= rotationCost)
+        else if (Inventory.ScoreCredits >= cannonCost)
         {
-            SpaceShipScript.rotationLevel = SpaceShipScript.rotationLevel + 1;
-            Debug.Log(SpaceShipScript.rotationLevel);
-            //Inventory.ScoreCredits = Inventory.ScoreCredits - rotationCost;
+            SpaceShipScript.cannonLevel = SpaceShipScript.cannonLevel + 1;
+            Debug.Log(SpaceShipScript.cannonLevel);
+            Inventory.ScoreCredits = Inventory.ScoreCredits - cannonCost;
         }
     }
 }

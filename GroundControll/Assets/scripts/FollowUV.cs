@@ -5,7 +5,7 @@ using UnityEngine;
 public class FollowUV : MonoBehaviour
 {
 
-    float parralex = 2f;
+    
 
     void Update()
     {
@@ -17,7 +17,7 @@ public class FollowUV : MonoBehaviour
         Vector2 offset = mat.mainTextureOffset;
 
         offset.x = transform.position.x / transform.localScale.x;
-        offset.y = transform.position.y / transform.localScale.y;
+        offset.y = transform.position.y / transform.localScale.y / 2;
 
         mat.mainTextureOffset = offset;
 

@@ -17,9 +17,9 @@ public class Inventory : MonoBehaviour
     // Start score values
     void Start()
     {
-        ScoreIron = 10;
-        ScoreGold = 10;
-        ScoreCobalt = 2;
+        ScoreIron = 0;
+        ScoreGold = 0;
+        ScoreCobalt = 0;
         ScoreCredits = 0;
     }
 
