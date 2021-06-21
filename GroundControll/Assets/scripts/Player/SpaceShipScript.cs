@@ -17,6 +17,7 @@ public class SpaceShipScript : MonoBehaviour
     public GameObject TargetIndicators;
     private bool Pause = false;
     public GameObject Waypoints;
+    [SerializeField]private GameObject Fire;
 
     // Shooting sound effect
     public void ShootingEffect()
@@ -29,6 +30,7 @@ public class SpaceShipScript : MonoBehaviour
     private void Awake()
     {
         _rigidbody = GetComponent<Rigidbody2D>();
+        Fire.SetActive(false);
     }
 
     // Sideways Movement
@@ -48,6 +50,16 @@ public class SpaceShipScript : MonoBehaviour
         else
         {
             _turnDirection = 0.0f;
+        }
+
+
+        if (Input.GetKey(KeyCode.W))
+        {
+            Fire.SetActive(true);
+        }
+        else
+        {
+            Fire.SetActive(false);
         }
 
         if (Input.GetKeyDown(KeyCode.M))
@@ -89,12 +101,14 @@ public class SpaceShipScript : MonoBehaviour
         if (Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.UpArrow))
         {
             _rigidbody.AddForce(transform.up * thrustSpeed);
+            
         }
 
         if (Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.DownArrow))
         {
           _rigidbody.AddForce(transform.up /thrustSpeedBackwards);
         }
+
 
         if (_turnDirection != 0.0f)
         {
