@@ -7,13 +7,13 @@ public class House : MonoBehaviour
 {
 
     private bool range;
-    public GameObject textBox;
-
+    public Canvas textBox;
     public Canvas ShopCanvas;
+    
     // Start is called before the first frame update
     void Start()
     {
-        textBox.SetActive(false);
+        textBox.enabled = false ;
      
     }
 
@@ -24,12 +24,14 @@ public class House : MonoBehaviour
         {
             ShopCanvas.enabled = true;
             range = false;
+            textBox.enabled = false;
         }
 
         else if (ShopCanvas.enabled == true && Input.GetKeyDown(KeyCode.E))
         {
             ShopCanvas.enabled = false;
             range = true;
+            textBox.enabled = true;
         }
     }
 
@@ -37,14 +39,14 @@ public class House : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D col)
     {
         range = true;
-        textBox.SetActive(true);
+        textBox.enabled = true;
     }
 
     private void OnTriggerExit2D(Collider2D col)
     {
         range = false;
         ShopCanvas.enabled = false;
-        textBox.SetActive(false);
+        textBox.enabled = false;
     }
 }
 

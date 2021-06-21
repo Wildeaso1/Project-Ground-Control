@@ -8,11 +8,14 @@ public class SpaceTransition : MonoBehaviour
 
     private bool range;
     public string Scene;
+    public GameObject pressE;
+
+    //cum
 
     // Start is called before the first frame update
     void Start()
     {
-
+        pressE.SetActive(false);
     }
 
     // Update is called once per frame
@@ -28,10 +31,12 @@ public class SpaceTransition : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D col)
     {
         range = true;
+        pressE.SetActive(true);
     }
 
     private void OnTriggerExit2D(Collider2D col)
     {
         range = false;
+        pressE.SetActive(false);
     }
 }
