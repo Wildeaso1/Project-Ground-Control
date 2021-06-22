@@ -10,7 +10,7 @@ public class SpaceTransition : MonoBehaviour
     public string Scene;
     public GameObject pressE;
 
-    //cum
+    
 
     // Start is called before the first frame update
     void Start()
@@ -23,10 +23,10 @@ public class SpaceTransition : MonoBehaviour
     {
         if (range && Input.GetKeyDown(KeyCode.E))
         {
+            Inventory.ScoreCredits = PlayerPrefs.GetInt("Credits");
             SceneManager.LoadScene(Scene);
         }
     }
-
 
     private void OnTriggerEnter2D(Collider2D col)
     {
