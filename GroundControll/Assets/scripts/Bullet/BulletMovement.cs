@@ -16,9 +16,17 @@ public class BulletMovement : MonoBehaviour
     // bullet destroys astroid
     void OnTriggerEnter2D (Collider2D col)
     {
-        if (col.gameObject.tag == "Asteroid")
+        switch (col.gameObject.tag)
         {
-            Destroy(this.gameObject);
+            case "Asteroid":
+                Destroy(this.gameObject);
+                break;
+            case "Enemy":
+                Destroy(col.gameObject);
+                Destroy(this.gameObject);
+                break;
+            default:
+                break;
         }
     }
 }

@@ -12,6 +12,7 @@ TagManager:
   - Spacship
   - Walls
   - Bullet
+  - Enemy
   layers:
   - Default
   - TransparentFX
