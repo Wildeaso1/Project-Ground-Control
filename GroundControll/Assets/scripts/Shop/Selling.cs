@@ -1,10 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.UI;
 public class Selling : MonoBehaviour
 {
     //Variable voor de shop
+    public Text IronSellCost;
+    public Text GoldSellCost;
+    public Text CobaltSellCost;
+
     public static int IronSell;
     public static int GoldSell;
     public static int CobaltSell;
@@ -15,6 +19,13 @@ public class Selling : MonoBehaviour
         IronSell = 5;
         GoldSell = 30;
         CobaltSell = 15;
+    }
+
+    public void Update()
+    {
+        IronSellCost.text = "" + IronSell;
+        GoldSellCost.text = "" + GoldSell;
+        CobaltSellCost.text = "" + CobaltSell;
     }
 
     // Functions om de credit met het amount te verhogen
