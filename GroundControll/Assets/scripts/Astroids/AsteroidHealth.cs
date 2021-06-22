@@ -9,6 +9,8 @@ public class AsteroidHealth : MonoBehaviour
     public float AsteroidHPSmallMax;
     public AsteroidHealthBar asteroidHealthBar;
     public Rigidbody2D _rigidbody;
+    private BulletScript BulletScript;
+    public float TakingDamage;
 
     private void Start()
     {
@@ -28,13 +30,13 @@ public class AsteroidHealth : MonoBehaviour
         if (collision.gameObject.tag == "Bullet")
         {
             StartCoroutine(FreezeFrame());
-            TakeDamage(1);
+            TakeDamage(TakingDamage);
         }
     }
 
     private void TakeDamage(float Damage)
     {
-
+         Damage = TakingDamage;
          AsteroidHPSmall -= Damage;
          asteroidHealthBar.SetTargetHealth(AsteroidHPSmall);
          // asteroidHealthBar.SetHealth();

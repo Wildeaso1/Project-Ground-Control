@@ -7,6 +7,7 @@ public class BulletScript : MonoBehaviour
     public Transform bulletSpawn;
     public GameObject bulletPrefab;
 
+
 // Key press to shoot
 void Update()
     {

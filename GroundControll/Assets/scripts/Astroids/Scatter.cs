@@ -9,6 +9,7 @@ public class Scatter : MonoBehaviour
     public  GameObject CobaltObject;
     public Transform SpawnPoint;
     private Rigidbody2D _rigidbody;
+    private bool BlackholeB = false;
     //private float speed = 10.0f;
 
     private void Awake()
@@ -29,6 +30,11 @@ public class Scatter : MonoBehaviour
         var IronN = Random.Range(1, 5);
         var GoldN = Random.Range(-1, 2);
         var CobaltN = Random.Range(0, 3);
+
+        if (collision.gameObject.tag == "Blackhole" && !BlackholeB)
+        {
+            StartCoroutine(BlackholeEnter());
+        }
 
         if (GetComponent<AsteroidHealth>().AsteroidHPSmall == GetComponent<AsteroidHealth>().AsteroidHPSmallDeath && collision.gameObject.tag == "Bullet")
         {
@@ -56,6 +62,15 @@ public class Scatter : MonoBehaviour
         {
             Destroy(this.gameObject);
         }
+    }
+
+
+    IEnumerator BlackholeEnter()
+    {
+        BlackholeB = true;
+        yield return new WaitForSecondsRealtime(3);
+        Destroy(this.gameObject);
+        BlackholeB = false; 
     }
 
 

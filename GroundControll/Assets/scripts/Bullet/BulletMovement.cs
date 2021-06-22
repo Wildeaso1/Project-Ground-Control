@@ -7,6 +7,7 @@ public class BulletMovement : MonoBehaviour
     public float Speed = 100;
     public Rigidbody2D rb;
 
+
     // Gives speed to the bullet.
     void Start()
     {

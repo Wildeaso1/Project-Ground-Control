@@ -389,6 +389,7 @@ MonoBehaviour:
   AsteroidHPSmallMax: 7
   asteroidHealthBar: {fileID: 7356681805472160828}
   _rigidbody: {fileID: 5444204405517039184}
+  TakingDamage: 1
 --- !u!1 &8167975236423817783
 GameObject:
   m_ObjectHideFlags: 0

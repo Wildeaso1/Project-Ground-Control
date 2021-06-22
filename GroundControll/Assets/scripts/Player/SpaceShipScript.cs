@@ -18,6 +18,7 @@ public class SpaceShipScript : MonoBehaviour
     private bool Pause = false;
     public GameObject Waypoints;
     [SerializeField]private GameObject Fire;
+    
 
     // Shooting sound effect
     public void ShootingEffect()
