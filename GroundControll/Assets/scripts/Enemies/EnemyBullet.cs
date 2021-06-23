@@ -2,19 +2,23 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class BulletMovement : MonoBehaviour
+public class EnemyBullet : MonoBehaviour
 {
-    public float Speed = 100;
+    public float speed;
     public Rigidbody2D rb;
-
-
-    // Gives speed to the bullet.
+    // Start is called before the first frame update
     void Start()
     {
-        rb.AddRelativeForce(Vector2.up * Speed);
+        rb.AddRelativeForce(Vector2.up * speed);
         Destroy(this.gameObject, 2.5f);
     }
-    // bullet destroys astroid
+
+    // Update is called once per frame
+    void Update()
+    {
+
+    }
+
     void OnTriggerEnter2D (Collider2D col)
     {
         switch (col.gameObject.tag)
@@ -22,8 +26,7 @@ public class BulletMovement : MonoBehaviour
             case "Asteroid":
                 Destroy(this.gameObject);
                 break;
-            case "Enemy":
-                Destroy(col.gameObject);
+            case "Spacship":
                 Destroy(this.gameObject);
                 break;
             default:
