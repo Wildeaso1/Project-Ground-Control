@@ -5,11 +5,12 @@ using UnityEngine;
 public class AttackDroidScript : MonoBehaviour
 {
     public float speed;
-    public Transform target;
+
+    private Transform target;
     // Start is called before the first frame update
     void Start()
     {
-        
+        target = GameObject.Find("Ship").transform;
     }
 
     // Update is called once per frame
