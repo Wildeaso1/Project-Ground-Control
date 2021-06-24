@@ -20,5 +20,12 @@ public class Walls : MonoBehaviour
         {
             Destroy(this.gameObject);
         }
+        if (collision.gameObject.tag == "Blackhole")
+        {
+            Destroy(collision.gameObject);
+        }
     }
+
+
+
 }

@@ -864,6 +864,7 @@ GameObject:
   m_Component:
   - component: {fileID: 192061158}
   - component: {fileID: 192061159}
+  - component: {fileID: 192061160}
   m_Layer: 10
   m_Name: Invisible Wall Right
   m_TagString: Walls
@@ -895,7 +896,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -911,6 +912,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &192061160
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 192061157}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b2cf251ccec2274dafe679f3a831ffa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &207497638
 GameObject:
   m_ObjectHideFlags: 0
@@ -3682,6 +3695,7 @@ GameObject:
   m_Component:
   - component: {fileID: 902119034}
   - component: {fileID: 902119035}
+  - component: {fileID: 902119036}
   m_Layer: 10
   m_Name: Invisible Wall Bottom
   m_TagString: Walls
@@ -3713,7 +3727,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -3729,6 +3743,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &902119036
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 902119033}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b2cf251ccec2274dafe679f3a831ffa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &946557137
 GameObject:
   m_ObjectHideFlags: 0
@@ -7276,6 +7302,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1712026161}
   - component: {fileID: 1712026162}
+  - component: {fileID: 1712026163}
   m_Layer: 10
   m_Name: Invisible wall left
   m_TagString: Walls
@@ -7307,7 +7334,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -7323,6 +7350,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &1712026163
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1712026160}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b2cf251ccec2274dafe679f3a831ffa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1714883272
 GameObject:
   m_ObjectHideFlags: 3
@@ -7583,6 +7622,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1795415563}
   - component: {fileID: 1795415564}
+  - component: {fileID: 1795415565}
   m_Layer: 10
   m_Name: Invisible Wall Top
   m_TagString: Walls
@@ -7614,7 +7654,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -7630,6 +7670,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &1795415565
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1795415562}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b2cf251ccec2274dafe679f3a831ffa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1815919185
 GameObject:
   m_ObjectHideFlags: 0
@@ -9888,11 +9940,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1282047213839423424, guid: ba544498718c33a41a506e55974d0c9f, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -18.71
+      value: -264
       objectReference: {fileID: 0}
     - target: {fileID: 1282047213839423424, guid: ba544498718c33a41a506e55974d0c9f, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 19.45
+      value: 17.8
       objectReference: {fileID: 0}
     - target: {fileID: 1282047213839423424, guid: ba544498718c33a41a506e55974d0c9f, type: 3}
       propertyPath: m_LocalPosition.z
@@ -9929,6 +9981,18 @@ PrefabInstance:
     - target: {fileID: 1282047213839423426, guid: ba544498718c33a41a506e55974d0c9f, type: 3}
       propertyPath: m_Name
       value: BlachHole
+      objectReference: {fileID: 0}
+    - target: {fileID: 1282047213839423484, guid: ba544498718c33a41a506e55974d0c9f, type: 3}
+      propertyPath: m_ColliderMask.m_Bits
+      value: 5632
+      objectReference: {fileID: 0}
+    - target: {fileID: 1282047213839423485, guid: ba544498718c33a41a506e55974d0c9f, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1282047213839423485, guid: ba544498718c33a41a506e55974d0c9f, type: 3}
+      propertyPath: m_UsedByEffector
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ba544498718c33a41a506e55974d0c9f, type: 3}
