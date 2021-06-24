@@ -4,16 +4,17 @@ using UnityEngine;
 
 public class TurretScript : MonoBehaviour
 {
-    public Transform target;
     public int attackRange;
     public Transform enemyBulletSpawn;
     public GameObject enemyBulletPrefab;
     public float fireRate;
 
+    private Transform target;
     private float nextShot;
     // Start is called before the first frame update
     void Start()
     {
+        target = GameObject.Find("Ship").transform;
     }
 
     // Update is called once per frame
