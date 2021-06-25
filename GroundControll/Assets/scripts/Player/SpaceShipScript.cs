@@ -17,6 +17,7 @@ public class SpaceShipScript : MonoBehaviour
     public GameObject TargetIndicators;
     private bool Pause = false;
     public GameObject Waypoints;
+    public Vector3 Position;
     [SerializeField]private GameObject Fire;
     
 
@@ -24,6 +25,7 @@ public class SpaceShipScript : MonoBehaviour
     public void ShootingEffect()
     {
         Shooting.Play();
+        
     }
 
 
@@ -32,11 +34,13 @@ public class SpaceShipScript : MonoBehaviour
     {
         _rigidbody = GetComponent<Rigidbody2D>();
         Fire.SetActive(false);
+        transform.position = new Vector3(PlayerPrefs.GetFloat("PlayerX"), PlayerPrefs.GetFloat("PlayerY"), PlayerPrefs.GetFloat("PlayerZ"));
     }
 
     // Sideways Movement
     void Update()
     {
+        SavingPosition();
 
         if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow))
         {
@@ -138,5 +142,16 @@ public class SpaceShipScript : MonoBehaviour
             default:
                 break;
         }
+    }
+
+    public void SavingPosition()
+    {
+        PlayerPrefs.SetFloat("PlayerX", transform.position.x);
+        PlayerPrefs.SetFloat("PlayerY", transform.position.y);
+        PlayerPrefs.SetFloat("PlayerZ", transform.position.z);
+    }
+    private void OnApplicationQuit()
+    {
+        SaveManager.DeleteSave();
     }
 }

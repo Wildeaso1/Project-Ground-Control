@@ -20,6 +20,10 @@ public class Inventory : MonoBehaviour
         ScoreCobalt = 0;
         ScoreGold = 0;
         ScoreCredits = 0;
+        ScoreCredits = PlayerPrefs.GetInt("Credits");
+        ScoreIron = PlayerPrefs.GetInt("Iron");
+        ScoreGold = PlayerPrefs.GetInt("Gold");
+        ScoreCobalt = PlayerPrefs.GetInt("Cobalt");
     }
 
     // Updates the scores and text every frame
@@ -29,5 +33,9 @@ public class Inventory : MonoBehaviour
         TextGold.text = "" + ScoreGold;
         TextCobalt.text = "" + ScoreCobalt;
         TextCredits.text = "" + ScoreCredits;
+        PlayerPrefs.SetInt("Credits", ScoreCredits);
+        PlayerPrefs.SetInt("Iron", ScoreIron);
+        PlayerPrefs.SetInt("Gold", ScoreGold);
+        PlayerPrefs.SetInt("Cobalt", ScoreCobalt);
     }
 }
