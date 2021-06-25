@@ -19,6 +19,8 @@ TagManager:
   - Shield
   - Mothership
   - BossArea
+  - EnemyBullet
+  - MothershipBullet
   layers:
   - Default
   - TransparentFX

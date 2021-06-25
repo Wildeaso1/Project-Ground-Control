@@ -24,7 +24,7 @@ public class AttackDroidScript : MonoBehaviour
     {
         switch (col.gameObject.tag)
         {
-            case "Spacship":
+            case "Spaceship":
                 Destroy(this.gameObject);
                 break;
             case "Asteroid":

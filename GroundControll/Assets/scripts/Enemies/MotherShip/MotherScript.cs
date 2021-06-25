@@ -4,12 +4,18 @@ using UnityEngine;
 
 public class MotherScript : MonoBehaviour
 {
-    public GameObject motherBulletPrefab;
-    public GameObject enemyDroidPrefab;
+    public MotherHealthBar HealthBar;
+
+    public GameObject weakBulletPrefab;
+    public GameObject weakDroidPrefab;
+
+    public GameObject strongBulletPrefab;
+    public GameObject strongDroidPrefab;
 
     private int attackNumber;
     private bool rolling = false;
     public bool inBattle = false;
+    public static bool inZone = false;
 
     public GameObject motherShip;
     private MothershipHealth mHealth;
@@ -43,6 +49,7 @@ public class MotherScript : MonoBehaviour
 
         mHealth = motherShip.GetComponent<MothershipHealth>();
 
+        inZone = false;
         inBattle = false;
         rolling = true;
     }
@@ -50,7 +57,12 @@ public class MotherScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (mHealth.curHealth != 1000)
+        if (!inZone)
+        {
+            StartCoroutine(BossReset());
+        }
+
+        if (mHealth.curHealth != 1000 && inZone == true)
         {
             inBattle = true;
         }
@@ -61,60 +73,129 @@ public class MotherScript : MonoBehaviour
 
         if (rolling == true && inBattle == true)
         {
-            attackNumber = Random.Range(1, 3);
-            switch (attackNumber)
+            if (mHealth.curHealth >= 500)
             {
-                case 1:
-                    rolling = false;
-                    StartCoroutine(TurretAttack());
-                    break;
-                case 2:
-                    rolling = false;
-                    StartCoroutine(DroidSpawn());
-                    break;
-                default:
-                    break;
+                attackNumber = Random.Range(1, 3);
+                switch (attackNumber)
+                {
+                    case 1:
+                        rolling = false;
+                        StartCoroutine(TurretAttackWeak());
+                        break;
+                    case 2:
+                        rolling = false;
+                        StartCoroutine(DroidSpawnWeak());
+                        break;
+                    default:
+                        break;
+                }
+            }
+            if (mHealth.curHealth < 500)
+            {
+                attackNumber = Random.Range(1, 3);
+                switch (attackNumber)
+                {
+                    case 1:
+                        rolling = false;
+                        StartCoroutine(TurretAttackStrong());
+                        break;
+                    case 2:
+                        rolling = false;
+                        StartCoroutine(DroidSpawnStrong());
+                        break;
+                    default:
+                        break;
+                }
             }
         }
     }
 
-    IEnumerator TurretAttack()
+    IEnumerator BossReset()
     {
-        Instantiate(motherBulletPrefab, turret1.position, turret1.rotation);
+        yield return new WaitForSeconds(30f);
+        if (!inZone)
+        {
+            mHealth.curHealth = 1000;
+            HealthBar.SetHealth(mHealth.curHealth);
+        }
+    }
+
+    IEnumerator TurretAttackWeak()
+    {
+        Instantiate(weakBulletPrefab, turret1.position, turret1.rotation);
         yield return new WaitForSeconds(0.4f);
-        Instantiate(motherBulletPrefab, turret2.position, turret2.rotation);
+        Instantiate(weakBulletPrefab, turret2.position, turret2.rotation);
         yield return new WaitForSeconds(0.4f);
-        Instantiate(motherBulletPrefab, turret3.position, turret3.rotation);
+        Instantiate(weakBulletPrefab, turret3.position, turret3.rotation);
         yield return new WaitForSeconds(0.4f);
-        Instantiate(motherBulletPrefab, turret4.position, turret4.rotation);
+        Instantiate(weakBulletPrefab, turret4.position, turret4.rotation);
         yield return new WaitForSeconds(0.4f);
-        Instantiate(motherBulletPrefab, turret5.position, turret5.rotation);
+        Instantiate(weakBulletPrefab, turret5.position, turret5.rotation);
         yield return new WaitForSeconds(0.4f);
-        Instantiate(motherBulletPrefab, turret1.position, turret1.rotation);
+        Instantiate(weakBulletPrefab, turret1.position, turret1.rotation);
         yield return new WaitForSeconds(0.4f);
-        Instantiate(motherBulletPrefab, turret2.position, turret2.rotation);
+        Instantiate(weakBulletPrefab, turret2.position, turret2.rotation);
         yield return new WaitForSeconds(0.4f);
-        Instantiate(motherBulletPrefab, turret3.position, turret3.rotation);
+        Instantiate(weakBulletPrefab, turret3.position, turret3.rotation);
         yield return new WaitForSeconds(0.4f);
-        Instantiate(motherBulletPrefab, turret4.position, turret4.rotation);
+        Instantiate(weakBulletPrefab, turret4.position, turret4.rotation);
         yield return new WaitForSeconds(0.4f);
-        Instantiate(motherBulletPrefab, turret5.position, turret5.rotation);
+        Instantiate(weakBulletPrefab, turret5.position, turret5.rotation);
         yield return new WaitForSeconds(5.0f);
         rolling = true;
     }
 
-    IEnumerator DroidSpawn()
+    IEnumerator TurretAttackStrong()
     {
-        Instantiate(enemyDroidPrefab, bay1.position, bay1.rotation);
+        Instantiate(strongBulletPrefab, turret1.position, turret1.rotation);
+        yield return new WaitForSeconds(0.5f);
+        Instantiate(strongBulletPrefab, turret2.position, turret2.rotation);
+        yield return new WaitForSeconds(0.5f);
+        Instantiate(strongBulletPrefab, turret3.position, turret3.rotation);
+        yield return new WaitForSeconds(0.5f);
+        Instantiate(strongBulletPrefab, turret4.position, turret4.rotation);
+        yield return new WaitForSeconds(0.5f);
+        Instantiate(strongBulletPrefab, turret5.position, turret5.rotation);
+        yield return new WaitForSeconds(0.5f);
+        Instantiate(strongBulletPrefab, turret1.position, turret1.rotation);
+        yield return new WaitForSeconds(0.5f);
+        Instantiate(strongBulletPrefab, turret2.position, turret2.rotation);
+        yield return new WaitForSeconds(0.5f);
+        Instantiate(strongBulletPrefab, turret3.position, turret3.rotation);
+        yield return new WaitForSeconds(0.5f);
+        Instantiate(strongBulletPrefab, turret4.position, turret4.rotation);
+        yield return new WaitForSeconds(0.5f);
+        Instantiate(strongBulletPrefab, turret5.position, turret5.rotation);
+        yield return new WaitForSeconds(4.0f);
+        rolling = true;
+    }
+
+    IEnumerator DroidSpawnWeak()
+    {
+        Instantiate(weakDroidPrefab, bay1.position, bay1.rotation);
         yield return new WaitForSeconds(0.1f);
-        Instantiate(enemyDroidPrefab, bay2.position, bay2.rotation);
+        Instantiate(weakDroidPrefab, bay2.position, bay2.rotation);
         yield return new WaitForSeconds(0.1f);
-        Instantiate(enemyDroidPrefab, bay3.position, bay3.rotation);
+        Instantiate(weakDroidPrefab, bay3.position, bay3.rotation);
         yield return new WaitForSeconds(0.1f);
-        Instantiate(enemyDroidPrefab, bay4.position, bay4.rotation);
+        Instantiate(weakDroidPrefab, bay4.position, bay4.rotation);
         yield return new WaitForSeconds(0.1f);
-        Instantiate(enemyDroidPrefab, bay5.position, bay5.rotation);
+        Instantiate(weakDroidPrefab, bay5.position, bay5.rotation);
         yield return new WaitForSeconds(5.0f);
+        rolling = true;
+    }
+    IEnumerator DroidSpawnStrong()
+    {
+        Instantiate(strongDroidPrefab, bay1.position, bay1.rotation);
+        yield return new WaitForSeconds(0.1f);
+        Instantiate(strongDroidPrefab, bay2.position, bay2.rotation);
+        yield return new WaitForSeconds(0.1f);
+        Instantiate(strongDroidPrefab, bay3.position, bay3.rotation);
+        yield return new WaitForSeconds(0.1f);
+        Instantiate(strongDroidPrefab, bay4.position, bay4.rotation);
+        yield return new WaitForSeconds(0.1f);
+        Instantiate(weakDroidPrefab, bay5.position, bay5.rotation);
+        yield return new WaitForSeconds(4.0f);
         rolling = true;
     }
 }

@@ -9,6 +9,7 @@ public class CameraBoss : MonoBehaviour
     public Camera cameraBoss;
     public Camera cameraMain;
 
+    public MotherScript motherScript;
     public GameObject healthSlider;
 
     private void Start()
@@ -26,6 +27,8 @@ public class CameraBoss : MonoBehaviour
 
         if (collision.gameObject.tag == "Spaceship")
         {
+            MotherScript.inZone = true;
+
             cameraMain.enabled = false;
             cameraBoss.enabled = true;
 
@@ -37,6 +40,8 @@ public class CameraBoss : MonoBehaviour
     {
         if (collision.gameObject.tag == "Spaceship")
         {
+            MotherScript.inZone = false;
+
             cameraMain.enabled = true;
             cameraBoss.enabled = false;
 
