@@ -6,12 +6,9 @@ public class BulletMovement : MonoBehaviour
 {
     public float Speed = 100;
     public Rigidbody2D rb;
-
-    ShieldScript energyShield = null;
     // Gives speed to the bullet.
     void Start()
     {
-        energyShield = GameObject.FindGameObjectWithTag("Shield").GetComponent<ShieldScript>();
         rb.AddRelativeForce(Vector2.up * Speed);
         Destroy(this.gameObject, 2.5f);
     }
@@ -28,7 +25,9 @@ public class BulletMovement : MonoBehaviour
                 Destroy(this.gameObject);
                 break;
             case "Shield":
-                energyShield.curHealth -= 1;
+                Destroy(this.gameObject);
+                break;
+            case "Mothership":
                 Destroy(this.gameObject);
                 break;
             default:

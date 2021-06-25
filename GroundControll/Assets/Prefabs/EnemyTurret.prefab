@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4298276115669703481}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: EnemyBulletSpawn
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -40,7 +40,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4298276116199164705}
   - component: {fileID: 4298276116199164704}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TurretBarrel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -125,7 +125,7 @@ GameObject:
   - component: {fileID: 4298276116586454808}
   - component: {fileID: 4298276116586454809}
   - component: {fileID: 4298276116586454790}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: EnemyTurret
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -271,7 +271,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4298276117304094501}
   - component: {fileID: 4298276117304094500}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Pivot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -305,7 +305,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 56689f4e97f9cd64b8c3e46ac4229704, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 0}
   attackRange: 20
   enemyBulletSpawn: {fileID: 4298276115669703481}
   enemyBulletPrefab: {fileID: 322716720882925071, guid: 77569d56ef826b8469caee5a808418b5, type: 3}

@@ -5,17 +5,13 @@ using UnityEngine;
 public class ShieldScript : MonoBehaviour
 {
     private bool shieldDown;
-    private int maxHealth = 6;
+    private int maxHealth = 10;
     public int curHealth;
 
     Collider shieldCollider;
-
-    private Color hitColor = Color.red;
-    private Color baseColor = Color.blue;
     // Start is called before the first frame update
     void Start()
     {
-        gameObject.GetComponent<Renderer>().material.color = baseColor;
         shieldCollider = GetComponent<Collider>();
         curHealth = maxHealth;
         shieldDown = false;
@@ -44,19 +40,12 @@ public class ShieldScript : MonoBehaviour
         }
     }
 
-    void OnCollisionEnter2D (Collision2D col)
+    void OnTriggerEnter2D (Collider2D col)
     {
         if (col.gameObject.tag == "Bullet")
         {
-            StartCoroutine(GetHit());
+            curHealth -= 1;
         }
-    }
-
-    IEnumerator GetHit()
-    {
-        gameObject.GetComponent<Renderer>().material.color = hitColor;
-        yield return new WaitForSeconds(0.2f);
-        gameObject.GetComponent<Renderer>().material.color = baseColor;
     }
 
     IEnumerator ShieldRecharge()

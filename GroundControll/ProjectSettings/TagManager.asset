@@ -17,6 +17,8 @@ TagManager:
   - Blackhole
   - Enemy
   - Shield
+  - Mothership
+  - BossArea
   layers:
   - Default
   - TransparentFX
@@ -25,13 +27,13 @@ TagManager:
   - Water
   - UI
   - Text
-  - 
+  - Enemies
   - Background
   - Ship
   - Spawn
   - Waypoints
   - Asteroids
-  - 
+  - Mothership
   - 
   - 
   - 
