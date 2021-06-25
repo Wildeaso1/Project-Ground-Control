@@ -15,6 +15,7 @@ TagManager:
   - ShowHealth
   - Camera
   - Blackhole
+  - Enemy
   layers:
   - Default
   - TransparentFX
@@ -57,4 +58,7 @@ TagManager:
     locked: 0
   - name: Asteroid HP
     uniqueID: 1233513343
+    locked: 0
+  - name: Pause
+    uniqueID: 3972418673
     locked: 0
