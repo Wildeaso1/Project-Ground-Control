@@ -5,7 +5,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637586694537147715
+      ticks: 637598657018121790
     m_Hash: 2260350587
   m_LockFileStatus:
     m_FilePath: C:/Users/mikey/Documents/Ma/Bewijzenmap/X 1/Y 4 (Expanding Space)/BO/Project-Ground-Control/GroundControll/Packages/packages-lock.json
@@ -13,7 +13,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637586694537207550
+      ticks: 637598657018181654
     m_Hash: 2052123639
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
@@ -94,14 +94,18 @@ m_PackageAssets:
         - 5.0.3
         - 5.0.4
         - 5.0.5
+        - 5.0.6
         - 6.0.0-pre.1
         - 6.0.0-pre.2
         - 6.0.1
         - 6.0.3
+        - 6.0.4
+        - 7.0.0-pre.2
         compatible:
         - 5.0.4
         - 5.0.5
-        verified: 5.0.5
+        - 5.0.6
+        verified: 5.0.6
       dependencies:
       - name: com.unity.2d.common
         version: 4.0.3
@@ -282,11 +286,14 @@ m_PackageAssets:
         - 4.0.0
         - 4.0.1
         - 4.0.2
+        - 4.1.0
         - 5.0.0-pre.1
         - 5.0.0-pre.2
         - 5.0.1
         - 5.0.3
+        - 5.0.4
         - 6.0.0-pre.2
+        - 6.0.0-pre.3
         compatible:
         - 4.0.2
         verified: 4.0.2
@@ -462,14 +469,18 @@ m_PackageAssets:
         - 5.1.0
         - 5.1.1
         - 5.1.2
+        - 5.1.3
         - 6.0.0-pre.1
         - 6.0.0-pre.2
         - 6.0.0
+        - 6.0.1
         - 7.0.0-pre.2
+        - 7.0.0-pre.3
         compatible:
         - 5.1.1
         - 5.1.2
-        verified: 5.1.2
+        - 5.1.3
+        verified: 5.1.3
       dependencies:
       - name: com.unity.mathematics
         version: 1.1.0
@@ -638,6 +649,7 @@ m_PackageAssets:
         - 2.7.1
         - 2.7.2
         - 2.7.3
+        - 2.7.4
         - 2.8.0-exp.1
         - 2.8.0-exp.2
         - 2.8.0-pre.1
@@ -659,6 +671,7 @@ m_PackageAssets:
         - 2.7.1
         - 2.7.2
         - 2.7.3
+        - 2.7.4
         - 2.8.0-exp.1
         - 2.8.0-exp.2
         - 2.8.0-pre.1
@@ -747,6 +760,7 @@ m_PackageAssets:
         - 1.3.7
         - 1.3.8
         - 1.3.9
+        - 1.4.9
         - 1.5.7
         - 2.0.0-preview.6
         - 2.0.0-preview.8
@@ -760,6 +774,7 @@ m_PackageAssets:
         - 2.1.0-preview.6
         compatible:
         - 1.3.9
+        - 1.4.9
         - 1.5.7
         - 2.0.0-preview.6
         - 2.0.0-preview.8
@@ -1226,10 +1241,12 @@ m_PackageAssets:
         - 1.1.22
         - 1.1.24
         - 1.1.26
+        - 1.1.27
         compatible:
         - 1.1.24
         - 1.1.26
-        verified: 1.1.26
+        - 1.1.27
+        verified: 1.1.27
       dependencies:
       - name: com.unity.ext.nunit
         version: 1.0.6
@@ -3856,6 +3873,7 @@ m_PackageAssets:
         - 5.0.0-pre.2
         - 5.0.0
         - 6.0.0-pre.2
+        - 6.0.0-pre.3
         compatible:
         - 4.0.2
         - 4.0.3
@@ -3987,9 +4005,35 @@ m_PackageAssets:
       errors: []
       versions:
         all:
+        - 4.0.0-preview
+        - 4.0.0
+        - 4.0.7-preview
+        - 4.0.7
+        - 4.0.8-preview
+        - 4.0.9
+        - 4.1.0-preview
+        - 4.1.0
+        - 4.2.0
+        - 4.3.0
+        - 4.3.1
         - 4.3.2
+        - 4.6.0-preview
+        - 4.7.0-preview
         compatible:
+        - 4.0.0-preview
+        - 4.0.0
+        - 4.0.7-preview
+        - 4.0.7
+        - 4.0.8-preview
+        - 4.0.9
+        - 4.1.0-preview
+        - 4.1.0
+        - 4.2.0
+        - 4.3.0
+        - 4.3.1
         - 4.3.2
+        - 4.6.0-preview
+        - 4.7.0-preview
         verified: 4.3.2
       dependencies: []
       resolvedDependencies: []
@@ -4008,7 +4052,7 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 0
+      datePublishedTicks: 637272602300000000
       documentationUrl: 
       hasRepository: 1
       repository:

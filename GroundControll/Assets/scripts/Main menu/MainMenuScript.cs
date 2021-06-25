@@ -11,7 +11,7 @@ public class MainMenuScript : MonoBehaviour
     public void Play() // Play Button Script
     {
 
-        SceneManager.LoadScene(Scene); // Opent level 0 "Scene index 1"
+        SceneManager.LoadScene("StartCinematic"); // Opent level 0 "Scene index 1"
 
     }
 
