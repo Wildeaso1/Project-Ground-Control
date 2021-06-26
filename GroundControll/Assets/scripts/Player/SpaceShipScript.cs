@@ -152,6 +152,6 @@ public class SpaceShipScript : MonoBehaviour
     }
     private void OnApplicationQuit()
     {
-        SaveManager.DeleteSave();
+        //SaveManager.DeleteSave();
     }
 }
