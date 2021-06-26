@@ -6,8 +6,6 @@ public class BulletMovement : MonoBehaviour
 {
     public float Speed = 100;
     public Rigidbody2D rb;
-
-
     // Gives speed to the bullet.
     void Start()
     {
@@ -24,6 +22,12 @@ public class BulletMovement : MonoBehaviour
                 break;
             case "Enemy":
                 Destroy(col.gameObject);
+                Destroy(this.gameObject);
+                break;
+            case "Shield":
+                Destroy(this.gameObject);
+                break;
+            case "Mothership":
                 Destroy(this.gameObject);
                 break;
             default:

@@ -5,11 +5,12 @@ using UnityEngine;
 public class AttackDroidScript : MonoBehaviour
 {
     public float speed;
-    public Transform target;
+
+    private Transform target;
     // Start is called before the first frame update
     void Start()
     {
-        
+        target = GameObject.Find("Ship").transform;
     }
 
     // Update is called once per frame
@@ -23,7 +24,7 @@ public class AttackDroidScript : MonoBehaviour
     {
         switch (col.gameObject.tag)
         {
-            case "Spacship":
+            case "Spaceship":
                 Destroy(this.gameObject);
                 break;
             case "Asteroid":

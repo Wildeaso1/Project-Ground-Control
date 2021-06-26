@@ -26,7 +26,7 @@ public class EnemyBullet : MonoBehaviour
             case "Asteroid":
                 Destroy(this.gameObject);
                 break;
-            case "Spacship":
+            case "Spaceship":
                 Destroy(this.gameObject);
                 break;
             default:

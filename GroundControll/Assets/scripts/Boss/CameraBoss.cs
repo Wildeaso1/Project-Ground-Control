@@ -9,6 +9,9 @@ public class CameraBoss : MonoBehaviour
     public Camera cameraBoss;
     public Camera cameraMain;
 
+    public MotherScript motherScript;
+    public GameObject healthSlider;
+
     private void Start()
     {
         cameraMain.enabled = true;
@@ -17,10 +20,19 @@ public class CameraBoss : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        if (collision.gameObject.tag == "Asteroid")
+        {
+            Destroy(collision.gameObject);
+        }
+
         if (collision.gameObject.tag == "Spaceship")
         {
+            MotherScript.inZone = true;
+
             cameraMain.enabled = false;
             cameraBoss.enabled = true;
+
+            healthSlider.SetActive(true);
         }
     }
 
@@ -28,8 +40,12 @@ public class CameraBoss : MonoBehaviour
     {
         if (collision.gameObject.tag == "Spaceship")
         {
+            MotherScript.inZone = false;
+
             cameraMain.enabled = true;
             cameraBoss.enabled = false;
+
+            healthSlider.SetActive(false);
         }
     }
 }
