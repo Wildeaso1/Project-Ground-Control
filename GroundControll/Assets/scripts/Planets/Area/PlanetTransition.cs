@@ -10,7 +10,6 @@ public class PlanetTransition : MonoBehaviour
 
     private bool range;
     public string Scene;
-    public GameObject pressE;
     public GameObject LoadingScreen;
     public Slider Pslider;
     public GameObject BackgroundMusic;
@@ -18,7 +17,7 @@ public class PlanetTransition : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        pressE.SetActive(false);
+        
     }
 
     // Update is called once per frame
@@ -27,20 +26,25 @@ public class PlanetTransition : MonoBehaviour
         if (range && Input.GetKeyDown(KeyCode.E))
         {
             Inventory.ScoreCredits = PlayerPrefs.GetInt("Credits");
-            LoadLevel(2);
+            LoadLevel(4);
         }
     }
 
-    private void OnTriggerEnter2D(Collider2D col)
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        range = true;
-        pressE.SetActive(true);
+        if (collision.gameObject.tag == "Spaceship")
+        {
+            range = true;
+        }
     }
 
-    private void OnTriggerExit2D(Collider2D col)
+    private void OnTriggerExit2D(Collider2D collision)
     {
-        range = false;
-        pressE.SetActive(false);
+        if (collision.gameObject.tag == "Spaceship")
+        {
+            range = false;
+        }
+        
     }
 
     public void LoadLevel(int sceneIndex)
