@@ -37,6 +37,7 @@ public class BuyingScript : MonoBehaviour
         RotationString = RotationLevelInt.ToString();
         SpaceShip = SpaceshipObject.GetComponent<SpaceShipScript>();
         Damage = AsteroidObject.GetComponent<AsteroidHealth>();
+        
     }
 
 
@@ -48,6 +49,8 @@ public class BuyingScript : MonoBehaviour
         BoosterCostText.text = "" + BoosterCost;
         GunCostText.text = "" + GunCost;
         RotationCostText.text = "" + RotationCost;
+        
+
 
         switch (BoosterLevelInt)
         {
@@ -57,34 +60,41 @@ public class BuyingScript : MonoBehaviour
                 BoosterString = "2";
                 SpaceShip.thrustSpeed = 25f;
                 BoosterCost = 1200;
+                PlayerPrefs.SetInt("BoosterLevel", BoosterLevelInt);
                 break;
             case 3:
                 BoosterString = "3";
                 SpaceShip.thrustSpeed = 27.5f;
                 BoosterCost = 1400;
+                PlayerPrefs.SetInt("BoosterLevel", BoosterLevelInt);
                 break;
             case 4:
                SpaceShip.thrustSpeed = 30f;
-               BoosterString  = "Max";
+                PlayerPrefs.SetInt("BoosterLevel", BoosterLevelInt);
+                BoosterString  = "Max";
                 break;
         }
 
         switch (RotationLevelInt)
         {
             case 1:
+                PlayerPrefs.SetInt("RotationLevel", RotationLevelInt);
                 break;
             case 2:
                 RotationCost = 900;
+                PlayerPrefs.SetInt("RotationLevel", RotationLevelInt);
                 RotationString = "2";
                 SpaceShip.rotationSpeed = 5f;
                 break;
             case 3:
                 RotationCost = 1050;
+                PlayerPrefs.SetInt("RotationLevel", RotationLevelInt);
                 RotationString = "3";
                 SpaceShip.rotationSpeed = 6f;
                 break;
             case 4:
                 RotationString = "Max";
+                PlayerPrefs.SetInt("RotationLevel", RotationLevelInt);
                 SpaceShip.rotationSpeed = 8f;
                 break;
         }
@@ -93,24 +103,29 @@ public class BuyingScript : MonoBehaviour
         {
             case 1:
                 Damage.TakingDamage = 1f;
+                PlayerPrefs.SetInt("GunLevel", GunLevelInt);
                 break;
             case 2:
                 GunCost = 2400;
+                PlayerPrefs.SetInt("GunLevel", GunLevelInt);
                 GunLevelString = "2";
                 Damage.TakingDamage = 2f;
                 break;
             case 3:
                 GunCost = 2800;
+                PlayerPrefs.SetInt("GunLevel", GunLevelInt);
                 GunLevelString = "3";
                 Damage.TakingDamage = 3f;
                 break;
             case 4:
                 GunCost = 3200;
+                PlayerPrefs.SetInt("GunLevel", GunLevelInt);
                 GunLevelString = "4";
                 Damage.TakingDamage = 4f;
                 break;
             case 5:
                 GunLevelString = "Max";
+                PlayerPrefs.SetInt("GunLevel", GunLevelInt);
                 Damage.TakingDamage = 5f;
                 break;
 

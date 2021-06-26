@@ -6,8 +6,8 @@ using UnityEngine.UI;
 
 public class PlayerHP : MonoBehaviour
 {
-    public static int MaxHealth = 120;
-    public static int PlayerHealth;
+    public  int MaxHealth = 120;
+    public  int PlayerHealth;
     public PlayerHealthBar HealthBar;
     public string GameOverScene;
     public GameObject LightUpUi;
@@ -18,10 +18,21 @@ public class PlayerHP : MonoBehaviour
     {
         PlayerHealth = MaxHealth;
         HealthBar.SetMaxHealth(MaxHealth);
+        PlayerHealth = PlayerPrefs.GetInt("PlayerHP");
+        if (PlayerPrefs.GetInt("PlayerHP") == 0)
+        {
+            PlayerHealth = MaxHealth;
+            HealthBar.SetHealth(MaxHealth);
+        }
     }
 
+    private void Awake()
+    {
+    }
     private void Update()
     {
+        
+        PlayerPrefs.SetInt("PlayerHP", PlayerHealth);
         if (PlayerHealth == 0)
         {
             Destroy(this.gameObject);
@@ -29,6 +40,7 @@ public class PlayerHP : MonoBehaviour
             PlayerHealth = MaxHealth;
         }
 
+        
         
        if (PlayerHealth <= 40 && !Started)
         {
@@ -42,6 +54,7 @@ public class PlayerHP : MonoBehaviour
         {
             PlayerHealth -= 10;
             HealthBar.SetHealth(PlayerHealth);
+            
         }
     }
     private void OnTriggerStay2D(Collider2D collision)
@@ -50,6 +63,7 @@ public class PlayerHP : MonoBehaviour
         {
             PlayerHealth -= 1;
             HealthBar.SetHealth(PlayerHealth);
+            PlayerPrefs.SetInt("PlayerHP", PlayerHealth);
         }
     }
 
