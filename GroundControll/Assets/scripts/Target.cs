@@ -6,9 +6,9 @@ using UnityEngine.UI;
 public class Target : MonoBehaviour
 {
     public Image waypoint1;
-    //public Image Waypoint2;
+    public Image Waypoint2;
     public Transform Target1;
-    //public Transform Target2;
+    public Transform Target2;
     private float HideDistance = 30f;
     public Camera MainCamera;
 
@@ -20,7 +20,7 @@ public class Target : MonoBehaviour
     void Update()
     {
         TargetLock1();
-        //TargetLock2();
+        TargetLock2();
 
     }
 
@@ -38,7 +38,7 @@ public class Target : MonoBehaviour
 
         waypoint1.transform.position = pos;
     }
-   /* public void TargetLock2()
+   public void TargetLock2()
     {
         float minX = Waypoint2.GetPixelAdjustedRect().width / 2;
         float maxX = Screen.width - minX;
@@ -51,5 +51,5 @@ public class Target : MonoBehaviour
         pos.y = Mathf.Clamp(pos.y, minY, maxY);
 
         Waypoint2.transform.position = pos;
-    }*/
+    }
 }

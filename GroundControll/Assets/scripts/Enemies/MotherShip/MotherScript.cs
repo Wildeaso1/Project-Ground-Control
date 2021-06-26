@@ -12,6 +12,9 @@ public class MotherScript : MonoBehaviour
     public GameObject strongBulletPrefab;
     public GameObject strongDroidPrefab;
 
+    public GameObject BGMusic;
+    public GameObject BSMusic;
+
     private int attackNumber;
     private bool rolling = false;
     public bool inBattle = false;
@@ -65,10 +68,14 @@ public class MotherScript : MonoBehaviour
         if (mHealth.curHealth != 1000 && inZone == true)
         {
             inBattle = true;
+            BSMusic.SetActive(true);
+            BGMusic.SetActive(false);
         }
         else
         {
             inBattle = false;
+            BSMusic.SetActive(false);
+            BGMusic.SetActive(true);
         }
 
         if (rolling == true && inBattle == true)
@@ -194,7 +201,7 @@ public class MotherScript : MonoBehaviour
         yield return new WaitForSeconds(0.1f);
         Instantiate(strongDroidPrefab, bay4.position, bay4.rotation);
         yield return new WaitForSeconds(0.1f);
-        Instantiate(weakDroidPrefab, bay5.position, bay5.rotation);
+        Instantiate(strongDroidPrefab, bay5.position, bay5.rotation);
         yield return new WaitForSeconds(4.0f);
         rolling = true;
     }

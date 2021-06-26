@@ -16,9 +16,9 @@ public class Selling : MonoBehaviour
     // Ore prijs
     public void Start()
     {
-        IronSell = 5;
-        GoldSell = 30;
-        CobaltSell = 15;
+        IronSell = 200000;
+        GoldSell = 100;
+        CobaltSell = 40;
     }
 
     public void Update()

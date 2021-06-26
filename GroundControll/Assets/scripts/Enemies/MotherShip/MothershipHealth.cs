@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class MothershipHealth : MonoBehaviour
 {
+    public GameObject explosion;
     public float maxHealth = 1000;
     public float curHealth;
     public MotherHealthBar HealthBar;
@@ -26,6 +27,7 @@ public class MothershipHealth : MonoBehaviour
         {
             Destroy(this.gameObject);
             Debug.Log("Kapot");
+            Instantiate(explosion);
         }
     }
 

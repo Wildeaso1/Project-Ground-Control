@@ -6,8 +6,8 @@ using UnityEngine.UI;
 
 public class PlayerHP : MonoBehaviour
 {
-    public  int MaxHealth = 120;
-    public  int PlayerHealth;
+    public static int MaxHealth = 120;
+    public static int PlayerHealth;
     public PlayerHealthBar HealthBar;
     public string GameOverScene;
     public GameObject LightUpUi;
