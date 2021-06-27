@@ -161,7 +161,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eb2a9336588b8764b94eb64c4e9fddc0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rb: {fileID: 1282047213839423487}
 --- !u!50 &1282047213839423487
 Rigidbody2D:
   serializedVersion: 4
@@ -194,7 +193,7 @@ PointEffector2D:
   m_UseColliderMask: 1
   m_ColliderMask:
     serializedVersion: 2
-    m_Bits: 4608
+    m_Bits: 5632
   m_ForceMagnitude: -53.02
   m_ForceVariation: 0
   m_DistanceScale: 1

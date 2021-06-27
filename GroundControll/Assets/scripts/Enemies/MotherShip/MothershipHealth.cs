@@ -4,11 +4,23 @@ using UnityEngine;
 
 public class MothershipHealth : MonoBehaviour
 {
+    public GameObject Shop;
     public GameObject explosion;
+    public GameObject SpaceTiles;
+    public GameObject BSMusic;
+    public GameObject Ship;
+    public GameObject Transiton;
     public float maxHealth = 1000;
     public float curHealth;
     public MotherHealthBar HealthBar;
     public GameObject asteroidObject;
+    public Camera BossCam;
+    public Camera BossCamAnim;
+    public Canvas Health;
+    public Canvas Points;
+    public Canvas BsHealth;
+    public Canvas Text;
+
 
     private AsteroidHealth damage;
 
@@ -18,7 +30,12 @@ public class MothershipHealth : MonoBehaviour
         damage = asteroidObject.GetComponent<AsteroidHealth>();
         curHealth = maxHealth;
         HealthBar.SetMaxHealth(maxHealth);
-        
+        explosion.gameObject.SetActive(false);
+        BossCamAnim.gameObject.SetActive(false);
+        SpaceTiles.gameObject.SetActive(false);
+        Ship.gameObject.SetActive(false);
+        Transiton.gameObject.SetActive(false);
+        Text.enabled = false;
     }
 
     // Update is called once per frame
@@ -26,9 +43,20 @@ public class MothershipHealth : MonoBehaviour
     {
         if (curHealth <= 0)
         {
-            Destroy(this.gameObject);
+            this.gameObject.SetActive(false);
             Debug.Log("Kapot");
-            Instantiate(explosion);
+            explosion.gameObject.SetActive(true);
+            BossCam.gameObject.SetActive(false);
+            BossCamAnim.gameObject.SetActive(true);
+            SpaceTiles.gameObject.SetActive(true);
+            BSMusic.gameObject.SetActive(false);
+            Ship.gameObject.SetActive(true);
+            Shop.gameObject.SetActive(false);
+            Transiton.gameObject.SetActive(true);
+            Health.enabled = false;
+            BsHealth.enabled = false;
+            Points.enabled = false;
+            Text.enabled = true;
         }
     }
 
