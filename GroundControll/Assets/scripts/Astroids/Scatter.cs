@@ -36,7 +36,7 @@ public class Scatter : MonoBehaviour
             StartCoroutine(BlackholeEnter());
         }
 
-        if (GetComponent<AsteroidHealth>().AsteroidHPSmall == GetComponent<AsteroidHealth>().AsteroidHPSmallDeath && collision.gameObject.tag == "Bullet")
+        if (GetComponent<AsteroidHealth>().AsteroidHPSmall <= GetComponent<AsteroidHealth>().AsteroidHPSmallDeath && collision.gameObject.tag == "Bullet")
         {
             for (int i = 0; i < IronN; i++) 
             {
