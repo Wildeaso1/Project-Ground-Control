@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 2330084002374761320}
   - component: {fileID: 2330084002374761321}
   - component: {fileID: 2330084002374761326}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: AttackDroid
   m_TagString: Enemy
   m_Icon: {fileID: 0}

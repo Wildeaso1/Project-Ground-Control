@@ -13,7 +13,7 @@ public class ToEnd : MonoBehaviour
     public Slider Pslider;
     public GameObject BackgroundMusic;
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    public void End()
     {
         LoadLevel(5);
     }

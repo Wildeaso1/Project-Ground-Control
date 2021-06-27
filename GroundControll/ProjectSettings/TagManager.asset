@@ -21,6 +21,7 @@ TagManager:
   - Mothership
   - EnemyBullet
   - MothershipBullet
+  - EndMusic
   layers:
   - Default
   - TransparentFX

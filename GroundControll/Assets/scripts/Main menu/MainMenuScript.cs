@@ -9,7 +9,19 @@ public class MainMenuScript : MonoBehaviour
 
     public string Scene;
     public GameObject LoadingScreen;
+    public GameObject EndMusic;
     public Slider Pslider;
+
+    private void Start()
+    {
+
+        EndMusic = GameObject.FindGameObjectWithTag("EndMusic");
+
+        if (EndMusic)
+        {
+            Destroy(EndMusic);
+        }    
+    }
 
 
     public void NewGame() // Play Button Script
