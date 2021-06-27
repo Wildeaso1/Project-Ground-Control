@@ -13,10 +13,13 @@ public class ToCredits : MonoBehaviour
     public Slider Pslider;
     public GameObject BackgroundMusic;
 
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
+
+    public void ToCredit()
+	{
         LoadLevel(6);
-    }
+	}
+
+
 
 
     public void LoadLevel(int sceneIndex)

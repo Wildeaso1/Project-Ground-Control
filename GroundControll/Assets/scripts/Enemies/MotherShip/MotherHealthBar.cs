@@ -11,7 +11,9 @@ public class MotherHealthBar : MonoBehaviour
     private float TargetHealthMothership;
     private float SlidingTime = 0.2f;
     public Image Fill;
-    public void SetMaxHealth(float health)
+
+
+	public void SetMaxHealth(float health)
     {
         HPSlider.maxValue = health;
         HPSlider.value = health;

@@ -9,6 +9,7 @@ public class MothershipHealth : MonoBehaviour
     public GameObject SpaceTiles;
     public GameObject BSMusic;
     public GameObject Ship;
+    public GameObject EndingMusic;
     public GameObject Transiton;
     public float maxHealth = 1000;
     public float curHealth;
@@ -20,6 +21,8 @@ public class MothershipHealth : MonoBehaviour
     public Canvas Points;
     public Canvas BsHealth;
     public Canvas Text;
+    public Animator Anim;
+    public GameObject EndingText;
 
 
     private AsteroidHealth damage;
@@ -36,6 +39,8 @@ public class MothershipHealth : MonoBehaviour
         Ship.gameObject.SetActive(false);
         Transiton.gameObject.SetActive(false);
         Text.enabled = false;
+        Anim = EndingText.GetComponent<Animator>();
+        EndingMusic.SetActive(false);
     }
 
     // Update is called once per frame
@@ -57,7 +62,10 @@ public class MothershipHealth : MonoBehaviour
             BsHealth.enabled = false;
             Points.enabled = false;
             Text.enabled = true;
+            Anim.SetBool("Active", true);
+            EndingMusic.SetActive(true);
         }
+        HealthBar.SetHealth(curHealth);
     }
 
     void OnTriggerEnter2D(Collider2D col)

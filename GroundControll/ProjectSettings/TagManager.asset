@@ -16,6 +16,11 @@ TagManager:
   - Camera
   - Blackhole
   - Enemy
+  - Shield
+  - BossArea
+  - Mothership
+  - EnemyBullet
+  - MothershipBullet
   layers:
   - Default
   - TransparentFX
@@ -64,4 +69,7 @@ TagManager:
     locked: 0
   - name: Pause
     uniqueID: 3972418673
+    locked: 0
+  - name: Cum
+    uniqueID: 1990890803
     locked: 0
