@@ -37,6 +37,9 @@ public class BuyingScript : MonoBehaviour
         RotationString = RotationLevelInt.ToString();
         SpaceShip = SpaceshipObject.GetComponent<SpaceShipScript>();
         Damage = AsteroidObject.GetComponent<AsteroidHealth>();
+        BoosterLevelInt = PlayerPrefs.GetInt("BoosterLevel");
+        GunLevelInt = PlayerPrefs.GetInt("GunLevel");
+        RotationLevelInt = PlayerPrefs.GetInt("RotationLevel");
         
     }
 
@@ -69,6 +72,7 @@ public class BuyingScript : MonoBehaviour
                 PlayerPrefs.SetInt("BoosterLevel", BoosterLevelInt);
                 break;
             case 4:
+                BoosterCost = 0;
                SpaceShip.thrustSpeed = 30f;
                 PlayerPrefs.SetInt("BoosterLevel", BoosterLevelInt);
                 BoosterString  = "Max";
@@ -93,6 +97,7 @@ public class BuyingScript : MonoBehaviour
                 SpaceShip.rotationSpeed = 6f;
                 break;
             case 4:
+                RotationCost = 0;
                 RotationString = "Max";
                 PlayerPrefs.SetInt("RotationLevel", RotationLevelInt);
                 SpaceShip.rotationSpeed = 8f;
@@ -124,6 +129,7 @@ public class BuyingScript : MonoBehaviour
                 Damage.TakingDamage = 4f;
                 break;
             case 5:
+                GunCost = 0;
                 GunLevelString = "Max";
                 PlayerPrefs.SetInt("GunLevel", GunLevelInt);
                 Damage.TakingDamage = 5f;

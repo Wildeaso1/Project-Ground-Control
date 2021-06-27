@@ -8,6 +8,7 @@ public class BuyHealth : MonoBehaviour
 
     public int cost = 200;
     public bool heal = false;
+    public PlayerHealthBar Healthbar;
 
     private void Update()
     {
@@ -22,9 +23,16 @@ public class BuyHealth : MonoBehaviour
 
     public void Sell()
     {
-        Inventory.ScoreCredits -= cost;
 
-        PlayerHP.PlayerHealth = PlayerHP.MaxHealth;
+        if (Inventory.ScoreCredits >= cost)
+		{
+            Inventory.ScoreCredits -= cost;
+            PlayerHP.PlayerHealth = PlayerHP.MaxHealth;
+            Healthbar.SetHealth(PlayerHP.PlayerHealth);
+        }
+        
+
+        
 
         heal = true;
     }

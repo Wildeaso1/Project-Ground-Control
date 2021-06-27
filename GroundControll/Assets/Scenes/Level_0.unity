@@ -628,6 +628,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cost: 200
   heal: 0
+  Healthbar: {fileID: 1452514505}
 --- !u!1 &75117289
 GameObject:
   m_ObjectHideFlags: 0
@@ -13193,11 +13194,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1684445093}
   m_CullTransparentMesh: 1
---- !u!1 &1686363120 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5444204405517039190, guid: a4a8e3b44c1b955419d6fd20d37a8781, type: 3}
-  m_PrefabInstance: {fileID: 1384677372}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1686772595
 GameObject:
   m_ObjectHideFlags: 0
@@ -14973,7 +14969,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cameraBoss: {fileID: 901516577}
   cameraMain: {fileID: 475738199}
-  motherScript: {fileID: 0}
+  motherScript: {fileID: 1833992043}
   healthSlider: {fileID: 1761503642}
 --- !u!61 &1830420926
 BoxCollider2D:
@@ -15249,7 +15245,7 @@ MonoBehaviour:
   maxHealth: 500
   curHealth: 500
   HealthBar: {fileID: 1761503645}
-  asteroidObject: {fileID: 1686363120}
+  asteroidObject: {fileID: 5444204405517039190, guid: a4a8e3b44c1b955419d6fd20d37a8781, type: 3}
 --- !u!1 &1847207876
 GameObject:
   m_ObjectHideFlags: 0

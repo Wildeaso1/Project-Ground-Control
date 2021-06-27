@@ -18,6 +18,7 @@ public class MothershipHealth : MonoBehaviour
         damage = asteroidObject.GetComponent<AsteroidHealth>();
         curHealth = maxHealth;
         HealthBar.SetMaxHealth(maxHealth);
+        
     }
 
     // Update is called once per frame
