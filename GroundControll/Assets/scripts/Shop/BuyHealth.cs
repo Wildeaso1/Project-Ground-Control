@@ -28,6 +28,7 @@ public class BuyHealth : MonoBehaviour
 		{
             Inventory.ScoreCredits -= cost;
             PlayerHP.PlayerHealth = PlayerHP.MaxHealth;
+            PlayerPrefs.SetInt("PlayerHP", PlayerHP.MaxHealth);
             Healthbar.SetHealth(PlayerHP.PlayerHealth);
         }
         
