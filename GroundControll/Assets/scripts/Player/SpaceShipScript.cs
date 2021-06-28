@@ -58,7 +58,7 @@ public class SpaceShipScript : MonoBehaviour
         }
 
 
-        if (Input.GetKey(KeyCode.W))
+        if (Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.UpArrow))
         {
             Fire.SetActive(true);
         }

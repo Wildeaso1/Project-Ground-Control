@@ -1,0 +1,10 @@
+----Movement----
+W : Move Forward
+D : Turn Right
+A : Move Left
+Space : Shoot
+
+----Planet----
+D : Walk Right
+A : Walk Left
+E : Open Shop/ Return To Space

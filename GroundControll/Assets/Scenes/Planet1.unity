@@ -468,7 +468,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 55c6af06375f9b142a94d43a53fdcc65, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cost: 200
   heal: 0
   Healthbar: {fileID: 0}
 --- !u!223 &73366491

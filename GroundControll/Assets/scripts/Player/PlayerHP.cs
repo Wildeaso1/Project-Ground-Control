@@ -38,6 +38,7 @@ public class PlayerHP : MonoBehaviour
             Destroy(this.gameObject);
             SceneManager.LoadScene(GameOverScene);
             PlayerHealth = MaxHealth;
+            PlayerPrefs.DeleteAll();
         }
 
         

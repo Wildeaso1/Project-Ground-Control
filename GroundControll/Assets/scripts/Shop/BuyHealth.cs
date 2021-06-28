@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class BuyHealth : MonoBehaviour
 {
 
-    public int cost = 200;
+    public static int cost = 200;
     public bool heal = false;
     public PlayerHealthBar Healthbar;
 
