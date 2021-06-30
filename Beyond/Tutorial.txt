@@ -8,3 +8,7 @@ Space : Shoot
 D : Walk Right
 A : Walk Left
 E : Open Shop/ Return To Space
+
+----Gameplay----
+Shoot asteroids to break them and get ores. 
+Upgrade your ship on the planet and fight the boss.
