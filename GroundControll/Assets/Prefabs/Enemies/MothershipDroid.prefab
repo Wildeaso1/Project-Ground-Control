@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 4053568757697667059}
   - component: {fileID: 4053568757697667058}
   - component: {fileID: 4053568757697667061}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: MothershipDroid
   m_TagString: Enemy
   m_Icon: {fileID: 0}

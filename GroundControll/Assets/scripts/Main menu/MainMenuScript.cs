@@ -9,7 +9,7 @@ public class MainMenuScript : MonoBehaviour
 
     public string Scene;
     public GameObject LoadingScreen;
-    public GameObject EndMusic;
+    private GameObject EndMusic;
     public Slider Pslider;
 
     private void Start()
@@ -26,9 +26,12 @@ public class MainMenuScript : MonoBehaviour
 
     public void NewGame() // Play Button Script
     {
-
+        
         LoadLevel(3); // Opent level 0 "Scene index 1"
         SaveManager.DeleteSave();
+        PlayerPrefs.SetInt("BoosterLevel", 1);
+        PlayerPrefs.SetInt("GunLevel", 1);
+        PlayerPrefs.SetInt("RotationLevel", 1);
     }
 
     public void LoadGame()

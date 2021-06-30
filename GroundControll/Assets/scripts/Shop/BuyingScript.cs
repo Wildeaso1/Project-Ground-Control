@@ -32,6 +32,7 @@ public class BuyingScript : MonoBehaviour
 
     private void Start()
     {
+        
         BoosterString = BoosterLevelInt.ToString();
         GunLevelString = GunLevelInt.ToString();
         RotationString = RotationLevelInt.ToString();
@@ -40,7 +41,7 @@ public class BuyingScript : MonoBehaviour
         BoosterLevelInt = PlayerPrefs.GetInt("BoosterLevel");
         GunLevelInt = PlayerPrefs.GetInt("GunLevel");
         RotationLevelInt = PlayerPrefs.GetInt("RotationLevel");
-        
+
     }
 
 
@@ -52,7 +53,7 @@ public class BuyingScript : MonoBehaviour
         BoosterCostText.text = "" + BoosterCost;
         GunCostText.text = "" + GunCost;
         RotationCostText.text = "" + RotationCost;
-        
+        Debug.Log("Aanpassing" + BoosterLevelInt);
 
 
         switch (BoosterLevelInt)

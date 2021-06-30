@@ -5406,8 +5406,8 @@ GameObject:
   m_Component:
   - component: {fileID: 740191661}
   - component: {fileID: 740191660}
-  - component: {fileID: 740191662}
   - component: {fileID: 740191663}
+  - component: {fileID: 740191662}
   m_Layer: 0
   m_Name: Controller
   m_TagString: Untagged
@@ -5430,8 +5430,10 @@ MonoBehaviour:
   numberToSpawn: 30
   spawnPool:
   - {fileID: 5444204405517039190, guid: a4a8e3b44c1b955419d6fd20d37a8781, type: 3}
-  quad: {fileID: 1026934947}
   Amount: 20
+  ship: {fileID: 1858397672}
+  minR: 20.5
+  maxR: 100
 --- !u!4 &740191661
 Transform:
   m_ObjectHideFlags: 0
@@ -5458,11 +5460,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2085f4a944831ca4796c4c6042aad45d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  numberToSpawn: 3
+  numberToSpawn: 8
   spawnPool:
   - {fileID: 1282047213839423426, guid: ba544498718c33a41a506e55974d0c9f, type: 3}
-  quad: {fileID: 238001319}
-  Amount: 1
+  Amount: 2
+  ship: {fileID: 1858397672}
+  minR: 30
+  maxR: 180
 --- !u!114 &740191663
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5475,11 +5479,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2085f4a944831ca4796c4c6042aad45d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  numberToSpawn: 5
+  numberToSpawn: 6
   spawnPool:
   - {fileID: 2330084002374761325, guid: 9e214e74e5873854cae42d11a908559d, type: 3}
-  quad: {fileID: 1026934947}
-  Amount: 2
+  Amount: 0
+  ship: {fileID: 1858397672}
+  minR: 20.5
+  maxR: 100
 --- !u!1 &759230089
 GameObject:
   m_ObjectHideFlags: 0
@@ -6678,10 +6684,10 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 901823579}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -612.0483, y: -364.02475, z: 59.877625}
+  m_LocalPosition: {x: -290.85056, y: -200.41226, z: 8.736828}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 1168367121}
+  m_Father: {fileID: 1083019866}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &916799494
@@ -7721,6 +7727,38 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1037151725}
   m_CullTransparentMesh: 1
+--- !u!1 &1083019865
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1083019866}
+  m_Layer: 0
+  m_Name: SpaceMusic
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1083019866
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1083019865}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 285.65933, y: 205.11813, z: -38.386425}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 901823581}
+  - {fileID: 1703949702}
+  m_Father: {fileID: 0}
+  m_RootOrder: 16
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1099919679
 GameObject:
   m_ObjectHideFlags: 0
@@ -8388,8 +8426,6 @@ Transform:
   m_LocalPosition: {x: 606.85706, y: 368.73062, z: -89.52722}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 901823581}
-  - {fileID: 1703949702}
   - {fileID: 1672665151}
   m_Father: {fileID: 0}
   m_RootOrder: 15
@@ -11360,7 +11396,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1168367121}
-  m_RootOrder: 2
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!82 &1672665152
 AudioSource:
@@ -11570,10 +11606,10 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1703949701}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 20.883179, y: 175.65048, z: -348.90494}
+  m_LocalPosition: {x: 342.0809, y: 339.26297, z: -400.04575}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 1168367121}
+  m_Father: {fileID: 1083019866}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!82 &1703949703

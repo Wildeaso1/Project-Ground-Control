@@ -469,7 +469,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   heal: 0
-  Healthbar: {fileID: 0}
 --- !u!223 &73366491
 Canvas:
   m_ObjectHideFlags: 0
