@@ -1,0 +1,87 @@
+# ============== Unity ==============
+# Folders Unity regenerates from your project — never commit these
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+[Mm]emoryCaptures/
+Beyond Web/
+Beyond/
+
+# IL2CPP / Burst caches
+[Aa]ssets/AssetStoreTools*
+[Aa]ssets/[Pp]lugins/[Aa]ndroid/[Mm]ulti[Dd]ex/
+
+# Asset meta data should only be ignored when the corresponding asset is also ignored
+!/[Aa]ssets/**/*.meta
+
+# Unity3D-generated files
+*.unitypackage
+*.app
+*.unity3d
+
+# Crash reports
+sysinfo.txt
+
+# Recorder / Asset import
+/[Aa]ssets/[Rr]ecordings/
+
+# ============== Build outputs (CI/CD) ==============
+# The pipeline rebuilds these every time — no need to track
+test-results.xml
+test.log
+build.log
+
+# ============== IDE / Editor ==============
+# Visual Studio
+.vs/
+.vsconfig
+*.csproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+*.suo
+*.unityproj
+
+# JetBrains Rider
+.idea/
+*.DotSettings.user
+
+# Visual Studio Code
+.vscode/
+
+# ============== OS junk ==============
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# ============== Misc ==============
+# Backup files
+*.bak
+*.orig
+
+# Local config
+*.local
+
+# Butler credentials (stored locally by butler login)
+.itch/
