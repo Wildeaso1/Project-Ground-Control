@@ -1,87 +1,56 @@
-# ============== Unity ==============
-# Folders Unity regenerates from your project — never commit these
-[Ll]ibrary/
-[Tt]emp/
-[Oo]bj/
-[Bb]uild/
-[Bb]uilds/
-[Ll]ogs/
-[Uu]ser[Ss]ettings/
-[Mm]emoryCaptures/
-Beyond Web/
-Beyond/
+# ============== Unity (in GroundControll subfolder) ==============
+GroundControll/[Ll]ibrary/
+GroundControll/[Tt]emp/
+GroundControll/[Oo]bj/
+GroundControll/[Bb]uild/
+GroundControll/[Bb]uilds/
+GroundControll/[Ll]ogs/
+GroundControll/[Uu]ser[Ss]ettings/
+GroundControll/[Mm]emoryCaptures/
 
-# IL2CPP / Burst caches
-[Aa]ssets/AssetStoreTools*
-[Aa]ssets/[Pp]lugins/[Aa]ndroid/[Mm]ulti[Dd]ex/
+# Don't ignore .meta files
+!GroundControll/[Aa]ssets/**/*.meta
 
-# Asset meta data should only be ignored when the corresponding asset is also ignored
-!/[Aa]ssets/**/*.meta
+# Unity-generated files
+GroundControll/*.csproj
+GroundControll/*.sln
+GroundControll/Assembly-CSharp*.csproj
+GroundControll/Assembly-CSharp-Editor*.csproj
+GroundControll/DOTween.Modules.csproj
+GroundControll/GameAssembly.csproj
+GroundControll/Test.csproj
+GroundControll/Tests.csproj
+GroundControll/Tests.Editor.csproj
 
-# Unity3D-generated files
+# IDE / Editor folders
+GroundControll/.vs/
+GroundControll/.idea/
+GroundControll/.vscode/
+GroundControll/.claude/
+GroundControll/.vsconfig
+
+# Pipeline / log outputs (regenerated each run)
+GroundControll/build.log
+GroundControll/test.log
+GroundControll/test-results.xml
+GroundControll/UpgradeLog.htm
+
+# Unity package outputs
 *.unitypackage
 *.app
 *.unity3d
 
-# Crash reports
-sysinfo.txt
+# ============== Local build outputs (outside the project) ==============
+Beyond/
+Beyond Web/
+Beyond.zip
 
-# Recorder / Asset import
-/[Aa]ssets/[Rr]ecordings/
-
-# ============== Build outputs (CI/CD) ==============
-# The pipeline rebuilds these every time — no need to track
-test-results.xml
-test.log
-build.log
-
-# ============== IDE / Editor ==============
-# Visual Studio
-.vs/
-.vsconfig
-*.csproj
-*.sln
-*.suo
-*.tmp
-*.user
-*.userprefs
-*.pidb
-*.booproj
-*.svd
-*.pdb
-*.mdb
-*.opendb
-*.VC.db
-*.suo
-*.unityproj
-
-# JetBrains Rider
-.idea/
-*.DotSettings.user
-
-# Visual Studio Code
-.vscode/
-
-# ============== OS junk ==============
-# Windows
+# ============== OS / IDE / Misc ==============
 Thumbs.db
-ehthumbs.db
 Desktop.ini
-$RECYCLE.BIN/
-
-# macOS
 .DS_Store
-.AppleDouble
-.LSOverride
-._*
-
-# ============== Misc ==============
-# Backup files
 *.bak
+*.tmp
 *.orig
-
-# Local config
-*.local
-
-# Butler credentials (stored locally by butler login)
-.itch/
+*.user
+*.suo
