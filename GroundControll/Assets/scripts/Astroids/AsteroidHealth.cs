@@ -50,7 +50,7 @@ public class AsteroidHealth : MonoBehaviour
 
     IEnumerator FreezeFrame()
     {
-        var SaveVelocity = _rigidbody.velocity;
+        var SaveVelocity = _rigidbody.linearVelocity;
         var SaveAngularVelocity = _rigidbody.angularVelocity;
         _rigidbody.bodyType = RigidbodyType2D.Kinematic;
         yield return new WaitForSecondsRealtime(1);

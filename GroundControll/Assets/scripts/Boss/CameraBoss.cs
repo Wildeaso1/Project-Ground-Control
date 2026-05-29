@@ -14,38 +14,66 @@ public class CameraBoss : MonoBehaviour
 
     private void Start()
     {
-        cameraMain.enabled = true;
+        if (cameraMain != null)
+            cameraMain.enabled = true;
+        else
+            Debug.LogWarning("CameraBoss: cameraMain not assigned on " + gameObject.name);
     }
 
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.tag == "Asteroid")
+        if (collision != null && collision.CompareTag("Asteroid"))
         {
             Destroy(collision.gameObject);
         }
 
-        if (collision.gameObject.tag == "Spaceship")
+        if (collision != null && collision.CompareTag("Spaceship"))
         {
             MotherScript.inZone = true;
 
-            cameraMain.enabled = false;
-            cameraBoss.enabled = true;
+            if (cameraMain == null || cameraBoss == null)
+            {
+                Debug.LogWarning("CameraBoss: cameraMain or cameraBoss not assigned on " + gameObject.name);
+            }
+            else
+            {
+                // Preserve orthographic size to avoid sudden zoom changes
+                if (cameraMain.orthographic && cameraBoss.orthographic)
+                    cameraBoss.orthographicSize = cameraMain.orthographicSize;
 
-            healthSlider.SetActive(true);
+                // Use GameObject active state to switch cameras safely
+                cameraMain.gameObject.SetActive(false);
+                cameraBoss.gameObject.SetActive(true);
+            }
+
+            if (healthSlider != null)
+                healthSlider.SetActive(true);
+            else
+                Debug.LogWarning("CameraBoss: healthSlider not assigned on " + gameObject.name);
         }
     }
 
     private void OnTriggerExit2D(Collider2D collision)
     {
-        if (collision.gameObject.tag == "Spaceship")
+        if (collision != null && collision.CompareTag("Spaceship"))
         {
             MotherScript.inZone = false;
 
-            cameraMain.enabled = true;
-            cameraBoss.enabled = false;
+            if (cameraMain == null || cameraBoss == null)
+            {
+                Debug.LogWarning("CameraBoss: cameraMain or cameraBoss not assigned on " + gameObject.name);
+            }
+            else
+            {
+                cameraMain.gameObject.SetActive(true);
+                cameraBoss.gameObject.SetActive(false);
+            }
 
-            healthSlider.SetActive(false);
+            if (healthSlider != null)
+                healthSlider.SetActive(false);
+            else
+                Debug.LogWarning("CameraBoss: healthSlider not assigned on " + gameObject.name);
         }
     }
 }

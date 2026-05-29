@@ -14,7 +14,23 @@ public class Target : MonoBehaviour
 
     private void Start()
     {
-        MainCamera = GameObject.FindGameObjectWithTag("Camera").GetComponent<Camera>();
+        // Prefer an explicit assignment in the inspector; fall back to Camera.main then to a GameObject tagged "Camera"
+        if (MainCamera == null)
+        {
+            MainCamera = Camera.main;
+            if (MainCamera == null)
+            {
+                GameObject camGo = null;
+                try { camGo = GameObject.FindGameObjectWithTag("Camera"); } catch { camGo = null; }
+                if (camGo != null)
+                {
+                    MainCamera = camGo.GetComponent<Camera>();
+                }
+            }
+
+            if (MainCamera == null)
+                Debug.LogWarning("Target: MainCamera not found. Waypoints will be disabled on " + gameObject.name);
+        }
     }
 
     void Update()
@@ -26,6 +42,8 @@ public class Target : MonoBehaviour
 
     public void TargetLock1()
     {
+        if (waypoint1 == null || Target1 == null || MainCamera == null) return;
+
         float minX = waypoint1.GetPixelAdjustedRect().width / 2;
         float maxX = Screen.width - minX;
 
@@ -40,6 +58,8 @@ public class Target : MonoBehaviour
     }
    public void TargetLock2()
     {
+        if (Waypoint2 == null || Target2 == null || MainCamera == null) return;
+
         float minX = Waypoint2.GetPixelAdjustedRect().width / 2;
         float maxX = Screen.width - minX;
 

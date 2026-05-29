@@ -10,7 +10,10 @@ public class Buttons : MonoBehaviour
 
     public void ToMainMenu()
     {
-        SceneManager.LoadScene(SceneTransition);
+        if (!string.IsNullOrEmpty(SceneTransition))
+            SceneManager.LoadScene(SceneTransition);
+        else
+            Debug.LogError("Buttons: SceneTransition is empty or not set on " + gameObject.name);
     }
 
     public void QuitGame()

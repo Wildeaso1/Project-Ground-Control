@@ -9,7 +9,10 @@ public class ToMainMenu : MonoBehaviour
 
     public void ToMenu()
     {
-        SceneManager.LoadScene(mainMenu);
+        if (!string.IsNullOrEmpty(mainMenu))
+            SceneManager.LoadScene(mainMenu);
+        else
+            Debug.LogError("ToMainMenu: mainMenu string is empty or not set on " + gameObject.name);
     }
 
     void UnpauseGame()

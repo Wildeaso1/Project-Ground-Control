@@ -26,9 +26,15 @@ public class MainMenuScript : MonoBehaviour
 
     public void NewGame() // Play Button Script
     {
-        
-        LoadLevel(3); // Opent level 0 "Scene index 1"
-        SaveManager.DeleteSave();
+        LoadLevel(3); // Opens level (verify scene index in Build Settings)
+        try
+        {
+            SaveManager.DeleteSave();
+        }
+        catch (System.Exception ex)
+        {
+            Debug.LogWarning("MainMenuScript: SaveManager.DeleteSave() failed: " + ex.Message);
+        }
         PlayerPrefs.SetInt("BoosterLevel", 1);
         PlayerPrefs.SetInt("GunLevel", 1);
         PlayerPrefs.SetInt("RotationLevel", 1);
@@ -58,13 +64,20 @@ public class MainMenuScript : MonoBehaviour
 
     IEnumerator LoadAsyncLevel(int sceneIndex)
     {
-        LoadingScreen.SetActive(true);
+        if (LoadingScreen != null)
+            LoadingScreen.SetActive(true);
+        else
+            Debug.LogWarning("MainMenuScript: LoadingScreen not assigned.");
+
         AsyncOperation operation = SceneManager.LoadSceneAsync(sceneIndex);
 
         while (!operation.isDone)
         {
             float progress = Mathf.Clamp01(operation.progress / .9f);
-            Pslider.value = progress;
+            if (Pslider != null)
+                Pslider.value = progress;
+            else
+                Debug.LogWarning("MainMenuScript: Pslider not assigned.");
 
             yield return null;
         }
