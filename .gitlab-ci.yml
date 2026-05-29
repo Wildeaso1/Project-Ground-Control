@@ -1,0 +1,48 @@
+stages:
+  - test
+  - build
+  - deploy
+
+variables:
+  PROJECT_PATH: "GroundControll"
+  BUILD_OUTPUT: "GroundControll/Builds/WebGL"
+
+test-editmode:
+  stage: test
+  only:
+    - main
+  script:
+    - 'cd $env:PROJECT_PATH; & "$env:UNITY_PATH" -batchmode -nographics -projectPath . -runTests -testPlatform EditMode -testResults test-results.xml -logFile test.log; $code = $LASTEXITCODE; if ($code -ne 0) { Write-Host "Tests failed (exit $code). Log:"; Get-Content test.log; exit $code }'
+  after_script:
+    - 'if (Test-Path "$env:PROJECT_PATH/test.log") { Get-Content "$env:PROJECT_PATH/test.log" }'
+  artifacts:
+    when: always
+    paths:
+      - GroundControll/test-results.xml
+      - GroundControll/test.log
+    reports:
+      junit: GroundControll/test-results.xml
+    expire_in: 1 week
+
+build-webgl:
+  stage: build
+  only:
+    - main
+  script:
+    - 'cd $env:PROJECT_PATH; & "$env:UNITY_PATH" -batchmode -nographics -projectPath . -executeMethod BuildScript.BuildWebGL -quit -logFile build.log; $code = $LASTEXITCODE; if ($code -ne 0) { Write-Host "Build failed (exit $code). Log:"; Get-Content build.log; exit $code }'
+  after_script:
+    - 'if (Test-Path "$env:PROJECT_PATH/build.log") { Get-Content "$env:PROJECT_PATH/build.log" }'
+  artifacts:
+    paths:
+      - GroundControll/Builds/WebGL/
+      - GroundControll/build.log
+    expire_in: 1 week
+
+deploy-itch:
+  stage: deploy
+  only:
+    - main
+  script:
+    - butler push $env:BUILD_OUTPUT wildeaso1/beyond:html5
+  dependencies:
+    - build-webgl
